@@ -24,9 +24,13 @@ entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 
 - [ ] XML
 - - [x] /bf zu bold
+- - [x] /it zu italic
 - - [x] entferne () ums Jahr
 - - [x] entferne {}
 - - [] Sonderzeichen
+- - - [x] deutsch
+- - - [x] dänisch
+- - - [ ] automatische Lösung?
 
 
 ### 3. Schritt
