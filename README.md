@@ -23,6 +23,11 @@ realisiert. (Ziel ist die Anzeige eines Literaturverzeichnisses im Stile einer m
 entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 
 - [ ] XML
+- - [x] /bf zu bold
+- - [x] entferne () ums Jahr
+- - [x] entferne {}
+- - [] Sonderzeichen
+
 
 ### 3. Schritt
 Schreiben eines XSLT-Programmes, das den vorgegebenen Datenstrom (BiBTeX, XML_max) ausliest

@@ -1,6 +1,21 @@
 import bibtexparser
 import xml.etree.ElementTree as ET
 
+def handle_formatting(text):
+    """Helper function to handle BibTeX formatting commands"""
+    if '\\bf' in text:
+        return {'text': text.replace('\\bf', ''), 'style': 'bold'}
+    else:
+        return {'text': text}
+
+def remove_curly_braces(text):
+    """Helper function to remove curly braces from the text"""
+    return text.strip('{}')
+
+def remove_parentheses(text):
+    """Helper function to remove parentheses from the text"""
+    return text.strip('()')
+
 def indent(elem, level=0):
     """Helper function to add indentation to XML elements"""
     i = "\n" + level * "    "
@@ -32,7 +47,17 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
         for field, value in entry.items():
             if field != 'ENTRYTYPE':
                 field_element = ET.SubElement(entry_element, field.lower())
-                field_element.text = value
+                if field == 'volume':
+                    formatted_text = handle_formatting(value)
+                    field_element.text = formatted_text['text']
+                    if 'style' in formatted_text:
+                        field_element.set('style', formatted_text['style'])
+                elif field in ['title', 'booktitle']:
+                    field_element.text = remove_curly_braces(value)
+                elif field == 'year':
+                    field_element.text = remove_parentheses(value)
+                else:
+                    field_element.text = value
 
     tree = ET.ElementTree(root)
     indent(root)
