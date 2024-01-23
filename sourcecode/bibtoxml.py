@@ -19,8 +19,6 @@ def handle_formatting(text):
 
     return {'text': text, 'style': {'italic': italic, 'bold': bold}}
 
-
-
 def remove_curly_braces(text):
     """Helper function to remove curly braces from the text"""
     return text.strip('{}')
@@ -58,6 +56,11 @@ def handle_special_characters(text):
         r'{\\AA}': 'Å',
         r'{\\ss}': 'ß',
         r'\\"a': 'ä',
+        r'\\"A': 'Ä',
+        r'\\"u': 'ü',
+        r'\\"U': 'Ü',
+        r'\\"o': 'ö',
+        r'\\"O': 'Ö',
     }
 
     for pattern, replace_function in special_characters.items():
@@ -85,7 +88,6 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
                 if field in ['volume', 'title', 'booktitle', 'note', 'publisher', 'series', 'howpublished', 'editor']:
                     formatted_text = handle_formatting(value)
                     field_element.text = formatted_text['text']
-                    field_element.text = handle_special_characters(value)
                     styles = formatted_text['style']
                     if styles['italic']:
                         field_element.set('italic', 'true')
