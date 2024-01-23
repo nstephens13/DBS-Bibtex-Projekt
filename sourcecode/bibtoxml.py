@@ -57,8 +57,7 @@ def handle_special_characters(text):
         r'{\\aa}': 'å',
         r'{\\AA}': 'Å',
         r'{\\ss}': 'ß',
-        r'\\"([a-zA-Z])': lambda match: match.group(1),
-        r'\\"{(.+?)}': lambda match: match.group(1).encode('latin-1').decode('unicode-escape'),
+        r'\\"a': 'ä',
     }
 
     for pattern, replace_function in special_characters.items():
@@ -83,16 +82,15 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
                 field_element = ET.SubElement(entry_element, field.lower())
                 
                 # Handle bold and italic formatting for specified fields
-                if field in ['volume', 'title', 'booktitle', 'note']:
+                if field in ['volume', 'title', 'booktitle', 'note', 'publisher', 'series', 'howpublished', 'editor']:
                     formatted_text = handle_formatting(value)
                     field_element.text = formatted_text['text']
+                    field_element.text = handle_special_characters(value)
                     styles = formatted_text['style']
                     if styles['italic']:
                         field_element.set('italic', 'true')
                     if styles['bold']:
                         field_element.set('bold', 'true')
-                elif field == 'editor':
-                    field_element.text = handle_special_characters(value)
                 elif field == 'year':
                     field_element.text = remove_parentheses(value)
                 else:
