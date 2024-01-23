@@ -5,3 +5,9 @@
 - [ ] XSD
 - [ ] CSS ODER [] XSLT
 - [ ] zwei Webbrowser
+
+## Fehlerbehebung
+
+- pip install pandas
+- pip install bibtexparser
+- pip install openpyxl
