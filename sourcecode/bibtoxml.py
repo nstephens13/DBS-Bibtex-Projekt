@@ -1,5 +1,7 @@
+import re
 import bibtexparser
 import xml.etree.ElementTree as ET
+import html
 
 def handle_formatting(text):
     """Helper function to handle BibTeX formatting commands"""
@@ -32,6 +34,32 @@ def indent(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
+def handle_special_characters(text):
+    """Helper function to handle special characters and formatting"""
+    # Use regular expressions to find and replace special characters
+    special_characters = {
+        r'\\([^\s\\]+)': lambda match: html.unescape(match.group(0)),
+        r'{\\o}': 'ø',
+        r'{\\O}': 'Ø',
+        r'{\\ae}': 'æ',
+        r'{\\AE}': 'Æ',
+        r'{\\aa}': 'å',
+        r'{\\AA}': 'Å',
+        r'{\\ss}': 'ß',
+        r'\\"{a}': 'ä',
+        r'\\"{A}': 'Ä',
+        r'\\"{o}': 'ö',
+        r'\\"{O}': 'Ö',
+        r'\\"{u}': 'ü',
+        r'\\"{U}': 'Ü',
+    }
+
+    for pattern, replace_function in special_characters.items():
+        text = re.sub(pattern, replace_function, text)
+
+    return text
+
+
 def bibtex_to_xml(bibtex_file_path, output_file_path):
     with open(bibtex_file_path, 'r', encoding='utf-8') as bibtex_file:
         bibtex_str = bibtex_file.read()
@@ -53,15 +81,22 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
                     if 'style' in formatted_text:
                         field_element.set('style', formatted_text['style'])
                 elif field in ['title', 'booktitle']:
-                    field_element.text = remove_curly_braces(value)
+                    field_element.text = remove_curly_braces(handle_special_characters(value))
+                elif field == 'editor':
+                    field_element.text = handle_special_characters(value)
                 elif field == 'year':
                     field_element.text = remove_parentheses(value)
                 else:
-                    field_element.text = value
+                    field_element.text = handle_special_characters(value)
 
     tree = ET.ElementTree(root)
     indent(root)
-    tree.write(output_file_path, encoding="utf-8", xml_declaration=True)
+    
+    try:
+        tree.write(output_file_path, encoding="utf-8", xml_declaration=True)
+        print(f"XML file '{output_file_path}' generated successfully.")
+    except Exception as e:
+        print(f"Error writing XML file: {e}")
 
 if __name__ == "__main__":
     bibtex_file_path = '../data/Projekt_BIB_original.txt'
