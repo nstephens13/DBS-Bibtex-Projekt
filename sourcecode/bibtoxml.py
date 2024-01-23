@@ -1,7 +1,7 @@
+import html
 import re
 import bibtexparser
 import xml.etree.ElementTree as ET
-import html
 
 def handle_formatting(text):
     """Helper function to handle BibTeX formatting commands"""
@@ -89,12 +89,15 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
                     formatted_text = handle_formatting(value)
                     field_element.text = formatted_text['text']
                     styles = formatted_text['style']
+                    field_element.text = handle_special_characters(value)
                     if styles['italic']:
                         field_element.set('italic', 'true')
                     if styles['bold']:
                         field_element.set('bold', 'true')
                 elif field == 'year':
                     field_element.text = remove_parentheses(value)
+                elif field == 'editor':
+                    field_element.text = handle_special_characters(value)
                 else:
                     field_element.text = handle_special_characters(value)
 
