@@ -1,4 +1,4 @@
-## BibTeX zu
+## Projekt
 
 ### 1. Schritt
 Analysieren Sie alle in BIBTeX vorkommenden Datenzusammenstellungen von Literaturquellen und
@@ -82,8 +82,7 @@ XML-Datei, DTDDatei
 Die XSD ist im Design "Venetian Blind" zu schreiben und validierbar mit einer Kopie des XML-Datenstroms zu verknüpfen.
 XML-Datei, XSDDatei
 6.) CSS oder XSLT für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema.
-XML-Datei, evtl.
-CSS-, XSL-Datei
+XML-Datei, evtl. CSS-, XSL-Datei
 7.) Dokumentation zu benötigten Veränderungen einer
 
 ## Fehlerbehebung
