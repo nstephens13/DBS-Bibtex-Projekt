@@ -7,6 +7,7 @@ und seine Darstellung für Nicht-XML-Kundige verständlich sein. (Mittel: Excel-
 Baumdiagramm / andere Visualisierungsform)
 
 - [ ] Anschaulichen Excel
+- - [x] die BIBTeX Einträge in einer Excel Tabelle darstellen
 - - [ ] unnütze Klammern entfernen
 - - [ ] andere unnötige Zeichen entfernen
 - - [ ] Tabelle anschaulicher gestalten
