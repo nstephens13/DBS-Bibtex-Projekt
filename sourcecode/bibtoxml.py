@@ -78,21 +78,15 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
         entry_type = entry['ENTRYTYPE'].lower()
         entry_element = ET.SubElement(root, entry_type)
 
-
         for field, value in entry.items():
             if field != 'ENTRYTYPE':
                 field_element = ET.SubElement(entry_element, field.lower())
-                if field == 'volume':
+                
+                # Handle bold and italic formatting for specified fields
+                if field in ['volume', 'title', 'booktitle', 'note']:
                     formatted_text = handle_formatting(value)
                     field_element.text = formatted_text['text']
                     styles = formatted_text['style']
-                    if styles['italic']:
-                        field_element.set('italic', 'true')
-                    if styles['bold']:
-                        field_element.set('bold', 'true')
-                elif field in ['title', 'booktitle', 'note']:
-                    field_element.text = remove_curly_braces(handle_special_characters(value))
-                    styles = handle_formatting(value)['style']
                     if styles['italic']:
                         field_element.set('italic', 'true')
                     if styles['bold']:
