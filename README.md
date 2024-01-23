@@ -90,3 +90,4 @@ XML-Datei, evtl. CSS-, XSL-Datei
 - pip install pandas
 - pip install bibtexparser
 - pip install openpyxl
+- pip install xlsxwriter
