@@ -11,6 +11,11 @@ Baumdiagramm / andere Visualisierungsform)
 - - [x] unnütze Klammern entfernen
 - - [ ] andere unnötige Zeichen entfernen
 - - [ ] Tabelle anschaulicher gestalten
+- - [ ] Fehler / Sonderfälle beheben
+- - - [ ] Sonderzeichen 
+- - - [ ] \o dänisch?
+- - - [ ] Zeile 515 Excel VINITI, Moscow, 1985
+- - - [ ] Zeile 1145 Excel Sept.~2003
 
 ### 2. Schritt
 Entwurf einer XML-Struktur, die den Entwurf des gesamten Datenschemas von BIBTeX in XML

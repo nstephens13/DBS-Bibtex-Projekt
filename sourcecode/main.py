@@ -7,8 +7,10 @@ excel_file_path = '../data/test.xlsx'
 
 def clean_text(text):
     # Remove characters like () and {}
-    cleaned_text = re.sub(r'[(){}\\]', '', str(text))
-    cleaned_text = cleaned_text.replace(r'bf', '')
+    cleaned_text = re.sub(r'[(){}]', '', str(text))
+    cleaned_text = cleaned_text.replace(r'\bf', '')
+    #cleaned_text = cleaned_text.replace(r'h\"a', 'ä')
+    cleaned_text = cleaned_text.encode('latin-1').decode('latex')
     return cleaned_text
 
 def bibtex_to_excel(bibtex_file_path, excel_file_path):
