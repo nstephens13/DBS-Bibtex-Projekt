@@ -1,5 +1,5 @@
 ## BibTeX zu
-- [ ] Anschaulichen Excel
+- [x] Anschaulichen Excel
 - [ ] XML
 - [ ] DTD
 - [ ] XSD
