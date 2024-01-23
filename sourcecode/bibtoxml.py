@@ -46,18 +46,21 @@ def handle_special_characters(text):
         r'{\\aa}': 'å',
         r'{\\AA}': 'Å',
         r'{\\ss}': 'ß',
-        r'\\"{a}': 'ä',
-        r'\\"{A}': 'Ä',
-        r'\\"{o}': 'ö',
-        r'\\"{O}': 'Ö',
-        r'\\"{u}': 'ü',
-        r'\\"{U}': 'Ü',
+        r'\\"a': 'ä',
+        r'\\"A': 'Ä',
+        r'\\"o': 'ö',
+        r'\\"O': 'Ö',
+        r'\\"u': 'ü',
+        r'\\"U': 'Ü',
     }
 
     for pattern, replace_function in special_characters.items():
         text = re.sub(pattern, replace_function, text)
 
     return text
+
+
+
 
 
 def bibtex_to_xml(bibtex_file_path, output_file_path):
