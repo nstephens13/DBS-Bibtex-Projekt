@@ -180,7 +180,7 @@ the finite difference algebra (Russ./Engl.)}</title>
         <note>337-355</note>
         <year>1987</year>
         <volume bold="true">{ 32}</volume>
-        <journal>Math. Japo\-nica</journal>
+        <journal>Math. Japonica</journal>
         <title>{On Connes property T for von Neumann algebras}</title>
         <author>C. Anantharaman-Delaroche</author>
         <id>Anantharaman:87/1</id>
@@ -190,7 +190,7 @@ the finite difference algebra (Russ./Engl.)}</title>
         <year>1987</year>
         <volume bold="true">{ 279}</volume>
         <journal>Math. Ann.</journal>
-        <title>{Syst\`emes dynamiques non commutatifs et moyennabilit\'e}</title>
+        <title>{Systèmes dynamiques non commutatifs et moyennabilité}</title>
         <author>C. Anantharaman-Delaroche</author>
         <id>Anantharaman:87/2</id>
         </article>
@@ -350,14 +350,14 @@ C*-algebras}</title>
         <howpublished italic="true">preprint, Univ. of Zagreb, Croatia, submitted to
 { Proc. Royal Irish Acad. Ser. Math.}</howpublished>
         <title>{Irreducible representations of Hilbert C*-modules}</title>
-        <author>L. Aramba{\v{s}}i\'c</author>
+        <author>L. Arambašić</author>
         <id>Arambasic:04</id>
         </misc>
     <misc>
         <year>2005</year>
         <howpublished>preprint, Univ.~of Zagreb, Zagreb, Croatia</howpublished>
         <title>{On frames for countably generated Hilbert C*-modules}</title>
-        <author>L. Aramba{\v{s}}i\'c</author>
+        <author>L. Arambašić</author>
         <id>Arambasic:05</id>
         </misc>
     <misc>
@@ -365,7 +365,7 @@ C*-algebras}</title>
         <howpublished italic="true">preprint, Zagreb, Croatia, submitted to {
 Linear Algebra Appl.}</howpublished>
         <title>{On some norm equalities in pre-Hilbert C*-modules}</title>
-        <author>L. Aramba{\v{s}}i\'c and R. Raji\'c</author>
+        <author>L. Arambašić and R. Rajić</author>
         <id>Arambasic/Rajic:05</id>
         </misc>
     <book>
@@ -419,7 +419,7 @@ of modules with constant curvature connection}</title>
         <year>1976</year>
         <volume bold="true">{ 51}</volume>
         <journal>Comment. Math. Helvetici</journal>
-        <title>{Th\'eorie de Galois pour une W*-Alg\`ebre}</title>
+        <title>{Théorie de Galois pour une W*-Algèbre}</title>
         <author>P.-L. Aubert</author>
         <id>Aubert:76</id>
         </article>
@@ -446,8 +446,8 @@ algebras}</title>
         <note>875-878</note>
         <year>1983</year>
         <volume bold="true">{ 296}</volume>
-        <journal>C. R. Acad. Sci. Paris, s\'er. 1</journal>
-        <title>{Th\'eorie bivariante de Kasparov et op\'erateurs non born\'es
+        <journal>C. R. Acad. Sci. Paris, sér. 1</journal>
+        <title>{Théorie bivariante de Kasparov et opérateurs non bornés
 dans les C*-modules hilbertiens}</title>
         <author>S. Baaj and P. Julg</author>
         <id>Baaj/Julg:83</id>
@@ -457,7 +457,7 @@ dans les C*-modules hilbertiens}</title>
         <year>1989</year>
         <volume bold="true">{ 2}</volume>
         <journal>K-theory</journal>
-        <title>{C*-alg\`ebres de Hopf et th\'eorie de Kasparov \'equivariante}</title>
+        <title>{C*-algèbres de Hopf et théorie de Kasparov équivariante}</title>
         <author>S. Baaj and G. Skandalis</author>
         <id>Baaj/Skandalis:89</id>
         </article>
@@ -465,9 +465,9 @@ dans les C*-modules hilbertiens}</title>
         <note>425-488</note>
         <year>1993</year>
         <volume bold="true">{ 26}</volume>
-        <journal>Ann. Sci. \'Ec. Norm. Sup., 4e s\'er.</journal>
-        <title>{Unitaires multiplicatifs et dualit\'e pour les produits
-crois\'es de C*-alg\`ebres}</title>
+        <journal>Ann. Sci. Éc. Norm. Sup., 4e sér.</journal>
+        <title>{Unitaires multiplicatifs et dualité pour les produits
+croisés de C*-algèbres}</title>
         <author>S. Baaj and G. Skandalis</author>
         <id>Baaj/Skandalis:93</id>
         </article>
@@ -512,14 +512,14 @@ Nov. 10-17, 1993</organization>
         <editor>D. Butkovic and H. Kraljevic and G. Peskir</editor>
         <booktitle>Functional Analysis, IV</booktitle>
         <title>{Hilbert C*-modules over compact adjointable operators}</title>
-        <author>D. Baki\'c</author>
+        <author>D. Bakić</author>
         <id>Bakic:94</id>
         </inproceedings>
     <misc>
         <year>1999</year>
         <howpublished>preprint, University of Zagreb, Zagreb, Croatia</howpublished>
         <title>{Quotients of Hilbert C*-modules}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:99</id>
         </misc>
     <misc>
@@ -527,7 +527,7 @@ Nov. 10-17, 1993</organization>
         <howpublished>preprint, 58 pp., University of Zagreb, Zagreb, Croatia /
 (2nd Croatian Math. Congr., June 15-17, 2000, Zagreb)</howpublished>
         <title>{Notes on extensions of Hilbert C*-modules, I}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:00</id>
         </misc>
     <article>
@@ -536,7 +536,7 @@ Nov. 10-17, 1993</organization>
         <volume bold="true">{ 46}</volume>
         <journal>J. Operator Theory</journal>
         <title>{Operators on Hilbert H*-modules}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:01</id>
         </article>
     <article>
@@ -546,7 +546,7 @@ Nov. 10-17, 1993</organization>
         <journal>Proc. Amer. Math. Soc.</journal>
         <title>{Wigner's theorem in Hilbert C*-modules over C*-algebras of
 compact operators}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:02</id>
         </article>
     <article>
@@ -555,7 +555,7 @@ compact operators}</title>
         <volume bold="true">{ 68}</volume>
         <journal>Acta Sci. Math. (Szeged)</journal>
         <title>{Hilbert C*-modules over C*-algebras of compact operators}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:02/2</id>
         </article>
     <article>
@@ -564,7 +564,7 @@ compact operators}</title>
         <volume bold="true">{ 7}</volume>
         <journal>Math. Commun.</journal>
         <title>{On a class of module maps of Hilbert C*-modules}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:02/3</id>
         </article>
     <misc>
@@ -572,14 +572,14 @@ compact operators}</title>
         <howpublished>to appear in the Proc. of the Postgraduate School
 and Conference "Functional Analysis, VII" (Dubrovnik, September 17-26, 2001)</howpublished>
         <title>{Notes on extensions of Hilbert C*-modules}</title>
-        <author>D. Baki\'c</author>
+        <author>D. Bakić</author>
         <id>Bakic:03/2</id>
         </misc>
     <misc>
         <year>2003</year>
         <howpublished>preprint, Univ. of Zagreb, Zagreb, Croatia</howpublished>
         <title>{A class of strictly complete Hilbert C*-modules}</title>
-        <author>D. Baki\'c</author>
+        <author>D. Bakić</author>
         <id>Bakic:03/3</id>
         </misc>
     <article>
@@ -588,7 +588,7 @@ and Conference "Functional Analysis, VII" (Dubrovnik, September 17-26, 2001)</ho
         <volume bold="true">{ 38(58)}</volume>
         <journal>Glas. Mat. Ser. III</journal>
         <title>{Extensions of Hilbert C*-modules, II}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:03/4</id>
         </article>
     <article>
@@ -597,7 +597,7 @@ and Conference "Functional Analysis, VII" (Dubrovnik, September 17-26, 2001)</ho
         <volume bold="true">{ 44}</volume>
         <journal>J. Math. Phys.</journal>
         <title>{Wigner's theorem in a class of Hilbert C*-modules}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:03/5</id>
         </article>
     <article>
@@ -606,7 +606,7 @@ and Conference "Functional Analysis, VII" (Dubrovnik, September 17-26, 2001)</ho
         <volume bold="true">{ 30}</volume>
         <journal>Houston J. Math.</journal>
         <title>{Extensions of Hilbert C*-modules}</title>
-        <author>D. Baki\'c and B. Gulja{\v{s}}</author>
+        <author>D. Bakić and B. Guljaš</author>
         <id>Bakic/Guljas:04</id>
         </article>
     <article>
@@ -615,7 +615,7 @@ and Conference "Functional Analysis, VII" (Dubrovnik, September 17-26, 2001)</ho
         <volume bold="true">{ 133}</volume>
         <journal>Proc. Amer. Math. Soc.</journal>
         <title>{Tietze extension theorem for Hilbert C*-modules}</title>
-        <author>D. Baki\'c</author>
+        <author>D. Bakić</author>
         <id>Bakic:05</id>
         </article>
     <article>
@@ -681,7 +681,7 @@ theory}</title>
         <journal>Reviews Math. Phys.</journal>
         <title>{Superselection structures for C*-algebras with non-trivial
 center}</title>
-        <author>H. Baumgärtel and F. Lled\'o</author>
+        <author>H. Baumgärtel and F. Lledó</author>
         <id>Baumgaertel/Lledo:97</id>
         </article>
     <article>
@@ -691,7 +691,7 @@ center}</title>
         <journal>Math. Nachr.</journal>
         <title>{Dual group actions on C*-algebras and their description by
 Hilbert extensions}</title>
-        <author>H. Baumgärtel and F. Lled\'o</author>
+        <author>H. Baumgärtel and F. Lledó</author>
         <id>Baumgaertel/Lledo:00</id>
         </article>
     <article>
@@ -701,7 +701,7 @@ Hilbert extensions}</title>
         <journal>Fields Institute Communications, {\rm A.M.S.}</journal>
         <title>{An application of DR-duality theory for compact groups to
 endomorphism categories of C*-algebras with non-trivial center}</title>
-        <author>H. Baumgärtel and F. Lled\'o</author>
+        <author>H. Baumgärtel and F. Lledó</author>
         <id>Baumgaertel/Lledo:01</id>
         </article>
     <article>
@@ -711,7 +711,7 @@ endomorphism categories of C*-algebras with non-trivial center}</title>
         <journal>Int. J. Math.</journal>
         <title>{Duality of compact groups and Hilbert C*-systems for
 C*-algebras with a non-trivial center}</title>
-        <author>H. Baumgärtel and F. Lled\'o</author>
+        <author>H. Baumgärtel and F. Lledó</author>
         <id>Baumgaertel/Lledo:04</id>
         </article>
     <article>
@@ -885,8 +885,8 @@ over C*-algebras (russ./engl.)}</title>
         </book>
     <phdthesis>
         <year>1993</year>
-        <school>Universit\'e de Paris 7</school>
-        <title>{D\'eformations de C*-alg\`ebres de Hopf}</title>
+        <school>Université de Paris 7</school>
+        <title>{Déformations de C*-algèbres de Hopf}</title>
         <author>E. Blanchard</author>
         <id>Blanchard:93</id>
         </phdthesis>
@@ -894,7 +894,7 @@ over C*-algebras (russ./engl.)}</title>
         <note>81-92</note>
         <year>1995</year>
         <volume bold="true">{ 232}</volume>
-        <journal>Ast\'erisque</journal>
+        <journal>Astérisque</journal>
         <title>{Tensor products of C(X)-algebras over C(X)}</title>
         <author>E. Blanchard</author>
         <id>Blanchard:95</id>
@@ -904,7 +904,7 @@ over C*-algebras (russ./engl.)}</title>
         <year>1996</year>
         <volume bold="true">{ 124}</volume>
         <journal>Bull. Soc. Math. France</journal>
-        <title>{D\'eformations de C*-alg\`ebres de Hopf}</title>
+        <title>{Déformations de C*-algèbres de Hopf}</title>
         <author>E. Blanchard</author>
         <id>Blanchard:96</id>
         </article>
@@ -1209,7 +1209,7 @@ torus}</title>
         <note>113-123</note>
         <year>1993</year>
         <volume bold="true">{ 45}</volume>
-        <journal>Bull. Soc. Math. Belg. S\`er. B</journal>
+        <journal>Bull. Soc. Math. Belg. Sèr. B</journal>
         <title>{Boundary value theory for eigenfunctions of the Dirac
 operator}</title>
         <author>F. Brackx and N. Van~Acker</author>
@@ -1322,7 +1322,7 @@ C*-algebras}</title>
         <note>263-269</note>
         <year>2001</year>
         <volume bold="true">{ 36(56)}</volume>
-        <journal>Glasnik Matemati{\v{c}}ki</journal>
+        <journal>Glasnik Matematički</journal>
         <title>{A note on Blecher's characterization of Hilbert C*-modules}</title>
         <author>F. M. Brückler</author>
         <id>Brueckler:01</id>
@@ -1332,7 +1332,7 @@ C*-algebras}</title>
         <year>2001</year>
         <howpublished>in: Functional Analysis VII, Proc. Postgraduate School
 and Conf., Inter-University Centre, Dubrovnik, Croatia, 17-26 Sept., 2001,
-eds.: D.~Baki\'c, P.~Pand{\v{z}}i\'c, G.~Peskir</howpublished>
+eds.: D.~Bakić, P.~Pandžić, G.~Peskir</howpublished>
         <title>{On Blecher's characterization of Hilbert C*-modules}</title>
         <author>F. M. Brückler</author>
         <id>Brueckler:01/2</id>
@@ -1348,7 +1348,7 @@ spaces (Croatian)}</title>
     <misc>
         <year>2004</year>
         <howpublished italic="true">preprint, Univ. Zagreb, Croatia / to appear in {
-Glasnik Matemati{\v{c}}ki}</howpublished>
+Glasnik Matematički}</howpublished>
         <title>{A note on extensions of Hilbert C*-modules and their morphisms}</title>
         <author>F. M. Brückler</author>
         <id>Brueckler:04</id>
@@ -1824,7 +1824,7 @@ Physics (Montpellier, 1989)</booktitle>
         <year>1994</year>
         <volume bold="true">{ 2}</volume>
         <journal>Gen. Math.</journal>
-        <title>{Th\'eor\`eme d'imprimitivit\'e pour repr\'esentations dans les
+        <title>{Théorème d'imprimitivité pour représentations dans les
 C*-modules de Hilbert}</title>
         <author>I. Colojoar\v{a}</author>
         <id>Colojoara:94</id>
@@ -1852,7 +1852,7 @@ C*-modules de Hilbert}</title>
         <year>1980</year>
         <volume bold="true">{ 290}</volume>
         <journal>C. R. Acad. Sci. Paris</journal>
-        <title>{C*-alg\'ebres et g\'eom\'etrie diff\'erentielle}</title>
+        <title>{C*-algébres et géométrie différentielle}</title>
         <author>A. Connes</author>
         <id>Connes:80</id>
         </article>
@@ -1914,14 +1914,14 @@ C*-algebra by an action of $R$}</title>
         <year>1990</year>
         <volume bold="true">{ 50}</volume>
         <journal>Proc. Symp. Pure Math. </journal>
-        <title>{Introduction \`a la g\'eom\'etrie non-commutative}</title>
+        <title>{Introduction à la géométrie non-commutative}</title>
         <author>A. Connes</author>
         <id>Connes:90</id>
         </article>
     <book>
         <year>1990</year>
         <publisher>Inter{E}ditions, Paris</publisher>
-        <title>{G\'eom\'etrie Non Commutative}</title>
+        <title>{Géométrie Non Commutative}</title>
         <author>A. Connes</author>
         <id>Connes:90/2</id>
         </book>
@@ -2034,9 +2034,9 @@ C*-algebras}</title>
         <year>1991</year>
         <volume bold="true">{ 312}</volume>
         <journal>C. R. Acad. Sci. Paris</journal>
-        <title>{R\'eduction du rang stable topologique dans les C*-alg\`ebres
+        <title>{Réduction du rang stable topologique dans les C*-algèbres
 limites inductives}</title>
-        <author>M. D{\v{a}}d{\v{a}}rlat and G. Nagy and A. N\'emethi and C. Pasnicu</author>
+        <author>M. D{\v{a}}d{\v{a}}rlat and G. Nagy and A. Némethi and C. Pasnicu</author>
         <id>Dadarlat:91</id>
         </article>
     <article>
@@ -2054,7 +2054,7 @@ limites inductives}</title>
         <volume bold="true">{ 43}</volume>
         <series>Var. Publ. Ser.</series>
         <publisher>Aarhus University, Mat. Institut, Aarhus, Denmark</publisher>
-        <editor>D. Butkovi\'c et al.</editor>
+        <editor>D. Butković et al.</editor>
         <booktitle>{Functional Analysis IV, Proc. of the Postgraduate School
 and Conference, Inter-University Center Dubrovnik, Croatia, Nov. 10-17,
 1993}</booktitle>
@@ -2085,7 +2085,7 @@ on Banach spaces}</title>
         <note>137-149</note>
         <year>2000</year>
         <publisher>Theta Foundation, Bucharest</publisher>
-        <booktitle>Operator-Theoretical Methods (Timi{\c{s}}oara, 1998)</booktitle>
+        <booktitle>Operator-Theoretical Methods (Timișoara, 1998)</booktitle>
         <title>{Continuous graphs and C*-algebras}</title>
         <author>V. Deaconu</author>
         <id>Deaconu:00</id>
@@ -2176,7 +2176,7 @@ by coactions of homogeneous spaces}</title>
         <year>1995</year>
         <editor>A. Gheondea</editor>
         <series>15th International Conference on Operator Theory,
-Timi{\c{s}}oara, Romania, June 6-10, 1994, Bucharest, Institute of
+Timișoara, Romania, June 6-10, 1994, Bucharest, Institute of
 Mathematics of the Romanian Academy</series>
         <booktitle>Topics in Operator Theory, Operator Algebras and
 Applications</booktitle>
@@ -2207,7 +2207,7 @@ Hilbert C*-modules}</title>
         <year>1951</year>
         <volume bold="true">{ 2}</volume>
         <journal>Summa Brasil. Math.</journal>
-        <title>{Sur certains espaces consid\'er\'es par M. H. Stone}</title>
+        <title>{Sur certains espaces considérés par M. H. Stone}</title>
         <author>J. Dixmier</author>
         <id>Dixmier:51</id>
         </article>
@@ -2216,7 +2216,7 @@ Hilbert C*-modules}</title>
         <year>1963</year>
         <volume bold="true">{ 91}</volume>
         <journal>Bull. Math. Soc. France</journal>
-        <title>{Champs continus d'espaces hilbertiens et de C*-alg\`ebres}</title>
+        <title>{Champs continus d'espaces hilbertiens et de C*-algèbres}</title>
         <author>J. Dixmier and A. Douady</author>
         <id>Dixmier/Douady:63</id>
         </article>
@@ -2359,21 +2359,21 @@ Related Topics (Bordeaux, 2000)</booktitle>
         <year>2001</year>
         <school>Graduate School of Pennsylvania State University, USA</school>
         <title>{A new approach to bivariant K-theory}</title>
-        <author>D. Dumitra{\c{s}}cu</author>
+        <author>D. Dumitrașcu</author>
         <id>Dumitrascu:01</id>
         </phdthesis>
     <misc>
         <year>2003</year>
         <howpublished>preprint, http://hilbert.dartmouth.edu/~dumitras/k/preprints.html</howpublished>
         <title>{On an intermediate bivariant theory for C*-algebras, I}</title>
-        <author>D. Dumitra{\c{s}}cu</author>
+        <author>D. Dumitrașcu</author>
         <id>Dumitrascu:02</id>
         </misc>
     <phdthesis>
         <year>1972</year>
         <school>Univ. of Pennsylvania, U.S.A.</school>
         <title>{The classification of Hilbert bundles}</title>
-        <author>M. J. Dupr{\'e}</author>
+        <author>M. J. Dupr{é}</author>
         <id>Dupre:72</id>
         </phdthesis>
     <article>
@@ -2382,7 +2382,7 @@ Related Topics (Bordeaux, 2000)</booktitle>
         <volume bold="true">{ 15}</volume>
         <journal>J. Functional Analysis</journal>
         <title>{Classifying Hilbert bundles, I}</title>
-        <author>M. J. Dupr{\'e}</author>
+        <author>M. J. Dupr{é}</author>
         <id>Dupre:74</id>
         </article>
     <article>
@@ -2391,7 +2391,7 @@ Related Topics (Bordeaux, 2000)</booktitle>
         <volume bold="true">{ 22}</volume>
         <journal>J. Functional Analysis</journal>
         <title>{Classifying Hilbert bundles, II}</title>
-        <author>M. J. Dupr{\'e}</author>
+        <author>M. J. Dupr{é}</author>
         <id>Dupre:76</id>
         </article>
     <inproceedings>
@@ -2403,7 +2403,7 @@ Related Topics (Bordeaux, 2000)</booktitle>
 Conference on Operator Theory, Timi\c{s}oara and Herculane (Romania),
 June 2-12, 1980</booktitle>
         <title>{Triviality theorems for Hilbert modules}</title>
-        <author>M. J. Dupr{\'e} and P. A. Fillmore</author>
+        <author>M. J. Dupr{é} and P. A. Fillmore</author>
         <id>Dupre/Fillmore:81</id>
         </inproceedings>
     <book>
@@ -2411,7 +2411,7 @@ June 2-12, 1980</booktitle>
         <year>1983</year>
         <publisher>Pitman, Boston - London - Melbourne</publisher>
         <title>{Banach Bundles, Banach Modules and Automorphisms of C*-algebras}</title>
-        <author>M. J. Dupr\'e and R. M. Gillette</author>
+        <author>M. J. Dupré and R. M. Gillette</author>
         <id>Dupre/Gillette:83</id>
         </book>
     <misc>
@@ -2754,7 +2754,7 @@ Algebra Theory}</title>
         <note>263-276</note>
         <year>1978</year>
         <volume bold="true">{ 30}</volume>
-        <journal> T{\^o}hoku Math. J.</journal>
+        <journal> T{ô}hoku Math. J.</journal>
         <title>{On derivations of AW*-algebras}</title>
         <author>G. A. Elliott</author>
         <id>Elliott:78</id>
@@ -2765,7 +2765,7 @@ Algebra Theory}</title>
         <volume bold="true">{ 28}</volume>
         <journal>J. London Math. Soc.</journal>
         <title>{Embedding AW*-algebras as double commutants in type I algebras}</title>
-        <author>G. A. Elliott and K. Sait{\^o} and J. D. M. Wright</author>
+        <author>G. A. Elliott and K. Sait{ô} and J. D. M. Wright</author>
         <id>Elliott/Saito/Wright:83</id>
         </article>
     <inproceedings>
@@ -2856,7 +2856,7 @@ C*-algebraic bundles}</title>
     <misc>
         <year>1999</year>
         <howpublished>preprint, Universidade Federal de Santa Catarina,
-Florian\'opolis, SC, Brasil,
+Florianópolis, SC, Brasil,
 1999 / preprint math.OA/9904013 at www.arxiv.org</howpublished>
         <title>{A note on the representation theory of Fell bundles}</title>
         <author>R. Exel</author>
@@ -2929,7 +2929,7 @@ space and Tietze extension theorem}</title>
         <note>1593-1598</note>
         <year>1995</year>
         <volume bold="true">{ 321}</volume>
-        <journal>C. R. Acad. Sci. Paris, S\'er. I. Math.</journal>
+        <journal>C. R. Acad. Sci. Paris, Sér. I. Math.</journal>
         <title>{Abelian categories, Novikov-Shubin invariants, and
 Morse inequalities}</title>
         <author>M. Farber</author>
@@ -3046,7 +3046,7 @@ and Banach $*$-algebraic Bundles, I+II}</title>
         </article>
     <misc>
         <year>1998</year>
-        <howpublished>preprint, Universit\`a di Roma ''Tor Vergata'', Rome,
+        <howpublished>preprint, Università di Roma ''Tor Vergata'', Rome,
 Italy</howpublished>
         <title>{The canonical endomorphism for infinite index inclusions}</title>
         <author>F. Fidaleo and T. Isola</author>
@@ -3205,7 +3205,7 @@ Maße mit orthogonalen Werten sowie projektorwertige Maße}</title>
         </article>
     <misc>
         <year>2000</year>
-        <howpublished>preprint, Institut de Math\'e matiques de Jussieu,
+        <howpublished>preprint, Institut de Mathé matiques de Jussieu,
 Paris, France</howpublished>
         <title>{A note on Toeplitz-Pimsner algebras and the topological
 entropy of some automorphisms}</title>
@@ -3316,7 +3316,7 @@ semigroup on a von Neumann algebra}</title>
         <publisher>Birkhäuser, Boston, Ma.</publisher>
         <series>Birkhäuser Adv. Texts: Basler Lehrbücher</series>
         <title>{Elements of Noncommutative Geometry}</title>
-        <author>J. M. Gracia-Bond\'{\i}a and J. C. V\'arilly and H. Figueroa</author>
+        <author>J. M. Gracia-Bond\'{\i}a and J. C. Várilly and H. Figueroa</author>
         <id>Gracia-Bondia/Varilly/Figueroa:01</id>
         </book>
     <article>
@@ -3383,7 +3383,7 @@ semigroup on a von Neumann algebra}</title>
         <howpublished>preprint, University of Zagreb, Zagreb, Croatia /
 2nd Croatian Math. Congr., June 15-17, 2000, Zagreb</howpublished>
         <title>{Pullback and pushout constructions for Hilbert C*-modules}</title>
-        <author>B. Gulja{\v{s}}</author>
+        <author>B. Guljaš</author>
         <id>Guljas:00</id>
         </misc>
     <misc>
@@ -3451,10 +3451,10 @@ monotone complete C*-algebras}</title>
         <note>277-287</note>
         <year>1982</year>
         <volume bold="true">{ 34}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{Extensions of derivations and automorphisms from C*-algebras
 to their injective envelopes}</title>
-        <author>M. Hamana and O. Takateru and K. Sait{\^o}</author>
+        <author>M. Hamana and O. Takateru and K. Sait{ô}</author>
         <id>Hamana/Takateru/Saito:82</id>
         </article>
     <article>
@@ -3488,10 +3488,10 @@ to their injective envelopes}</title>
         <note>277-287</note>
         <year>1982</year>
         <volume bold="true">{ 34}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{Extensions of derivations and automorphisms from C*-algebras to
 their injective envelopes}</title>
-        <author>M. Hamana and T. Okayasu and K. Sait{\^o}</author>
+        <author>M. Hamana and T. Okayasu and K. Sait{ô}</author>
         <id>Hamana/Okayasu/Saito:82</id>
         </article>
     <article>
@@ -3507,7 +3507,7 @@ their injective envelopes}</title>
         <note>463-487</note>
         <year>1985</year>
         <volume bold="true">{ 37}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{Injective envelopes of C*-dynamical systems}</title>
         <author>M. Hamana</author>
         <id>Hamana:85</id>
@@ -3523,7 +3523,7 @@ their injective envelopes}</title>
         </article>
     <inproceedings>
         <publisher>World Scientific, Singapore</publisher>
-        <editor>H. Araki and H. Choda and Y. Nakagami and K. Sait\^o</editor>
+        <editor>H. Araki and H. Choda and Y. Nakagami and K. Saitô</editor>
         <year>1991</year>
         <booktitle>{Current Topics in Operator Algebras, Proc. of the Satellite
 Conference of ICM-90, Nara-ken New Public Hall, Japan, 16.-18.8.90}</booktitle>
@@ -3611,7 +3611,7 @@ p. 69-77, Pitman Res. notes Math. Ser., 271, Longman Sci. Tech. Harlow</booktitl
         <id>Hassani/Niknam:04</id>
         </article>
     <misc>
-        <howpublished>preprint 1988, Orl\'eans, France</howpublished>
+        <howpublished>preprint 1988, Orléans, France</howpublished>
         <title>{Calcul fonctonnel continu dans les modules hilbertiens
 autoduaux}</title>
         <author>J.-F. Havet</author>
@@ -3622,7 +3622,7 @@ autoduaux}</title>
         <year>1990</year>
         <volume bold="true">{ 24}</volume>
         <journal>J. Oper. Theory</journal>
-        <title>{Esp\'erance conditionelle minimale}</title>
+        <title>{Espérance conditionelle minimale}</title>
         <author> J.-F. Havet</author>
         <id>Havet:90</id>
         </article>
@@ -3725,7 +3725,7 @@ C*-modules}</title>
         <year>1983</year>
         <volume bold="true">{ 33}</volume>
         <journal>Ann. Inst. Fourier, Grenoble</journal>
-        <title>{Stabilit\'e des C*-alg\'ebres de feuilletages}</title>
+        <title>{Stabilité des C*-algébres de feuilletages}</title>
         <author>M. Hilsum and G. Skandalis</author>
         <id>Hilsum/Skandalis:83</id>
         </article>
@@ -3745,7 +3745,7 @@ Connections with Topology and Ergodic Theory</booktitle>
         <year>1989</year>
         <volume bold="true">{ 3}</volume>
         <journal>K-theory</journal>
-        <title>{Fonctorialit\'e en K-th\'eorie bivariante pour les vari\'et\'es
+        <title>{Fonctorialité en K-théorie bivariante pour les variétés
 lipschitziennes}</title>
         <author>M. Hilsum</author>
         <id>Hilsum:89</id>
@@ -3976,7 +3976,7 @@ of non-linear Fredholm maps (russ.)}</title>
         <publisher>Longman Scientific \&amp; Technical, New York</publisher>
         <series>Pitman Research Notes in Mathematics Series v.~270</series>
         <editor>W. B. Arveson and A. S. Mishchenko and M. Putinar and
-M. A. Rieffel and {\c{S}}. Str{\u{a}}til{\u{a}}</editor>
+M. A. Rieffel and Ș. Str{\u{a}}til{\u{a}}</editor>
         <booktitle>Operator Algebras and Topology, Proc. of the OATE 2 Conf.,
 Romania 1989</booktitle>
         <title>{Infinitesimal Fredholm structures on infinite-dimensional
@@ -4158,7 +4158,7 @@ C*-algebras}</title>
         <year>1991</year>
         <volume bold="true">{ 68}</volume>
         <journal>Math. Scand.</journal>
-        <title>{Indice d'esp\'erances conditionelles et alg\`ebres de von
+        <title>{Indice d'espérances conditionelles et algèbres de von
 Neumann finies}</title>
         <author>P. Jolissaint</author>
         <id>Jolissaint:91</id>
@@ -4682,7 +4682,7 @@ Representations, Higher Signatures, C*-extensions}</title>
         <year>1990</year>
         <volume bold="true">{ 310}</volume>
         <journal>C. R. Acad. Sci. Paris, Ser. I</journal>
-        <title>{Groupes agissant sur des immeubles de Bruhat-Tits, K-th\'eorie
+        <title>{Groupes agissant sur des immeubles de Bruhat-Tits, K-théorie
 operationelle et conjecture de Novikov}</title>
         <author>G. G. Kasparov and G. Skandalis</author>
         <id>Kasparov/Skandalis:90</id>
@@ -4916,7 +4916,7 @@ to inverse semigroups}</title>
     <misc>
         <year>2004</year>
         <howpublished>talk at the 20th Internat. Conf. on Operator Theory,
-West University Timi{\c{s}}oara, Romania, June 30 - July 5, 2004</howpublished>
+West University Timișoara, Romania, June 30 - July 5, 2004</howpublished>
         <title>{Frames in tensor products of Hilbert C*-modules}</title>
         <author>A. Khosravi</author>
         <id>Khosravi:04</id>
@@ -5532,7 +5532,7 @@ spaces}</title>
         </article>
     <misc>
         <year>1998</year>
-        <howpublished>preprint, Univ. de Franche Comt\'e, CNRS, UMR 6623,
+        <howpublished>preprint, Univ. de Franche Comté, CNRS, UMR 6623,
 Besan{\c{c}}on, France</howpublished>
         <title>{A strong similarity property of nuclear C*-algebras}</title>
         <author>Ch. LeMerdi</author>
@@ -5725,7 +5725,7 @@ geometry}</title>
         </article>
     <misc>
         <year>1992</year>
-        <howpublished italic="true">Volterra preprint no.~114, Universit\`a di Roma
+        <howpublished italic="true">Volterra preprint no.~114, Università di Roma
 ''Tor Vergata'', Italy / submitted to { Ann. I.H.P.~Prob. Stat.}</howpublished>
         <title>{Quantum Poisson processes on Hilbert modules}</title>
         <author>Yun-Gang Lu</author>
@@ -5733,7 +5733,7 @@ geometry}</title>
         </misc>
     <misc>
         <year>1993</year>
-        <howpublished>Volterra preprint, Universit\`a di Roma
+        <howpublished>Volterra preprint, Università di Roma
 ''Tor Vergata'', Italy</howpublished>
         <title>{Free stochastic calculus on Hilbert modules}</title>
         <author>Yun-Gang Lu</author>
@@ -5741,7 +5741,7 @@ geometry}</title>
         </misc>
     <misc>
         <year>1994</year>
-        <howpublished italic="true">preprint, Universit\`a di Roma ''Tor Vergata'',
+        <howpublished italic="true">preprint, Università di Roma ''Tor Vergata'',
 Italy / to appear in { Math. Zeitschr.}</howpublished>
         <title>{Quantum stochastic calculus on Hilbert modules}</title>
         <author>Yun-Gang Lu</author>
@@ -6018,7 +6018,7 @@ Febr. 7 - May 15, 1994}</booktitle>
         <year>1999</year>
         <volume bold="true">{ 16}</volume>
         <journal>K-Theory</journal>
-        <title>{ Semi-exactitude du bifoncteur de Kasparov \'equivariante}</title>
+        <title>{ Semi-exactitude du bifoncteur de Kasparov équivariante}</title>
         <author>M. Maghfoul</author>
         <id>Maghfoul:99</id>
         </article>
@@ -6180,8 +6180,8 @@ equivalence}</title>
         <year>1959</year>
         <publisher>Almquist \&amp; Wiksell, Stockholm</publisher>
         <editor>U.~Grenande</editor>
-        <booktitle>{Probability and Statistics - The Harald Cram\'er Volume}</booktitle>
-        <title>{Cram\'ers theorem on monotone matrix-valued functions and
+        <booktitle>{Probability and Statistics - The Harald Cramér Volume}</booktitle>
+        <title>{Cramérs theorem on monotone matrix-valued functions and
 the Wold decomposition}</title>
         <author>P. R. Masani</author>
         <id>Masani:59</id>
@@ -6543,9 +6543,9 @@ example}</title>
         <note>335-345</note>
         <year>1990</year>
         <volume bold="true">{ 25(45)}</volume>
-        <journal>Glasnik Matemati{\v{c}}ki</journal>
+        <journal>Glasnik Matematički</journal>
         <title>{Reproducing kernel Hilbert $A$-modules}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:90</id>
         </article>
     <article>
@@ -6555,7 +6555,7 @@ example}</title>
         <journal>Houston J. Math.</journal>
         <title>{A note on Saworotnow's representation theorem on positive
 definite functions}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:91</id>
         </article>
     <article>
@@ -6564,7 +6564,7 @@ definite functions}</title>
         <volume bold="true">{ 40}</volume>
         <journal>Publ. Math. Debrecen</journal>
         <title>{A note on the strong Schwarz inequality in Hilbert $A$-modules}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:92</id>
         </article>
     <article>
@@ -6573,7 +6573,7 @@ definite functions}</title>
         <volume bold="true">{ 115}</volume>
         <journal>Proc. Amer. Math. Soc.</journal>
         <title>{Representations of the trace class of an H*-algebra}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:92/2</id>
         </article>
     <article>
@@ -6582,7 +6582,7 @@ definite functions}</title>
         <volume bold="true">{ 42}</volume>
         <journal>Czech. Math. J.</journal>
         <title>{Modular bases in a Hilbert $A$-module}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:92/3</id>
         </article>
     <article>
@@ -6591,7 +6591,7 @@ definite functions}</title>
         <volume bold="true">{ 26}</volume>
         <journal>Period. Math. Hungar.</journal>
         <title>{On A-linear operators on a Hilbert $A$-module}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:93/1</id>
         </article>
     <article>
@@ -6600,7 +6600,7 @@ definite functions}</title>
         <volume bold="true">{ 28}</volume>
         <journal>Glas. Mat.</journal>
         <title>{On Saworotnow's Hilbert $A$-modules}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:93/2</id>
         </article>
     <article>
@@ -6609,7 +6609,7 @@ definite functions}</title>
         <volume bold="true">{ 65}</volume>
         <journal>J. Austral. Math. Soc. (Series A)</journal>
         <title>{An algebraic approach to Wigner's unitary-antiunitary theorem}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:98</id>
         </article>
     <article>
@@ -6619,7 +6619,7 @@ definite functions}</title>
         <journal>J. Math. Phys.</journal>
         <title>{A generalization of Wigner's unitary-antiunitary theorem to
 Hilbert modules}</title>
-        <author>L. Moln\'ar</author>
+        <author>L. Molnár</author>
         <id>Molnar:99</id>
         </article>
     <book>
@@ -6645,7 +6645,7 @@ C*-modules}</title>
         <year>1997</year>
         <volume bold="true">{ 184}</volume>
         <journal>Commun. Math. Phys.</journal>
-        <title>{Eigenvalue inequalities and Poincar\'e Duality in
+        <title>{Eigenvalue inequalities and Poincaré Duality in
 noncommutative geometry}</title>
         <author>H. Moscovici</author>
         <id>Moscovici:97</id>
@@ -6829,7 +6829,7 @@ algebras', { Math.~Scand.} { 83}(1998), 53-73}</title>
         </misc>
     <misc>
         <year>2003</year>
-        <howpublished>preprint, Universit\`a degli Studi del Molise, Dipart. S.E.G.
+        <howpublished>preprint, Università degli Studi del Molise, Dipart. S.E.G.
 e S., Campobasso, Italy / Techn. Univ. Cottbus, Cottbus, Germany</howpublished>
         <title>{On product systems of W*-modules and their commutants}</title>
         <author>P. S. Muhly and M. Skeide and B. Solel</author>
@@ -7162,7 +7162,7 @@ AW*-algebras}</title>
         <volume bold="true">{ 34}</volume>
         <journal>J. London Math. Soc.</journal>
         <title>{Embeddable AW*-algebras and regular completions}</title>
-        <author>M. Ozawa and K. Sait\^o</author>
+        <author>M. Ozawa and K. Saitô</author>
         <id>Ozawa/Saito:86</id>
         </article>
     <article>
@@ -7458,7 +7458,7 @@ and Computer Science}</booktitle>
         <note>253-263</note>
         <year>2001</year>
         <publisher>Heyn-Verlag, Klagenfurt</publisher>
-        <booktitle>{Contributions to General Algebra, v.~13 (Velk\'e Karlovice, 1999 /
+        <booktitle>{Contributions to General Algebra, v.~13 (Velké Karlovice, 1999 /
 Dresden, 2000)}</booktitle>
         <title>{Interior tensor product of Hilbert modules}</title>
         <author>J. Paseka</author>
@@ -7731,8 +7731,8 @@ C*-module}</title>
         <note>805-808</note>
         <year>2001</year>
         <volume bold="true">{ 332}</volume>
-        <journal>C. R. Acad. Sci. Paris S\'er. I Math.</journal>
-        <title>{Induction parabolique et K-th\'eorie de C*-alg\`ebres maximales}</title>
+        <journal>C. R. Acad. Sci. Paris Sér. I Math.</journal>
+        <title>{Induction parabolique et K-théorie de C*-algèbres maximales}</title>
         <author>F. Pierrot</author>
         <id>Pierrot:01</id>
         </article>
@@ -7761,7 +7761,7 @@ algebras over infinite matrices}</title>
         <year>1994</year>
         <organization>SMF Journ. Annu., 1994, Soc. Math. France, 59 pp.</organization>
         <booktitle>{Espaces de Banach classiques et quantiques}</booktitle>
-        <title>{Espaces de Banach quantiques: une introduction \`a la th\'eorie
+        <title>{Espaces de Banach quantiques: une introduction à la théorie
 des espaces d'operateurs}</title>
         <author>G. Pisier</author>
         <id>Pisier:94</id>
@@ -7776,10 +7776,10 @@ des espaces d'operateurs}</title>
         <id>Pisier:95</id>
         </article>
     <article>
-        <note>(Recent Advances in Operator Algebras, Or\'eans, 1992), 159-186</note>
+        <note>(Recent Advances in Operator Algebras, Oréans, 1992), 159-186</note>
         <year>1995</year>
         <volume bold="true">{ 232}</volume>
-        <journal>Ast\'erisque</journal>
+        <journal>Astérisque</journal>
         <title>{Exact operator spaces}</title>
         <author>G. Pisier</author>
         <id>Pisier:95/2</id>
@@ -7804,8 +7804,8 @@ tensor norms}</title>
     <article>
         <year>1996</year>
         <volume bold="true">{ no.~814}</volume>
-        <journal>Seminaire Bourbaki, 48\`eme ann\'ee 1995-1996</journal>
-        <title>{Espaces d'op\'erateurs: une nouvelle dualit\'e}</title>
+        <journal>Seminaire Bourbaki, 48ème année 1995-1996</journal>
+        <title>{Espaces d'opérateurs: une nouvelle dualité}</title>
         <author>G. Pisier</author>
         <id>Pisier:96/3</id>
         </article>
@@ -7826,7 +7826,7 @@ tensor norms}</title>
     <article>
         <year>1998</year>
         <volume bold="true">{ 247}</volume>
-        <journal>Ast\'erisque</journal>
+        <journal>Astérisque</journal>
         <title>{Non-commutative vector-valued $L_p$-spaces and completely
 $p$-summing maps}</title>
         <author>G. Pisier</author>
@@ -7865,7 +7865,7 @@ certain crossed product C*-algebras}</title>
         <note>57-106</note>
         <year>1986</year>
         <volume bold="true">{ 19}</volume>
-        <journal>Ann. scient. \'Ec. Norm. Sup. $4^e$ s\'erie</journal>
+        <journal>Ann. scient. Éc. Norm. Sup. $4^e$ série</journal>
         <title>{Entropy and index for subfactors}</title>
         <author>M. V. Pimsner and S. Popa</author>
         <id>Pimsner/Popa:86</id>
@@ -7886,7 +7886,7 @@ and crossed products by { Z}}</title>
         <note>176-186</note>
         <year>1986</year>
         <volume bold="true">{ 38}</volume>
-        <journal>Bull. Soc. Math. Belg., S\'er. B</journal>
+        <journal>Bull. Soc. Math. Belg., Sér. B</journal>
         <title>{Hilbert modules over an arbitrary C*-algebra}</title>
         <author>J. Pincket</author>
         <id>Pincket:86</id>
@@ -7950,7 +7950,7 @@ of any functional on $l_2(C(X))$ (Russ./Engl.)}</title>
         </article>
     <misc>
         <year>1996</year>
-        <howpublished>S.L.O.H.A., West University of Timi{\c{s}}oara, to appear</howpublished>
+        <howpublished>S.L.O.H.A., West University of Timișoara, to appear</howpublished>
         <title>{Self-dual Hilbert C*-modules in prediction theory}</title>
         <author>D. Popovici</author>
         <id>Popovici:96/3</id>
@@ -7958,7 +7958,7 @@ of any functional on $l_2(C(X))$ (Russ./Engl.)}</title>
     <article>
         <year>1996</year>
         <volume bold="true">{ 3}</volume>
-        <journal>S.L.O.H.A., West University of Timi{\c{s}}oara</journal>
+        <journal>S.L.O.H.A., West University of Timișoara</journal>
         <title>{Minimal unitary dilations of contractions on Hilbert
 C*-modules}</title>
         <author>D. Popovici</author>
@@ -8006,7 +8006,7 @@ stationary processes}</title>
     <misc>
         <year>2000</year>
         <howpublished>preprint, Dept. Math., University of the West
-Timi{\c{s}}oara, Timi{\c{s}}oara, Romania</howpublished>
+Timișoara, Timișoara, Romania</howpublished>
         <title>{Symmetric operators on hilbert C*-modules}</title>
         <author>A. Popovici and D. Popovici</author>
         <id>Popovici:00</id>
@@ -8160,7 +8160,7 @@ stabilization theorem, and frames in Hilbert modules}</title>
         <journal>Proc. Amer. Math. Soc.</journal>
         <title>{On the algebra range of an operator on a Hilbert C*-module over
 compact operators}</title>
-        <author>R. Raji\'c</author>
+        <author>R. Rajić</author>
         <id>Rajic:03</id>
         </article>
     <mastersthesis>
@@ -8220,7 +8220,7 @@ of quaternion Hilbert modules}</title>
         <year>1987</year>
         <volume bold="true">{ 18}</volume>
         <journal>J. Operator Theory</journal>
-        <title>{Repr\'esentationsdes produitscrois\'es d'alg\`ebres de
+        <title>{Représentationsdes produitscroisés d'algèbres de
 gropo\H{\i}des}</title>
         <author>J. Renault</author>
         <id>Renault:87</id>
@@ -8228,7 +8228,7 @@ gropo\H{\i}des}</title>
     <misc>
         <year>1999</year>
         <howpublished>preprint MAPMO 98-22, series Mathematiques et
-Applications, Physique Mathematique d'Orl\'eans, Universit\'e d'Orl\'eans-CNRS,
+Applications, Physique Mathematique d'Orléans, Université d'Orléans-CNRS,
 UMR 6628, France</howpublished>
         <title>{Cuntz-like algebras}</title>
         <author>J. Renault</author>
@@ -8514,7 +8514,7 @@ crossed products}</title>
         </article>
     <misc>
         <year>1998</year>
-        <howpublished>to appear in the Proc. 16th OT Conf., Timi{\c{s}}oara,
+        <howpublished>to appear in the Proc. 16th OT Conf., Timișoara,
 Romania, July 1997</howpublished>
         <title>{Splitting properties of operator bimodules and operator
 amenability}</title>
@@ -8533,20 +8533,20 @@ accepted by { Canad. J. Math.}</howpublished>
         <note>541-557</note>
         <year>1971</year>
         <volume bold="true">{ 23}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{On the embedding as a double commutant in a type I
 AW*-algebra, I}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:71</id>
         </article>
     <article>
         <note>333-339</note>
         <year>1974</year>
         <volume bold="true">{ 26}</volume>
-        <journal>T{\^o}hoku Math. J. </journal>
+        <journal>T{ô}hoku Math. J. </journal>
         <title>{On the embedding as a double commutant in a type I
 AW*-algebra, II}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:74</id>
         </article>
     <article>
@@ -8556,17 +8556,17 @@ AW*-algebra, II}</title>
         <journal>Lect. Notes Math.</journal>
         <title>{AW*-algebras with monotone convergence property and type III,
 non-W*, AW*-factors}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:78</id>
         </article>
     <article>
         <note>31-40</note>
         <year>1979</year>
         <volume bold="true">{ 31}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{AW*-algebras with monotone convergence property and examples
 by Takenouchi and Dyer}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:79</id>
         </article>
     <article>
@@ -8575,16 +8575,16 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">{ 22}</volume>
         <journal>J. London Math. Soc.</journal>
         <title>{A structure theory in the regular $\sigma$-completion of C*-algebras}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:80</id>
         </article>
     <article>
         <note>567-572</note>
         <year>1981</year>
         <volume bold="true">{ 81}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{On normal AW*-algebras}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:81</id>
         </article>
     <article>
@@ -8593,7 +8593,7 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">{ 38}</volume>
         <journal>Proc. Symp. Pure Math. Amer. Math. Soc., part 2</journal>
         <title>{A structure theory in the regular monotone completion of C*-algebras}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:82</id>
         </article>
     <article>
@@ -8602,7 +8602,7 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">{ 27}</volume>
         <journal>J. London Math. Soc.</journal>
         <title>{Outer automorphisms of regular completions}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:83</id>
         </article>
     <article>
@@ -8611,7 +8611,7 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">{ 54}</volume>
         <journal>Math. Scand.</journal>
         <title>{Outer automorphisms of injective C*-algebras}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:84</id>
         </article>
     <article>
@@ -8620,7 +8620,7 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">(2), { 32}</volume>
         <journal>Quart. J. Math. Oxford</journal>
         <title>{On tensor products of monotone complete algebras}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:84/2</id>
         </article>
     <article>
@@ -8629,7 +8629,7 @@ by Takenouchi and Dyer}</title>
         <volume bold="true">{ 40}</volume>
         <journal>J. London Math. Soc.</journal>
         <title>{Representations of C*-algebras and regular completions}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:89</id>
         </article>
     <inbook>
@@ -8639,7 +8639,7 @@ by Takenouchi and Dyer}</title>
 Birkhäuser-Verlag, Boston - Basel - Berlin </publisher>
         <pages>305-307</pages>
         <title>{Normal AW*-algebras}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:91</id>
         </inbook>
     <article>
@@ -8648,7 +8648,7 @@ Birkhäuser-Verlag, Boston - Basel - Berlin </publisher>
         <volume bold="true">{ 44}</volume>
         <journal>J. London Math. Soc. (2)</journal>
         <title>{All AW*-factors are normal}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:91/2</id>
         </article>
     <article>
@@ -8658,7 +8658,7 @@ Birkhäuser-Verlag, Boston - Basel - Berlin </publisher>
         <journal>J. London Math. Soc.</journal>
         <title>{Embedding regular completions of C*-algebras as C*-subalgebras
 in their second dual}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:92</id>
         </article>
     <article>
@@ -8668,7 +8668,7 @@ in their second dual}</title>
         <journal>Quart. J. Math. Oxford</journal>
         <title>{On C*-algebras with countable order dense sets and tensor
 products of monotone complete C*-algebras}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:92/2</id>
         </article>
     <article>
@@ -8677,7 +8677,7 @@ products of monotone complete C*-algebras}</title>
         <volume bold="true">(2), { 44}</volume>
         <journal>Quart. J. Math. Oxford</journal>
         <title>{Dynamic actions on monotone complete factors}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:93</id>
         </article>
     <article>
@@ -8686,7 +8686,7 @@ products of monotone complete C*-algebras}</title>
         <volume bold="true">(2), { 44}</volume>
         <journal>Quart. J. Math. Oxford</journal>
         <title>{A continuum of discrete group actions on a fermionic factor}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:93/2</id>
         </article>
     <article>
@@ -8696,7 +8696,7 @@ products of monotone complete C*-algebras}</title>
         <journal>J. London Math. Soc.(2)</journal>
         <title>{Wild, type III, monotone complete, simple C*-algebras indexed
 by cardinal numbers}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:94</id>
         </article>
     <article>
@@ -8705,7 +8705,7 @@ by cardinal numbers}</title>
         <volume bold="true">{ 29}</volume>
         <journal>Bull. London Math. Soc.</journal>
         <title>{On $\sigma$-normal C*-algebras}</title>
-        <author>K. Sait{\^o}</author>
+        <author>K. Sait{ô}</author>
         <id>Saito:97</id>
         </article>
     <article>
@@ -8714,7 +8714,7 @@ by cardinal numbers}</title>
         <volume bold="true">{ 49}</volume>
         <journal>Q. J. Math., Oxford II. Ser.</journal>
         <title>{Dynamic systems and duality for monotone complete C*-algebras}</title>
-        <author>K. Sait{\^o} and J. D. M. Wright</author>
+        <author>K. Sait{ô} and J. D. M. Wright</author>
         <id>Saito/Wright:98</id>
         </article>
     <phdthesis>
@@ -9053,9 +9053,9 @@ groups}</title>
         <note>531-543</note>
         <year>1957-58</year>
         <volume bold="true">{ 11}</volume>
-        <journal>S\'eminaire Dubreil-Pisot: alg\`ebre et th\'eorie des
+        <journal>Séminaire Dubreil-Pisot: algèbre et théorie des
 nombres</journal>
-        <title>{Modules projectifs et espaces fibr\'es \`a fibre vectorielle}</title>
+        <title>{Modules projectifs et espaces fibrés à fibre vectorielle}</title>
         <author>J.-P. Serre</author>
         <id>Serre:57</id>
         </article>
@@ -9211,7 +9211,7 @@ injectivity}</title>
         <year>1988</year>
         <volume bold="true">{ 1}</volume>
         <journal>K-theory</journal>
-        <title>{Une notion de nucle\'arit\'e en K-th\'eorie (d'apr\`es J. Cuntz)}</title>
+        <title>{Une notion de nucleárité en K-théorie (d'après J. Cuntz)}</title>
         <author>G. Skandalis</author>
         <id>Skandalis:88</id>
         </article>
@@ -9317,7 +9317,7 @@ Statistik, Cottbus, Germany</howpublished>
     <misc>
         <year>2003</year>
         <howpublished>preprint math.OA/0308230 at www.arxiv.org /
-Universit\`a degli Studi del Molise, Dipart. S.E.G.
+Università degli Studi del Molise, Dipart. S.E.G.
 e S., Campobasso, Italy / Techn. Univ. Cottbus, Cottbus, Germany</howpublished>
         <title>{Von Neumann modules, intertwiners and self-duality}</title>
         <author>M. Skeide</author>
@@ -9505,7 +9505,7 @@ algebra}</title>
         <note>727-734</note>
         <year>1971</year>
         <volume bold="true">{ 23}</volume>
-        <journal>T{\^o}hoku Math. J. </journal>
+        <journal>T{ô}hoku Math. J. </journal>
         <title>{A generalization of Schatten-von Neumann-Dixmier theorem
 for type I AW*-algebras}</title>
         <author>C. Sunouchi</author>
@@ -9562,7 +9562,7 @@ for type I AW*-algebras}</title>
         <volume bold="true">{ 62}</volume>
         <journal>Bull. Austral. Math. Soc.</journal>
         <title>{Bimodules for Cuntz-Krieger algebras of infinite matrices}</title>
-        <author>W. Szym\'anski</author>
+        <author>W. Szymánski</author>
         <id>Szymanski:00</id>
         </article>
     <phdthesis>
@@ -9604,7 +9604,7 @@ Gelfand type of non-commutative operator algebras}</title>
         <note>413-435</note>
         <year>1975</year>
         <volume bold="true">{ 27}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{Decomposable operators in continuous fields of Hilbert spaces}</title>
         <author>H. Takemoto</author>
         <id>Takemoto:75</id>
@@ -9613,7 +9613,7 @@ Gelfand type of non-commutative operator algebras}</title>
         <note>479-496</note>
         <year>1976</year>
         <volume bold="true">{ 28}</volume>
-        <journal>T{\^o}hoku Math. Journal</journal>
+        <journal>T{ô}hoku Math. Journal</journal>
         <title>{On the weakly continuous constant field of Hilbert space and
 its application to the reduction theory of von Neumann algebras}</title>
         <author>H. Takemoto</author>
@@ -10055,9 +10055,9 @@ calculus}</title>
         <note>31-49</note>
         <year>1981</year>
         <volume bold="true">{ 17}</volume>
-        <journal>Ann. Inst. Henri Poincar\'e</journal>
-        <title>{Une g\'en\'eralisation du th\'eor\`eme de
-Kolmogorov-Aronszajn. Processus V-born\'es q-dimensionelles: domaine
+        <journal>Ann. Inst. Henri Poincaré</journal>
+        <title>{Une généralisation du théorème de
+Kolmogorov-Aronszajn. Processus V-bornés q-dimensionelles: domaine
 spectral}</title>
         <author>B. Truong-Van</author>
         <id>Truong-Van:81</id>
@@ -10109,7 +10109,7 @@ theorem}</title>
         <note>206-211</note>
         <year>1955</year>
         <volume bold="true">{ 7}</volume>
-        <journal>T{\^o}hoku Math. J.</journal>
+        <journal>T{ô}hoku Math. J.</journal>
         <title>{Positive definite function and a direct product Hilbert space}</title>
         <author>H. Umegaki</author>
         <id>Umegaki:55</id>
@@ -10444,7 +10444,7 @@ non-compact quantum groups}</title>
         <volume bold="true">{ 31}</volume>
         <journal>Rep. Math. Phys.</journal>
         <title>{Operator theory in the C*-algebra framework}</title>
-        <author>S. L. Woronowicz and K. Napi\'orkowski</author>
+        <author>S. L. Woronowicz and K. Napiórkowski</author>
         <id>Woronowicz/Napiorkowski:92</id>
         </article>
     <article>
@@ -10661,7 +10661,7 @@ manifolds}</title>
     <misc>
         <year>1999</year>
         <howpublished>preprint MAPMO 99-25, series Mathematiques et
-Applications, Physique Mathematique d'Orl\'eans, Universit\'e d'Orl\'eans-CNRS,
+Applications, Physique Mathematique d'Orléans, Université d'Orléans-CNRS,
 UMR 6628, France</howpublished>
         <title>{Quasi-free automorphisms of Cuntz-Krieger-Pimsner algebras}</title>
         <author>J. Zacharias</author>

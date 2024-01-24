@@ -28,9 +28,20 @@ entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 - - [x] entferne () ums Jahr
 - - [x] entferne {}
 - - [] Sonderzeichen
+- - - [ ] automatische Lösung?
 - - - [x] deutsch
 - - - [x] dänisch
-- - - [ ] automatische Lösung?
+- - - [x] französisch
+- - - [ ] spanisch
+- - - [x] kroatisch
+- - - [x] romänisch
+- - - [ ] Hochzeichen wie quadrat {${\rm L}^2$ Zeile 1644
+- - - [ ] {\rm in:} Zeile 1671 aufrechte Schrifart in Latex
+- - - [ ] \&amp; Und Zeichen? Zeile 1764
+- - - [x] \-n Anweisung für einen Zeilenumbruch von Latex? Zeile 183
+
+
+- - [x] Sonderzeichen und Schriftart zur gleichen Zeit
 
 
 ### 3. Schritt
