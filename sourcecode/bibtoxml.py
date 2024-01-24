@@ -3,18 +3,40 @@ import re
 import bibtexparser
 import xml.etree.ElementTree as ET
 
-def handle_formatting(text):
-    """Helper function to handle BibTeX formatting commands"""
-    text = text.replace('{', '').replace('}', '')  # Remove curly braces
+def handle_special_characters_and_formatting(text):
+    """Helper function to handle special characters and formatting"""
+    # Use regular expressions to find and replace special characters
+    special_characters = {
+        r'\\([^\s\\]+)': lambda match: html.unescape(match.group(0)),
+        r'{\\o}': 'ø',
+        r'{\\O}': 'Ø',
+        r'{\\ae}': 'æ',
+        r'{\\AE}': 'Æ',
+        r'{\\aa}': 'å',
+        r'{\\AA}': 'Å',
+        r'{\\ss}': 'ß',
+        r'\\"a': 'ä',
+        r'\\"A': 'Ä',
+        r'\\"u': 'ü',
+        r'\\"U': 'Ü',
+        r'\\"o': 'ö',
+        r'\\it': '<i>',
+        r'\\bf': '<b>',
+    }
+
+    for pattern, replace_function in special_characters.items():
+        text = re.sub(pattern, replace_function, text)
+
+    # Handle bold and italic formatting
     italic = False
     bold = False
 
-    if '\\it' in text:
-        text = text.replace('\\it', '')
+    if '<i>' in text:
+        text = text.replace('<i>', '')
         italic = True
 
-    if '\\bf' in text:
-        text = text.replace('\\bf', '')
+    if '<b>' in text:
+        text = text.replace('<b>', '')
         bold = True
 
     return {'text': text, 'style': {'italic': italic, 'bold': bold}}
@@ -43,30 +65,6 @@ def indent(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
-def handle_special_characters(text):
-    """Helper function to handle special characters and formatting"""
-    # Use regular expressions to find and replace special characters
-    special_characters = {
-        r'\\([^\s\\]+)': lambda match: html.unescape(match.group(0)),
-        r'{\\o}': 'ø',
-        r'{\\O}': 'Ø',
-        r'{\\ae}': 'æ',
-        r'{\\AE}': 'Æ',
-        r'{\\aa}': 'å',
-        r'{\\AA}': 'Å',
-        r'{\\ss}': 'ß',
-        r'\\"a': 'ä',
-        r'\\"A': 'Ä',
-        r'\\"u': 'ü',
-        r'\\"U': 'Ü',
-        r'\\"o': 'ö',
-        r'\\"O': 'Ö',
-    }
-
-    for pattern, replace_function in special_characters.items():
-        text = re.sub(pattern, replace_function, text)
-
-    return text
 
 def bibtex_to_xml(bibtex_file_path, output_file_path):
     with open(bibtex_file_path, 'r', encoding='utf-8') as bibtex_file:
@@ -83,23 +81,19 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
         for field, value in entry.items():
             if field != 'ENTRYTYPE':
                 field_element = ET.SubElement(entry_element, field.lower())
-                
-                # Handle bold and italic formatting for specified fields
+
                 if field in ['volume', 'title', 'booktitle', 'note', 'publisher', 'series', 'howpublished', 'editor']:
-                    formatted_text = handle_formatting(value)
+                    formatted_text = handle_special_characters_and_formatting(value)
                     field_element.text = formatted_text['text']
                     styles = formatted_text['style']
-                    field_element.text = handle_special_characters(value)
                     if styles['italic']:
                         field_element.set('italic', 'true')
                     if styles['bold']:
                         field_element.set('bold', 'true')
                 elif field == 'year':
                     field_element.text = remove_parentheses(value)
-                elif field == 'editor':
-                    field_element.text = handle_special_characters(value)
                 else:
-                    field_element.text = handle_special_characters(value)
+                    field_element.text = handle_special_characters_and_formatting(value)['text']
 
     tree = ET.ElementTree(root)
     indent(root)
