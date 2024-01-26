@@ -11,6 +11,7 @@ def handle_special_characters_and_formatting(text):
         r'\\\-n' : 'n',
         r'\\it': '<i>',
         r'\\bf': '<b>',
+        r'\\rm': '<rm>',
         r'{\\o}': 'ø',
         r'{\\O}': 'Ø',
         r'{\\ae}': 'æ',
@@ -71,6 +72,7 @@ def handle_special_characters_and_formatting(text):
     # Handle bold and italic formatting
     italic = False
     bold = False
+    roman = False
 
     if '<i>' in text:
         text = text.replace('<i>', '')
@@ -80,7 +82,11 @@ def handle_special_characters_and_formatting(text):
         text = text.replace('<b>', '')
         bold = True
 
-    return {'text': text, 'style': {'italic': italic, 'bold': bold}}
+    if '<rm>' in text:
+        text = text.replace('<rm>', '')
+        roman = True
+
+    return {'text': text, 'style': {'italic': italic, 'bold': bold, 'roman': roman}}
 
 def remove_curly_braces(text):
     """Helper function to remove curly braces from the text"""
@@ -131,6 +137,8 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
                         field_element.set('italic', 'true')
                     if styles['bold']:
                         field_element.set('bold', 'true')
+                    if styles['roman']:
+                        field_element.set('roman', 'true')
                 elif field == 'year':
                     field_element.text = remove_parentheses(value)
                 else:
