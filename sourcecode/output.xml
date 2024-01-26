@@ -1570,8 +1570,8 @@ applications to deformation quantization}</title>
         <note>Univ. de Granada, Spain</note>
         <howpublished>preprint 1989</howpublished>
         <title>{Structurable H*-algebras}</title>
-        <author>M. Cabrera~Garc\'{\i}a and J. Mart\'{\i}nez~Moreno and
-A. Rodr\'{\i}guez~Palacios</author>
+        <author>M. Cabrera~García and J. Martínez~Moreno and
+A. Rodríguez~Palacios</author>
         <id>Cabrera/Martinez/Rodriguez:89/2</id>
         </misc>
     <inproceedings>
@@ -1581,7 +1581,7 @@ A. Rodr\'{\i}guez~Palacios</author>
 v.~II</organization>
         <booktitle>Analysis</booktitle>
         <title>{Hilbert modules on H*-algebras and applications(span.)}</title>
-        <author>M. Cabrera~Garc\'{\i}a</author>
+        <author>M. Cabrera~García</author>
         <id>Cabrera:91</id>
         </inproceedings>
     <inproceedings>
@@ -1591,8 +1591,8 @@ v.~II</organization>
         <booktitle>Nonassociative Algebraic Models</booktitle>
         <title>{Hilbert modules over H*-algebras in relation with Hilbert
 ternary rings}</title>
-        <author>M. Cabrera~Garc\'{\i}a and J. Mart\'{\i}nez~Moreno and
-A. Rodr\'{\i}guez~Palacios</author>
+        <author>M. Cabrera~García and J. Martínez~Moreno and
+A. Rodríguez~Palacios</author>
         <id>Cabrera/Martinez/Rodriguez:92</id>
         </inproceedings>
     <article>
@@ -1602,8 +1602,8 @@ A. Rodr\'{\i}guez~Palacios</author>
         <journal>Commun. Algebra</journal>
         <title>{Bounded differential operators on Hilbert modules and derivations
 of structurable H*-algebras}</title>
-        <author>M. Cabrera~Garc\'{\i}a  and A. El~Marrakchi and J. Mart\'{\i}nez~Moreno and
-A. Rodr\'{\i}guez~Palacios</author>
+        <author>M. Cabrera~García  and A. El~Marrakchi and J. Martínez~Moreno and
+A. Rodríguez~Palacios</author>
         <id>Cabrera/ElMarrakchi/Martinez/Rodriguez:93</id>
         </article>
     <article>
@@ -1613,8 +1613,8 @@ A. Rodr\'{\i}guez~Palacios</author>
         <journal>Glasgow Math. J.</journal>
         <title>{Hilbert modules revised: Orthonormal bases and Hilbert-Schmidt
 operators}</title>
-        <author>M. Cabrera~Garc\'{\i}a and J. Mart\'{\i}nez~Moreno and
-A. Rodr\'{\i}guez~Palacios</author>
+        <author>M. Cabrera~García and J. Martínez~Moreno and
+A. Rodríguez~Palacios</author>
         <id>Cabrera/Martinez/Rodriguez:95</id>
         </article>
     <article>
@@ -1826,7 +1826,7 @@ Physics (Montpellier, 1989)</booktitle>
         <journal>Gen. Math.</journal>
         <title>{Théorème d'imprimitivité pour représentations dans les
 C*-modules de Hilbert}</title>
-        <author>I. Colojoar\v{a}</author>
+        <author>I. Colojoară</author>
         <id>Colojoara:94</id>
         </article>
     <article>
@@ -2026,7 +2026,7 @@ C*-algebras}</title>
         <volume bold="true">{ 132}</volume>
         <journal>Pacific J. Math.</journal>
         <title>{On homomorphisms of matrix algebras of continuous functions}</title>
-        <author>M. D{\v{a}}d{\v{a}}rlat</author>
+        <author>M. Dădărlat</author>
         <id>Dadarlat:88</id>
         </article>
     <article>
@@ -2036,7 +2036,7 @@ C*-algebras}</title>
         <journal>C. R. Acad. Sci. Paris</journal>
         <title>{Réduction du rang stable topologique dans les C*-algèbres
 limites inductives}</title>
-        <author>M. D{\v{a}}d{\v{a}}rlat and G. Nagy and A. Némethi and C. Pasnicu</author>
+        <author>M. Dădărlat and G. Nagy and A. Némethi and C. Pasnicu</author>
         <id>Dadarlat:91</id>
         </article>
     <article>
@@ -2045,7 +2045,7 @@ limites inductives}</title>
         <volume bold="true">{ 23}</volume>
         <journal>K-Theory</journal>
         <title>{Asymptotic unitary equivalence in KK-theory}</title>
-        <author>M. D{\v{a}}d{\v{a}}rlat and S. Eilers</author>
+        <author>M. Dădărlat and S. Eilers</author>
         <id>Dadarlat/Eilers:01</id>
         </article>
     <incollection>
@@ -2731,7 +2731,7 @@ operator spaces}</title>
         <publisher>A.M.S., Providence, R.I.</publisher>
         <series italic="true" bold="true">{ Contemp. Math.} { 228}</series>
         <booktitle>Operator Algebras and Operator Theory (Sanghai, 1997</booktitle>
-        <title>{${\cal O}{\cal L}_p$ spaces}</title>
+        <title>{$𝒪{\cal L}_p$ spaces}</title>
         <author>E. G. Effros and Zhong-Jin Ruan</author>
         <id>Effros/Ruan:98/2</id>
         </inproceedings>
@@ -3316,7 +3316,7 @@ semigroup on a von Neumann algebra}</title>
         <publisher>Birkhäuser, Boston, Ma.</publisher>
         <series>Birkhäuser Adv. Texts: Basler Lehrbücher</series>
         <title>{Elements of Noncommutative Geometry}</title>
-        <author>J. M. Gracia-Bond\'{\i}a and J. C. Várilly and H. Figueroa</author>
+        <author>J. M. Gracia-Bondía and J. C. Várilly and H. Figueroa</author>
         <id>Gracia-Bondia/Varilly/Figueroa:01</id>
         </book>
     <article>
@@ -4007,7 +4007,7 @@ C*-modules}</title>
         <publisher>D. Reidel Publishing Company, Dordrecht - Boston -
 Lancaster - Tokyo</publisher>
         <title>{Inner Product Structures, Theory and Applications}</title>
-        <author>V. I. Istr\v{a}\c{t}escu</author>
+        <author>V. I. Istră\c{t}escu</author>
         <id>Istratescu:87</id>
         </book>
     <misc>
@@ -4015,7 +4015,7 @@ Lancaster - Tokyo</publisher>
         <howpublished>preprint</howpublished>
         <title>{Rudiments of an operator theory on inner product modules,
 I, II}</title>
-        <author>A. I. Istr\v{a}\c{t}escu and V. I. Istr\v{a}\c{t}escu</author>
+        <author>A. I. Istră\c{t}escu and V. I. Istră\c{t}escu</author>
         <id>Istratescu:95</id>
         </misc>
     <article>
@@ -4255,7 +4255,7 @@ representations}</title>
         <year>1996</year>
         <howpublished>preprint, Okayama Univ., Dept.~Environm.~Math.~Sci.,
 Japan</howpublished>
-        <title>{Simplicity of the algebras ${\cal O}_x$ of the bimodules
+        <title>{Simplicity of the algebras $𝒪_x$ of the bimodules
 associated with the inclusions of simple C*-algebras with finite index}</title>
         <author>T. Kajiwara and Y. Watatani</author>
         <id>Kajiwara/Watatani:96/1</id>
@@ -7095,7 +7095,7 @@ finite-dimensional C*-algebras}</title>
         <note>84-94, (Recent Aspects of C*-algebras (Jap.), Kyoto, 2002)</note>
         <year>2002</year>
         <volume bold="true">{ 1291}</volume>
-        <journal>S\=urikaisekikenky\=usho K\=oky\=uroku</journal>
+        <journal>Sūurikaisekikenkyūusho Kūokyūuroku</journal>
         <title>{Coring structures and Hilbert C*-modules (Jap.)}</title>
         <author>Moto O'uchi</author>
         <id>O'uchi:02/2</id>
@@ -10986,7 +10986,7 @@ Hilbertmoduln}</title>
         <year>1999</year>
         <howpublished>Proc. of a symposium held at RIMS, Kyoto, Jan. 25-27,
 1999, Research Institute for Mathematical Sciences, Kyoto University,
-S\=urikaisekikenky\=usho K\=oky\=uroku, v.~1110, 103 pp.,
+Sūurikaisekikenkyūusho Kūokyūuroku, v.~1110, 103 pp.,
 Kyoto University, RIMS, Kyoto</howpublished>
         <title>{Hilbert C*-modules and Groupoid C*-algebras (Japan.)}</title>
         <author>Collection</author>

@@ -25,6 +25,7 @@ entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 - [ ] XML
 - - [x] /bf zu bold
 - - [x] /it zu italic
+- - [x] \rm zu roman 
 - - [x] entferne () ums Jahr
 - - [x] entferne {}
 - - [] Sonderzeichen
@@ -36,9 +37,10 @@ entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 - - - [x] kroatisch
 - - - [x] romänisch
 - - - [ ] Hochzeichen wie quadrat {${\rm L}^2$ Zeile 1644
-- - - [ ] {\rm in:} Zeile 1671 aufrechte Schrifart in Latex
 - - - [ ] \&amp; Und Zeichen? Zeile 1764
 - - - [x] \-n Anweisung für einen Zeilenumbruch von Latex? Zeile 183
+- - - [ ] $\$ mathematische funktion? 10547
+- - - [ ] {${\cal O}{\cal L}_p$ spaces} Zeile 2734
 
 
 - - [x] Sonderzeichen und Schriftart zur gleichen Zeit
