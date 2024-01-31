@@ -23,6 +23,28 @@ realisiert. (Ziel ist die Anzeige eines Literaturverzeichnisses im Stile einer m
 entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
 
 - [ ] XML
+- - [x] /bf zu bold
+- - [x] /it zu italic
+- - [x] \rm zu roman 
+- - [x] entferne () ums Jahr
+- - [x] entferne {}
+- - [] Sonderzeichen
+- - - [ ] automatische Lösung?
+- - - [x] deutsch
+- - - [x] dänisch
+- - - [x] französisch
+- - - [ ] spanisch
+- - - [x] kroatisch
+- - - [x] romänisch
+- - - [ ] Hochzeichen wie quadrat {${\rm L}^2$ Zeile 1644
+- - - [ ] \&amp; Und Zeichen? Zeile 1764
+- - - [x] \-n Anweisung für einen Zeilenumbruch von Latex? Zeile 183
+- - - [ ] $\$ mathematische funktion? 10547
+- - - [ ] {${\cal O}{\cal L}_p$ spaces} Zeile 2734
+
+
+- - [x] Sonderzeichen und Schriftart zur gleichen Zeit
+
 
 ### 3. Schritt
 Schreiben eines XSLT-Programmes, das den vorgegebenen Datenstrom (BiBTeX, XML_max) ausliest
@@ -102,3 +124,4 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 - pip install bibtexparser
 - pip install openpyxl
 - pip install xlsxwriter
+$env:PYTHONPATH = "C:\5. Semester\DBS Projekt\dbms;$env:PYTHONPATH"
