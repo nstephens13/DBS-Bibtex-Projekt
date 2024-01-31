@@ -124,3 +124,4 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 - pip install bibtexparser
 - pip install openpyxl
 - pip install xlsxwriter
+$env:PYTHONPATH = "C:\5. Semester\DBS Projekt\dbms;$env:PYTHONPATH"
