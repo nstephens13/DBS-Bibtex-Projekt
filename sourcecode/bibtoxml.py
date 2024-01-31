@@ -157,6 +157,6 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
         print(f"Error writing XML file: {e}")
 
 if __name__ == "__main__":
-    bibtex_file_path = '../data/Projekt_BIB_original.txt'
+    bibtex_file_path = 'data/Projekt_BIB_original.txt'
     output_file_path = 'output.xml'
     bibtex_to_xml(bibtex_file_path, output_file_path)

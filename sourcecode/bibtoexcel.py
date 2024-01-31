@@ -3,8 +3,8 @@ import bibtexparser
 import re
 import latexcodec
 
-bibtex_file_path = '../data/Projekt_BIB_original.txt'
-excel_file_path = '../data/test.xlsx'
+bibtex_file_path = 'data/Projekt_BIB_original.txt'
+excel_file_path = 'data/test.xlsx'
 
 
 def clean_text(text):

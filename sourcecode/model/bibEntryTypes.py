@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class BibtexReferenceTypes(Enum):
+class BibEntryTypes(Enum):
     article = {
         "type": "article",
         "required_fields": ["author", "title", "journal", "year"],
