@@ -23,9 +23,7 @@ def main():
                 field_value = str(field_value)
                 field_value = clean_text(field_value)
                 field_value = latex_to_mathml(field_value)
-                print(field_value)
                 et.SubElement(bib_entry_element, field).text = field_value
-                print(et.SubElement(bib_entry_element, field).text)
 
     # Create the XML document
     tree = et.ElementTree(bibliography)
