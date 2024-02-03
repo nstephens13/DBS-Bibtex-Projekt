@@ -158,5 +158,5 @@ def bibtex_to_xml(bibtex_file_path, output_file_path):
 
 if __name__ == "__main__":
     bibtex_file_path = 'data/Projekt_BIB_original.txt'
-    output_file_path = 'output.xml'
+    output_file_path = 'output.files'
     bibtex_to_xml(bibtex_file_path, output_file_path)

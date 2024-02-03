@@ -1,32 +1,9 @@
 import xml.etree.ElementTree as et
-from sourcecode.generator.bibtexParseEntries import get_all_entries
-from sourcecode.model.bibEntry import BibEntry
-from sourcecode.model.bibEntryTypes import BibEntryTypes
-
-
-# write a function that returns the BibEntryTypes based on the entry type
-def get_bib_entry_type(entry_type):
-    if entry_type in BibEntryTypes.__members__:
-        return BibEntryTypes[entry_type]
-    else:
-        raise ValueError(f"Entry type '{entry_type}' is not a valid BibEntryType.")
-
-
-def pass_bib_entry_to_model(new_bib_entry):
-    bib_entry = BibEntry(new_bib_entry["ID"], get_bib_entry_type(new_bib_entry["ENTRYTYPE"]))
-    for field in new_bib_entry:
-        if field != "ID" and field != "ENTRYTYPE":
-            # Convert the field to lowercase
-            field = field.lower()
-            bib_entry.add_field(field, new_bib_entry[field])
-    return bib_entry
+from sourcecode.generator.bibtexParseEntries import get_bib_entries
 
 
 def main():
-    bib_entries_from_file = get_all_entries()
-    bib_entries = []
-    for bib_entry in bib_entries_from_file:
-        bib_entries.append(pass_bib_entry_to_model(bib_entry))
+    bib_entries = get_bib_entries()
     # Create the root element
     bibliography = et.Element("bibliography")
     title = et.SubElement(bibliography, "title")
@@ -46,7 +23,7 @@ def main():
     tree = et.ElementTree(bibliography)
 
     # Write the XML document to a file
-    tree.write("bibentries.xml")
+    tree.write("../files/bibEntries.xml", encoding="utf-8", xml_declaration=True)
 
 
 if __name__ == "__main__":
