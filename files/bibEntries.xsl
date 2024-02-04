@@ -4,24 +4,36 @@
     <xsl:template match="/">
         <html>
             <head />
-            <body>
+            <body style="margin: 0 auto; width: 70%;">
                 <xsl:apply-templates />
             </body>
         </html>
     </xsl:template>
     <xsl:template match="/bibliography">
-        <div style="width:100%; display:flex;">
+        <div style="width:100%; display:flex; align-items: center;">
             <div style="width: 30%;">
                 <img src="wislogo.svg" alt="WisLogo" style="width: 300px; height: 100px;" />
             </div>
-            <div style="width:70%; margin-left: 1rem; align-text: ">
-                <h1>
-                    <xsl:value-of select="bibtitle" />
-                </h1>
-                <h2><xsl:value-of select="author" /></h2>
-            </div>
         </div>
-        <h1>References</h1>
+        <h1>
+            <xsl:value-of select="bibtitle" />
+        </h1>
+        <h3>
+            <xsl:value-of select="author" />
+        </h3>
+        <h1>
+            Abstract</h1>
+        <p><b>
+                <xsl:value-of select="author" />
+            </b> collaborate on a project focusing
+        on extracting BibTeX data from <b>
+                <xsl:value-of select="bibtitle" />
+            </b> and utilizing Excel for
+        organization. The study aims to leverage XSLT to create a visually impactful representation,
+        unraveling patterns within the dataset and contributing valuable insights to our field of
+        interest.</p>
+        <h1>
+            References</h1>
         <xsl:apply-templates
             select="bibentries" />
     </xsl:template>
@@ -32,56 +44,51 @@
     </xsl:template>
     <xsl:template match="bibentry">
         <div style="width:100%;">
-            <div style="width:100%; display:flex;">
-                <div style="width:10rem;">
-                    [ <span><xsl:value-of select="@type" /> </span> ]
-                </div>
+            <div style="display: grid; grid-template-columns: 20rem auto;">
+                <div> [ <span>
+                        <xsl:value-of select="@id" />
+                    </span> ] </div>
                 <div style="margin-left: 1rem;">
-                    <span style="font-style: italic;">
-                        <xsl:value-of select="title" />
+                    <span>
+                        <xsl:value-of select="author" />
                     </span>
-                    <span>Type: <xsl:value-of select="@type" />
+                    <span style="font-style: italic;">, <xsl:value-of select="title" />
                     </span>
-                    <span>Author: <xsl:value-of select="author" />
-                    </span>
-                    <span>Year: <xsl:value-of select="year" />
-                    </span>
+                    <span>, (<xsl:value-of select="year" />) </span>
+                    <xsl:if test="publisher">
+                        <span>, <xsl:value-of select="publisher" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="journal">
+                        <span>, <xsl:value-of select="journal" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="volume">
+                        <span>, <xsl:value-of select="volume" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="number">
+                        <span>, <xsl:value-of select="number" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="pages">
+                        <span>, <xsl:value-of select="pages" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="month">
+                        <span>, <xsl:value-of select="month" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="note">
+                        <span>, <xsl:value-of select="note" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="series">
+                        <span>, <xsl:value-of select="series" />
+                        </span>
+                    </xsl:if>
                 </div>
             </div>
-            <!--
-            <xsl:if test="publisher">
-                <span>Publisher: <xsl:value-of select="publisher" />
-                </span>
-            </xsl:if>
-            <xsl:if test="journal">
-                <span>Journal: <xsl:value-of select="journal" />
-                </span>
-            </xsl:if>
-            <xsl:if test="volume">
-                <span>Volume: <xsl:value-of select="volume" />
-                </span>
-            </xsl:if>
-            <xsl:if test="number">
-                <span>Number: <xsl:value-of select="number" />
-                </span>
-            </xsl:if>
-            <xsl:if test="pages">
-                <span>Pages: <xsl:value-of select="pages" />
-                </span>
-            </xsl:if>
-            <xsl:if test="month">
-                <span>Month: <xsl:value-of select="month" />
-                </span>
-            </xsl:if>
-            <xsl:if test="note">
-                <span>Note: <xsl:value-of select="note" />
-                </span>
-            </xsl:if>
-            <xsl:if test="series">
-                <span>Series: <xsl:value-of select="series" />
-                </span>
-            </xsl:if>
-             -->
         </div>
     </xsl:template>
 </xsl:stylesheet>

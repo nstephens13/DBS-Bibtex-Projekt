@@ -36,7 +36,7 @@ def main():
     title = et.SubElement(bibliography, "bibtitle")
     title.text = "DBS Projekt BIB orginal"
     author = et.SubElement(bibliography, "author")
-    author.text = "Nived Stephen, Lukas Ruminski"
+    author.text = "Nived Stephen and Lukas Ruminski"
     bib_entries_element = et.SubElement(bibliography, "bibentries")
 
     # Iterate over the bib_entries and create XML elements for each one
