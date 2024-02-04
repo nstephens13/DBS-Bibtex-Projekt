@@ -21,23 +21,36 @@
     </xsl:template>
     <xsl:template match="bibentry">
         <div style="width:100%;vertical-align:top">
-            <h2>Title: <xsl:value-of select="title" /></h2>
+            <h2><xsl:value-of select="title" /></h2>
             <h4>Type: <xsl:value-of select="@type" /></h4>
             <h4>ID: <xsl:value-of select="@id" /></h4>
-            <xsl:choose>
-            <xsl:when test="name()='author'">
-                <!-- Apply design for author -->
-                <strong style="color: red;"><xsl:value-of select="author()" /></strong>: <xsl:value-of select="." />
-            </xsl:when>
-            <xsl:when test="name()='year'">
-                <!-- Apply design for field2 -->
-                <strong style="color: blue;"><xsl:value-of select="year()" /></strong>: <xsl:value-of select="." />
-            </xsl:when>
-            <xsl:otherwise>
-                <!-- Default design -->
-                <strong><xsl:value-of select="name()" /></strong>: <xsl:value-of select="." />
-            </xsl:otherwise>
-        </xsl:choose>
-    </div>
+            
+            <h4>Author: <xsl:value-of select="author" /></h4>
+            <h4>Year: <xsl:value-of select="year" /></h4>
+            <xsl:if test="publisher">
+                <h4>Publisher: <xsl:value-of select="publisher" /></h4>
+            </xsl:if>
+            <xsl:if test="journal">
+                <h4>Journal: <xsl:value-of select="journal" /></h4>
+            </xsl:if>
+            <xsl:if test="volume">
+                <h4>Volume: <xsl:value-of select="volume" /></h4>
+            </xsl:if>
+            <xsl:if test="number">
+                <h4>Number: <xsl:value-of select="number" /></h4>
+            </xsl:if>
+            <xsl:if test="pages">
+                <h4>Pages: <xsl:value-of select="pages" /></h4>
+            </xsl:if>
+            <xsl:if test="month">
+                <h4>Month: <xsl:value-of select="month" /></h4>
+            </xsl:if>
+            <xsl:if test="note">
+                <h4>Note: <xsl:value-of select="note" /></h4>
+            </xsl:if>
+            <xsl:if test="series">
+                <h4>Series: <xsl:value-of select="series" /></h4>
+            </xsl:if>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
