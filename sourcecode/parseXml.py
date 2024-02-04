@@ -1,6 +1,21 @@
 import re
-from lxml import etree
-from lxml.etree import CDATA
+import xml.etree.ElementTree as ET
+
+
+def write_with_xslt(tree, filename, xslt_path):
+    with open(filename, 'wb') as f:
+        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(b'<?xml-stylesheet type="text/xsl" href="' + xslt_path.encode('utf-8') + b'"?>\n')
+        tree.write(f, encoding='utf-8', xml_declaration=False)
+
+
+def replace_ampersand(filename):
+    with open(filename, 'r') as file:
+        content = file.read()
+    content = re.sub('&amp;#', '&#', content)
+    content = re.sub('ä', '&#228;', content)
+    with open(filename, 'w') as file:
+        file.write(content)
 
 
 def replace_non_ascii(s):
@@ -30,24 +45,24 @@ def replace_non_ascii(s):
 
 def replace_non_ascii_with_html_entities(filename):
     # Parse the XML file
-    parser = etree.XMLParser(recover=True)
-    tree = etree.parse(filename, parser)
+    tree = ET.parse(filename)
     root = tree.getroot()
 
     # Function to replace non-ASCII characters in text of an element
     def replace_chars(element):
         if element.text:
-            element.text = CDATA(replace_non_ascii(element.text))
+            element.text = replace_non_ascii(element.text)
         for child in element:
             replace_chars(child)
 
     # Replace characters in all elements
     replace_chars(root)
 
-    # Write the modified XML back to the file
-    tree.write(filename, encoding='utf-8', xml_declaration=True)
+    # Write the modified XML back to the file using the custom writer
+    write_with_xslt(tree, filename, "../files/bibEntries.xsl")
 
 
-print("Replacing non-ASCII characters with HTML entities...")
-replace_non_ascii_with_html_entities("../files/bibEntries.xml")
-print("Non-ASCII characters replaced successfully.")
+def parse_xml():
+    replace_non_ascii_with_html_entities("../files/bibEntries.xml")
+    replace_ampersand("../files/bibEntries.xml")
+    print("Non-ASCII characters replaced successfully.")

@@ -1,8 +1,10 @@
 import xml.etree.ElementTree as et
 from sourcecode.generator.bibtexParseEntries import get_bib_entries
+from sourcecode.parseXml import parse_xml
 from sourcecode.stringParser import latex_to_mathml, clean_text
 import html
 import re
+from tqdm import tqdm
 
 
 def replace_ampersand(s):
@@ -38,7 +40,7 @@ def main():
     bib_entries_element = et.SubElement(bibliography, "bibentries")
 
     # Iterate over the bib_entries and create XML elements for each one
-    for bib_entry in bib_entries:
+    for bib_entry in tqdm(bib_entries, desc="Processing entries", unit="entry"):
         bib_entry_element = et.SubElement(bib_entries_element, "bibentry",
                                           attrib={"id": bib_entry.id, "type": bib_entry.type})
         for field in bib_entry.required_fields:
@@ -62,8 +64,8 @@ def main():
     tree = et.ElementTree(bibliography)
     write_with_xslt(tree, "../files/bibEntries.xml", "../files/bibEntries.xsl")
     unescape_html_entities("../files/bibEntries.xml")
-    print("Unescaped HTML entities.")
-    print("XML file 'bibEntries.xml' generated successfully.")
+    parse_xml()
+    tqdm.write("XML file generated successfully at ../files/bibEntries.xml.")
 
 
 if __name__ == "__main__":
