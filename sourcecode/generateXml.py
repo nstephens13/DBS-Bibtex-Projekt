@@ -9,7 +9,7 @@ def main():
     # Create the root element
     bibliography = et.Element("bibliography")
     title = et.SubElement(bibliography, "title")
-    title.text = "DBS_Projekt_BIB_orginal"
+    title.text = "DBS Projekt BIB orginal"
     author = et.SubElement(bibliography, "author")
     author.text = "Nived Stephen, Lukas Ruminski"
     bib_entries_element = et.SubElement(bibliography, "bibentries")

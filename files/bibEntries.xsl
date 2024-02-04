@@ -24,11 +24,20 @@
             <h2>Title: <xsl:value-of select="title" /></h2>
             <h4>Type: <xsl:value-of select="@type" /></h4>
             <h4>ID: <xsl:value-of select="@id" /></h4>
-            <xsl:for-each select="*">
-            <p>
+            <xsl:choose>
+            <xsl:when test="name()='author'">
+                <!-- Apply design for author -->
+                <strong style="color: red;"><xsl:value-of select="author()" /></strong>: <xsl:value-of select="." />
+            </xsl:when>
+            <xsl:when test="name()='year'">
+                <!-- Apply design for field2 -->
+                <strong style="color: blue;"><xsl:value-of select="year()" /></strong>: <xsl:value-of select="." />
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- Default design -->
                 <strong><xsl:value-of select="name()" /></strong>: <xsl:value-of select="." />
-            </p>
-        </xsl:for-each>
+            </xsl:otherwise>
+        </xsl:choose>
     </div>
     </xsl:template>
 </xsl:stylesheet>
