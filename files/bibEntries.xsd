@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="math" type="mat:mathType" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+  <xs:complexType name="msupType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:string" name="mi"/>
+      <xs:element name="mn">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="4"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="mo" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="∞"/>
+            <xs:enumeration value="*"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="mrowType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="mat:msupType" name="msup" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+      <xs:element name="mi">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute type="xs:string" name="mathvariant" use="optional"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mo">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value=","/>
+            <xs:enumeration value="R"/>
+            <xs:enumeration value="*"/>
+            <xs:enumeration value="K"/>
+            <xs:enumeration value="&lt;"/>
+            <xs:enumeration value="⊗"/>
+            <xs:enumeration value="B"/>
+            <xs:enumeration value="M"/>
+            <xs:enumeration value="p"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="mat:msubType" name="msub" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+      <xs:element name="mn">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="mat:mspaceType" name="mspace" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+      <xs:element type="mat:msubsupType" name="msubsup" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="mathType">
+    <xs:sequence>
+      <xs:element type="mat:mrowType" name="mrow" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="display" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="msubType" mixed="true">
+    <xs:sequence>
+      <xs:element name="mi" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute type="xs:string" name="mathvariant" use="optional"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mn" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="mo" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="miType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="mathvariant" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="mspaceType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="width" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="msubsupType">
+    <xs:sequence>
+      <xs:element name="mi" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="d"/>
+            <xs:enumeration value="A"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="mo"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

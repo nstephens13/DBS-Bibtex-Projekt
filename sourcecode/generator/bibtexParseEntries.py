@@ -1,5 +1,7 @@
 import bibtexparser
 import os
+from sourcecode.model.bibEntry import BibEntry
+from sourcecode.model.bibEntryTypes import BibEntryTypes
 
 # Get the current directory of the script
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -20,8 +22,26 @@ def get_entries_length():
     return len(get_all_entries())
 
 
-# Print all entries
-print(get_all_entries()[0])
+def get_bib_entry_type(entry_type):
+    if entry_type in BibEntryTypes.__members__:
+        return BibEntryTypes[entry_type]
+    else:
+        raise ValueError(f"Entry type '{entry_type}' is not a valid BibEntryType.")
 
-# Print the number of entries
-print(get_entries_length())
+
+def pass_bib_entry_to_model(new_bib_entry):
+    bib_entry = BibEntry(new_bib_entry["ID"], get_bib_entry_type(new_bib_entry["ENTRYTYPE"]))
+    for field in new_bib_entry:
+        if field != "ID" and field != "ENTRYTYPE":
+            # Convert the field to lowercase
+            field = field.lower()
+            bib_entry.add_field(field, new_bib_entry[field])
+    return bib_entry
+
+
+def get_bib_entries():
+    bib_entries_from_file = get_all_entries()
+    bib_entries = []
+    for bib_entry in bib_entries_from_file:
+        bib_entries.append(pass_bib_entry_to_model(bib_entry))
+    return bib_entries
