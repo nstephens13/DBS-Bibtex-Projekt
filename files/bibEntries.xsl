@@ -4,7 +4,7 @@
     <xsl:template match="/">
         <html>
             <head />
-            <body style="margin: 0 auto; width: 70%;">
+            <body style="margin: 0 auto; width: 70%; background-image: url('paper_background.jpg')">
                 <xsl:apply-templates />
             </body>
         </html>
