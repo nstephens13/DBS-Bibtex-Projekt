@@ -120,8 +120,16 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 
 ## Fehlerbehebung
 
-- pip install pandas
-- pip install bibtexparser
-- pip install openpyxl
-- pip install xlsxwriter
-- $env:PYTHONPATH = "C:\5. Semester\DBS Projekt\dbms;$env:PYTHONPATH"
+Install dependecies by using `pip`:
+```sh
+pip install -r requirements.txt
+```
+
+or manually:
+```bash
+pip install pandas
+pip install bibtexparser
+pip install openpyxl
+pip install xlsxwriter
+$env:PYTHONPATH="C:\5. Semester\DBS Projekt\dbms:$PYTHONPATH"
+```
