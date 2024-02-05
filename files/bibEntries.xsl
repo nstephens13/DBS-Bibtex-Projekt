@@ -47,49 +47,84 @@
         </div>
     </xsl:template>
     <xsl:template match="bibentry">
-        <div style="width:100%;">
+        <div style="width:100%; margin-top: 5px;">
             <div style="display: grid; grid-template-columns: 20rem auto;">
                 <div> [ <span>
                         <xsl:value-of select="@id" />
                     </span> ] </div>
                 <div style="margin-left: 1rem;">
                     <span>
-                        <xsl:value-of select="author" />
+                        <xsl:value-of select="author" />.
                     </span>
-                    <span style="font-style: italic;">, <xsl:value-of select="title" />
+                    <span style="font-style: italic;"><xsl:value-of select="title" />.
                     </span>
-                    <span>, (<xsl:value-of select="year" />) </span>
-                    <xsl:if test="publisher">
-                        <span>, <xsl:value-of select="publisher" />
+                    <xsl:if test="journal">
+                        <span style="font-style: italic;"><xsl:value-of select="journal" />
                         </span>
                     </xsl:if>
-                    <xsl:if test="journal">
-                        <span>, <xsl:value-of select="journal" />
+                    <xsl:if test="editor">
+                        <span>In <xsl:value-of select="editor" />, editor
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="booktitle">
+                        <span>, <xsl:value-of select="booktitle" />
                         </span>
                     </xsl:if>
                     <xsl:if test="volume">
                         <span>, <xsl:value-of select="volume" />
                         </span>
                     </xsl:if>
+                    <xsl:if test="series">
+                        <span> of <xsl:value-of select="series" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="chapter">
+                        <span>, <xsl:value-of select="chapter" />
+                        </span>
+                    </xsl:if>
                     <xsl:if test="number">
-                        <span>, <xsl:value-of select="number" />
+                        <span>(<xsl:value-of select="number" />)
                         </span>
                     </xsl:if>
                     <xsl:if test="pages">
-                        <span>, <xsl:value-of select="pages" />
+                        <span>, pages <xsl:value-of select="pages" />
+                        </span>.
+                    </xsl:if>
+                    <xsl:if test="school">
+                        <span> <xsl:value-of select="school" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="institution">
+                        <span> <xsl:value-of select="institution" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="publisher">
+                        <span> <xsl:value-of select="publisher" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="howpublished">
+                        <span> <xsl:value-of select="howpublished" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="address">
+                        <span>, <xsl:value-of select="address" />
+                        </span>
+                    </xsl:if>
+                    <xsl:if test="edition">
+                        <span>, <xsl:value-of select="edition" /> edition
                         </span>
                     </xsl:if>
                     <xsl:if test="month">
                         <span>, <xsl:value-of select="month" />
                         </span>
                     </xsl:if>
-                    <xsl:if test="note">
-                        <span>, <xsl:value-of select="note" />
+                    <xsl:if test="year">
+                        <span>, <xsl:value-of select="year" />.
                         </span>
                     </xsl:if>
-                    <xsl:if test="series">
-                        <span>, <xsl:value-of select="series" />
-                        </span>
+                    <xsl:if test="note">
+                        <span> <xsl:value-of select="note" />
+                        </span>.
                     </xsl:if>
                 </div>
             </div>
