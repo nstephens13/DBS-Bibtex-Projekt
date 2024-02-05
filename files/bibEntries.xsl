@@ -4,38 +4,42 @@
     <xsl:template match="/">
         <html>
             <head />
-            <body style="margin: 0 auto; width: 70%; background-image: url('paper_background.jpg')">
-                <xsl:apply-templates />
+            <body style="margin: 0 auto; width: 70%; background-image: url('paper_background_1.jpg');">
+                <div style="background-color: white; margin: 5px 5px 5px 5px;">
+                    <xsl:apply-templates />
+                </div>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="/bibliography">
-        <div style="width:100%; display:flex; align-items: center;">
-            <div style="width: 30%;">
-                <img src="wislogo.svg" alt="WisLogo" style="width: 300px; height: 100px;" />
+        <div style="margin: 25px 25px 25px 25px;">
+            <div style="width:100%; display:flex; align-items: center;">
+                <div style="width: 30%;">
+                    <img src="wislogo.svg" alt="WisLogo" style="width: 300px; height: 100px;" />
+                </div>
             </div>
-        </div>
-        <h1>
-            <xsl:value-of select="bibtitle" />
-        </h1>
-        <h3>
-            <xsl:value-of select="author" />
-        </h3>
-        <h1>
-            Abstract</h1>
-        <p><b>
-                <xsl:value-of select="author" />
-            </b> collaborate on a project focusing
-        on extracting BibTeX data from <b>
+            <h1>
                 <xsl:value-of select="bibtitle" />
-            </b> and utilizing Excel for
-        organization. The study aims to leverage XSLT to create a visually impactful representation,
-        unraveling patterns within the dataset and contributing valuable insights to our field of
-        interest.</p>
-        <h1>
-            References</h1>
-        <xsl:apply-templates
-            select="bibentries" />
+            </h1>
+            <h3>
+                <xsl:value-of select="author" />
+            </h3>
+            <h1>
+                Abstract</h1>
+            <p><b>
+                    <xsl:value-of select="author" />
+                </b> collaborate on a project focusing
+            on extracting BibTeX data from <b>
+                    <xsl:value-of select="bibtitle" />
+                </b> and utilizing Excel for
+            organization. The study aims to leverage XSLT to create a visually impactful representation,
+            unraveling patterns within the dataset and contributing valuable insights to our field of
+            interest.</p>
+            <h1>
+                References</h1>
+            <xsl:apply-templates
+                select="bibentries" />
+        </div>
     </xsl:template>
     <xsl:template match="bibentries">
         <div style="width:100%;vertical-align:top">
