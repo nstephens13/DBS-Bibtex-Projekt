@@ -124,12 +124,3 @@ Install dependecies by using `pip`:
 ```sh
 pip install -r requirements.txt
 ```
-
-or manually:
-```bash
-pip install pandas
-pip install bibtexparser
-pip install openpyxl
-pip install xlsxwriter
-$env:PYTHONPATH="C:\5. Semester\DBS Projekt\dbms:$PYTHONPATH"
-```
