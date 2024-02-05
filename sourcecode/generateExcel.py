@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from sourcecode.generator.bibtexParseEntries import get_bib_entries
 from sourcecode.stringParser import clean_text
+from tqdm import tqdm
 
 
 def generate_excel():
@@ -9,7 +10,7 @@ def generate_excel():
     bib_entries = get_bib_entries()
     data = []
     # Iterate over the bib_entries and create a dictionary for each one
-    for bib_entry in bib_entries:
+    for bib_entry in tqdm(bib_entries, desc="Processing entries", unit="entry"):
         entry_dict = {"id": bib_entry.id, "type": bib_entry.type}
         for field in bib_entry.required_fields.union(bib_entry.optional_fields):
             if hasattr(bib_entry, field):
