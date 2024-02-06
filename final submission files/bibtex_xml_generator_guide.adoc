@@ -43,15 +43,15 @@
 
     Die Python-Funktion `latex_to_mathml` im bereitgestellten Code-Snippet wird verwendet, um LaTeX-Formeln in einer Textzeichenkette in MathML zu konvertieren. Hier ist eine schrittweise Erklärung:
 
-        . Die Funktion definiert zunächst ein reguläres Ausdrucksmuster für LaTeX-Formeln, die normalerweise in Dollarzeichen ($) eingeschlossen sind.
-        . Sie verwendet dieses Muster, um alle LaTeX-Formeln im Eingabetext zu finden.
-        . Wenn keine Formeln gefunden werden, gibt die Funktion einfach den ursprünglichen Text zurück.
-        . Wenn Formeln gefunden werden, geht die Funktion jede einzelne durch und macht folgendes:
-        .. Entfernt die Dollarzeichen aus der Formel.
-        .. Konvertiert die Formel mit der Funktion `latex2mathml.converter.convert` in MathML.
-        .. Ersetzt die ursprüngliche LaTeX-Formel im Text durch das konvertierte MathML.
-        . Schließlich gibt die Funktion den Text zurück, der jetzt MathML anstelle von LaTeX für mathematische Formeln enthält.
+    . Die Funktion definiert zunächst ein reguläres Ausdrucksmuster für LaTeX-Formeln, die normalerweise in Dollarzeichen ($) eingeschlossen sind.
+    . Sie verwendet dieses Muster, um alle LaTeX-Formeln im Eingabetext zu finden.
+    . Wenn keine Formeln gefunden werden, gibt die Funktion einfach den ursprünglichen Text zurück.
+    . Wenn Formeln gefunden werden, geht die Funktion jede einzelne durch und macht folgendes:
+    .. Entfernt die Dollarzeichen aus der Formel.
+    .. Konvertiert die Formel mit der Funktion `latex2mathml.converter.convert` in MathML.
+    .. Ersetzt die ursprüngliche LaTeX-Formel im Text durch das konvertierte MathML.
+    . Schließlich gibt die Funktion den Text zurück, der jetzt MathML anstelle von LaTeX für mathematische Formeln enthält.
 
-        Diese Funktion ist nützlich, um LaTeX-Formeln in ein Format zu konvertieren, das leicht im Web angezeigt und verarbeitet werden kann.
+    Diese Funktion ist nützlich, um LaTeX-Formeln in ein Format zu konvertieren, das leicht im Web angezeigt und verarbeitet werden kann.
 
 6. Fehlerbehandlung: Ausnahmefälle, wie Zeichenketten, die nicht in MathML konvertiert werden können oder Zeichenketten, die nicht erkannte LaTeX-Befehle enthalten, werden separat behandelt. Dadurch wird sichergestellt, dass unser Programm eine Vielzahl von Eingabedaten ohne Absturz verarbeiten kann.
