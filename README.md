@@ -6,45 +6,10 @@ erstellen Sie ein allgemeingültiges Datenschema dafür. Das Schema sollte offen
 und seine Darstellung für Nicht-XML-Kundige verständlich sein. (Mittel: Excel-Zellenstruktur /
 Baumdiagramm / andere Visualisierungsform)
 
-- [ ] Anschaulichen Excel
-- - [x] die BIBTeX Einträge in einer Excel Tabelle darstellen
-- - [x] unnütze Klammern entfernen
-- - [ ] andere unnötige Zeichen entfernen
-- - [ ] Tabelle anschaulicher gestalten
-- - [ ] Fehler / Sonderfälle beheben
-- - - [ ] Sonderzeichen 
-- - - [ ] \o dänisch?
-- - - [ ] Zeile 515 Excel VINITI, Moscow, 1985
-- - - [ ] Zeile 1145 Excel Sept.~2003
-
 ### 2. Schritt
 Entwurf einer XML-Struktur, die den Entwurf des gesamten Datenschemas von BIBTeX in XML
 realisiert. (Ziel ist die Anzeige eines Literaturverzeichnisses im Stile einer mathematischen Zeitschrift,
 entsprechend deren Gepflogenheiten und Stilvorgaben, siehe Beispiele.)
-
-- [ ] XML
-- - [x] /bf zu bold
-- - [x] /it zu italic
-- - [x] \rm zu roman 
-- - [x] entferne () ums Jahr
-- - [x] entferne {}
-- - [] Sonderzeichen
-- - - [ ] automatische Lösung?
-- - - [x] deutsch
-- - - [x] dänisch
-- - - [x] französisch
-- - - [ ] spanisch
-- - - [x] kroatisch
-- - - [x] romänisch
-- - - [ ] Hochzeichen wie quadrat {${\rm L}^2$ Zeile 1644
-- - - [ ] \&amp; Und Zeichen? Zeile 1764
-- - - [x] \-n Anweisung für einen Zeilenumbruch von Latex? Zeile 183
-- - - [ ] $\$ mathematische funktion? 10547
-- - - [ ] {${\cal O}{\cal L}_p$ spaces} Zeile 2734
-
-
-- - [x] Sonderzeichen und Schriftart zur gleichen Zeit
-
 
 ### 3. Schritt
 Schreiben eines XSLT-Programmes, das den vorgegebenen Datenstrom (BiBTeX, XML_max) ausliest
@@ -64,15 +29,11 @@ Alternative 2: Benutzung des BIBTeX-Parsers Ihrer Kommilitonen (ohne Gewähr) un
 XSLT-Transformation des ausgegebenen XML-Stroms in die von Ihnen als sinnvoll erachtete XMLStruktur
 (z.B. xsltproc benutzen).
 
-- [ ] XSLT
-- - [ ] unnütze Klammern entfernen
-- - [ ] andere unnötige Zeichen entfernen
 
 ### 4. Schritt
 Erstellung einer Document Type Definition (DTD) für Ihr XML-Schema. Test der DTD an immer
 größeren Abschnitten der Beispielbibliothek.
 
-- [ ] DTD
 
 ### 5. Schritt
 Umsetzung der erarbeiteten DTD in eine XML-Schema-Definition (XSD) im Venetian Blind Design
@@ -80,7 +41,6 @@ unter Ausnutzung der sich ergebenden neuen Möglichkeiten. Test der XSD an immer
 der Beispielbibliothek. Verfeinerung der XSD je nach Notwendigkeit des angestrebten Projektziels.
 Zeitaufwand:
 
-- [ ] XSD
 
 ### 6. Schritt 
 CSS-Datei/-Implementation oder XSL-Datei erarbeiten, um das Ergebnis Ihrer Arbeit in einem
@@ -91,8 +51,6 @@ Als Darstellungsstil können Sie zwischen dem Stil der Zeitschrift für Analysis
 sich ein weiteres mathematisches Journal mit unterschiedlichem Stil der Quellenangaben. Diese Stile
 sind auf der Hausseite des Kurses DBS verlinkt. Der Stil der LNI ist nur zu Ihrer Information, wie
 flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden müssen.
-- [ ] CSS
-- [ ] zwei Webbrowser
 
 ### Abzugeben sind folgende Dateien: Mögliches Medium:
 
