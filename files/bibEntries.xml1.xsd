@@ -1,134 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="bibliography" type="bibliographyType"/>
-  <xs:complexType name="bibentryType">
-    <xs:choice maxOccurs="unbounded" minOccurs="0">
-      <xs:element name="type">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="phdthesis"/>
-            <xs:enumeration value="incollection"/>
-            <xs:enumeration value="mastersthesis"/>
-            <xs:enumeration value="inbook"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element type="xs:string" name="author"/>
-      <xs:element name="journal">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="title">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element ref="mat:math" maxOccurs="unbounded" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element type="xs:string" name="note"/>
-      <xs:element type="xs:string" name="publisher"/>
-      <xs:element type="xs:string" name="booktitle"/>
-      <xs:element type="xs:string" name="editor"/>
-      <xs:element type="xs:string" name="volume"/>
-      <xs:element type="xs:string" name="year"/>
-      <xs:element type="xs:string" name="school"/>
-      <xs:element name="howpublished">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element type="xs:string" name="series"/>
-      <xs:element name="organization">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="Joint Summer Research Conference, Univ. Washington, Seattle, Washington,
-                July 10-18, 1993
+  <xs:element name="bibliography">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="bibtitle"/>
+        <xs:element type="xs:string" name="author"/>
+        <xs:element name="bibentries">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bibentry" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="title">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element ref="mat:math" maxOccurs="unbounded" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="year"/>
+                    <xs:element type="xs:string" name="author"/>
+                    <xs:element type="xs:string" name="school"/>
+                    <xs:element name="type">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="phdthesis"/>
+                          <xs:enumeration value="incollection"/>
+                          <xs:enumeration value="mastersthesis"/>
+                          <xs:enumeration value="inbook"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="booktitle"/>
+                    <xs:element name="journal">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="note"/>
+                    <xs:element type="xs:string" name="editor"/>
+                    <xs:element type="xs:string" name="publisher"/>
+                    <xs:element type="xs:string" name="volume"/>
+                    <xs:element name="howpublished">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="series"/>
+                    <xs:element name="organization">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Joint Summer Research Conference, Univ. Washington, Seattle, Washington, July 10-18, 1993
             "/>
-            <xs:enumeration value="Proc. Postgraduate School and Conf., Dubrovnik, Nov. 10-17, 1993"/>
-            <xs:enumeration value="Proceedings of the Aegean Conference on Operator Algebras and
-                Applications, Phytagorio, Samos,
+                          <xs:enumeration value="Proc. Postgraduate School and Conf., Dubrovnik, Nov. 10-17, 1993"/>
+                          <xs:enumeration value="Proceedings of the Aegean Conference on Operator Algebras and Applications, Phytagorio, Samos,
                 Greece, Aug. 19-28, 1996
             "/>
-            <xs:enumeration value="Plenum, New York"/>
-            <xs:enumeration value="15th Port.-Span. Meeting Math., Evora/Port., 1990, v. II"/>
-            <xs:enumeration value="Proc. XIV. Workshop on Geometric Methods in Physics, Białowieża, Poland,
-                1995, Polish
-                Scientific Publishers, Warszaw
+                          <xs:enumeration value="Plenum, New York"/>
+                          <xs:enumeration value="15th Port.-Span. Meeting Math., Evora/Port., 1990, v. II"/>
+                          <xs:enumeration value="Proc. XIV. Workshop on Geometric Methods in Physics, Białowieża, Poland, 1995,
+                Polish Scientific Publishers, Warszaw
             "/>
-            <xs:enumeration value="Sommer Research Conference, Bruswick, July 23-29, 1988"/>
-            <xs:enumeration value="Accademia Nazionale dei Lincei, Rome, July 1-6, 1996"/>
-            <xs:enumeration value="SMF Journ. Annu., 1994, Soc. Math. France, 59 pp."/>
-            <xs:enumeration value="Voronesh. Gos. Univ."/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element name="number">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="no.3"/>
-            <xs:enumeration value="no. 1"/>
-            <xs:enumeration value="1"/>
-            <xs:enumeration value="4"/>
-            <xs:enumeration value="2"/>
-            <xs:enumeration value="6"/>
-            <xs:enumeration value="3"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element name="address">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="Basel-Boston-Stuttgart"/>
-            <xs:enumeration value="Voronesh USSR"/>
-            <xs:enumeration value="Baku USSR"/>
-            <xs:enumeration value="Moscow USSR"/>
-            <xs:enumeration value="Moscow State Univ., Mekh.-Mat. Fakulty, Moscow"/>
-            <xs:enumeration value="New York"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element name="pages">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="141-182"/>
-            <xs:enumeration value="305-307"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-    </xs:choice>
-    <xs:attribute type="xs:string" name="id" use="optional"/>
-    <xs:attribute type="xs:string" name="type" use="optional"/>
-  </xs:complexType>
-  <xs:complexType name="titleType" mixed="true">
-    <xs:sequence>
-      <xs:element ref="mat:math" maxOccurs="unbounded" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="howpublishedType" mixed="true">
-    <xs:sequence>
-      <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="journalType" mixed="true">
-    <xs:sequence>
-      <xs:element ref="mat:math" minOccurs="0" xmlns:mat="http://www.w3.org/1998/Math/MathML"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="bibentriesType">
-    <xs:sequence>
-      <xs:element type="bibentryType" name="bibentry" maxOccurs="unbounded" minOccurs="0"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="bibliographyType">
-    <xs:sequence>
-      <xs:element type="xs:string" name="title"/>
-      <xs:element type="xs:string" name="author"/>
-      <xs:element type="bibentriesType" name="bibentries"/>
-    </xs:sequence>
-  </xs:complexType>
+                          <xs:enumeration value="Sommer Research Conference, Bruswick, July 23-29, 1988"/>
+                          <xs:enumeration value="Accademia Nazionale dei Lincei, Rome, July 1-6, 1996"/>
+                          <xs:enumeration value="SMF Journ. Annu., 1994, Soc. Math. France, 59 pp."/>
+                          <xs:enumeration value="Voronesh. Gos. Univ."/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="number">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="no.3"/>
+                          <xs:enumeration value="no. 1"/>
+                          <xs:enumeration value="1"/>
+                          <xs:enumeration value="4"/>
+                          <xs:enumeration value="2"/>
+                          <xs:enumeration value="6"/>
+                          <xs:enumeration value="3"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="address">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Basel-Boston-Stuttgart"/>
+                          <xs:enumeration value="Voronesh USSR"/>
+                          <xs:enumeration value="Baku USSR"/>
+                          <xs:enumeration value="Moscow USSR"/>
+                          <xs:enumeration value="Moscow State Univ., Mekh.-Mat. Fakulty, Moscow"/>
+                          <xs:enumeration value="New York"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="pages">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="141-182"/>
+                          <xs:enumeration value="305-307"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:choice>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
