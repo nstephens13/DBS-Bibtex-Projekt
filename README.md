@@ -39,7 +39,6 @@ größeren Abschnitten der Beispielbibliothek.
 Umsetzung der erarbeiteten DTD in eine XML-Schema-Definition (XSD) im Venetian Blind Design
 unter Ausnutzung der sich ergebenden neuen Möglichkeiten. Test der XSD an immer größeren Abschnitten
 der Beispielbibliothek. Verfeinerung der XSD je nach Notwendigkeit des angestrebten Projektziels.
-Zeitaufwand:
 
 
 ### 6. Schritt 
@@ -78,7 +77,7 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 
 ## Fehlerbehebung
 
-Install dependecies by using `pip`:
+Install dependencies by using `pip`:
 ```sh
 pip install -r requirements.txt
 ```
