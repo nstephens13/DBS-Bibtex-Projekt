@@ -1,0 +1,43 @@
+<!DOCTYPE bibliography [
+        <!ELEMENT bibliography (bibtitle|author|bibentries)*>
+        <!ATTLIST bibliography
+                xmlns:ns0 CDATA #REQUIRED>
+        <!ELEMENT bibtitle (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT bibentries (bibentry)*>
+        <!ELEMENT bibentry (title|year|author|school|type|booktitle|note|editor|publisher|journal|volume|howpublished|series|organization|number|address|pages)*>
+        <!ATTLIST bibentry
+                id CDATA #REQUIRED
+                type CDATA #REQUIRED>
+        <!ELEMENT title (ns0:math)*>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT school (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT booktitle (#PCDATA)>
+        <!ELEMENT note (#PCDATA)>
+        <!ELEMENT editor (#PCDATA)>
+        <!ELEMENT publisher (#PCDATA)>
+        <!ELEMENT journal (ns0:math)*>
+        <!ELEMENT volume (#PCDATA)>
+        <!ELEMENT howpublished (ns0:math)*>
+        <!ELEMENT series (#PCDATA)>
+        <!ELEMENT organization (#PCDATA)>
+        <!ELEMENT ns0:math (ns0:mrow)*>
+        <!ATTLIST ns0:math
+                display CDATA #REQUIRED>
+        <!ELEMENT ns0:mrow (ns0:msup|ns0:mi|ns0:mo|ns0:msub|ns0:mn|ns0:mspace|ns0:msubsup)*>
+        <!ELEMENT ns0:msup (ns0:mi|ns0:mn|ns0:mo)*>
+        <!ELEMENT ns0:mi (#PCDATA)>
+        <!ATTLIST ns0:mi
+                mathvariant CDATA #IMPLIED>
+        <!ELEMENT ns0:mn (#PCDATA)>
+        <!ELEMENT ns0:mo (#PCDATA)>
+        <!ELEMENT ns0:msub (ns0:mi|ns0:mn|ns0:mo)*>
+        <!ELEMENT number (#PCDATA)>
+        <!ELEMENT address (#PCDATA)>
+        <!ELEMENT ns0:mspace (#PCDATA)>
+        <!ATTLIST ns0:mspace
+                width CDATA #REQUIRED>
+        <!ELEMENT pages (#PCDATA)>
+        <!ELEMENT ns0:msubsup (ns0:mi|ns0:mo)*>
+        ]>
