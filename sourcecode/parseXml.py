@@ -62,7 +62,7 @@ def replace_non_ascii_with_html_entities(filename):
     replace_chars(root)
 
     # Write the modified XML back to the file using the custom writer
-    write_with_xslt(tree, filename, "../files/bibEntries.xsl")
+    write_with_xslt(tree, filename, "../files/Project_BIB.xsl")
 
 
 def parse_xml(filename):
