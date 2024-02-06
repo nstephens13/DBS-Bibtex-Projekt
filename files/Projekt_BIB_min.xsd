@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="bibliography">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="bibtitle"/>
+                <xs:element ref="author"/>
+                <xs:element ref="bibentries"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="bibtitle" type="xs:string"/>
+    <xs:element name="bibentries">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="bibentry"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="bibentry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="author"/>
+                    <xs:element ref="booktitle"/>
+                    <xs:element ref="editor"/>
+                    <xs:element ref="journal"/>
+                    <xs:element ref="publisher"/>
+                    <xs:element ref="school"/>
+                    <xs:element ref="series"/>
+                    <xs:element ref="title"/>
+                    <xs:element ref="volume"/>
+                    <xs:element ref="year"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="type"/>
+                <xs:element minOccurs="0" ref="note"/>
+                <xs:element minOccurs="0" ref="number"/>
+                <xs:element minOccurs="0" ref="organization"/>
+                <xs:choice minOccurs="0">
+                    <xs:element ref="address"/>
+                    <xs:element ref="howpublished"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" use="required"/>
+            <xs:attribute name="type" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="booktitle" type="xs:string"/>
+    <xs:element name="editor" type="xs:string"/>
+    <xs:element name="journal" type="xs:string"/>
+    <xs:element name="publisher" type="xs:string"/>
+    <xs:element name="school" type="xs:string"/>
+    <xs:element name="series" type="xs:string"/>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="volume" type="xs:string"/>
+    <xs:element name="year" type="xs:string"/>
+    <xs:element name="type" type="xs:NCName"/>
+    <xs:element name="note" type="xs:string"/>
+    <xs:element name="number" type="xs:string"/>
+    <xs:element name="organization" type="xs:string"/>
+    <xs:element name="address" type="xs:string"/>
+    <xs:element name="howpublished" type="xs:string"/>
+    <xs:element name="author" type="xs:string"/>
+</xs:schema>
