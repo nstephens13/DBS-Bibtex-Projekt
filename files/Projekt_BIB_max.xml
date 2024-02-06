@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../files/Project_BIB.xsl"?>
 <bibliography>
-    <bibtitle>DBS Projekt BIB orginal</bibtitle>
+    <bibtitle>DBS Projekt BIB max</bibtitle>
     <author>Nived Stephen and Lukas Ruminski</author>
     <bibentries>
         <bibentry id="Abadie:92" type="phdthesis">
@@ -12,10 +12,10 @@
             <type>phdthesis</type>
         </bibentry>
         <bibentry id="Abadie:94" type="inproceedings">
-            <booktitle>Algebraic Methods in Operator Theory</booktitle>
+            <year>1994</year>
             <title>&#8221;Vector bundles&#8221; over quantum Heisenberg manifolds</title>
             <author>B. Abadie</author>
-            <year>1994</year>
+            <booktitle>Algebraic Methods in Operator Theory</booktitle>
             <editor>R. Curto and P. E. T. J&#248;rgensen</editor>
             <note>307-315</note>
             <publisher>Birkh&#228;user, Boston - Basel - Berlin</publisher>
@@ -63,29 +63,29 @@
             <volume>352</volume>
         </bibentry>
         <bibentry id="Accardi/Lu:92/2" type="incollection">
-            <booktitle>Probabilistic methods in mathematical physics Siena, 1991</booktitle>
+            <author>L. Accardi and Yun-Gang Lu</author>
             <year>1992</year>
             <title>On the weak coupling limit for quantum electrodynamics</title>
-            <author>L. Accardi and Yun-Gang Lu</author>
             <publisher>World Sci. Publ., River Edge, NJ</publisher>
+            <booktitle>Probabilistic methods in mathematical physics Siena, 1991</booktitle>
             <note>16-29</note>
             <type>incollection</type>
         </bibentry>
         <bibentry id="Accardi/Lu:92" type="incollection">
-            <booktitle>Quantum Probability and Related Topics</booktitle>
+            <author>L. Accardi and Yun-Gang Lu</author>
             <year>1992</year>
             <title>From the weak coupling limit to a new type of quantum stochastic calculus</title>
-            <author>L. Accardi and Yun-Gang Lu</author>
             <publisher>QP-PQ VII, World Sci. Publ., River Edge, NJ</publisher>
+            <booktitle>Quantum Probability and Related Topics</booktitle>
             <note>1-14</note>
             <type>incollection</type>
         </bibentry>
         <bibentry id="Accardi/Lu:93" type="incollection">
-            <booktitle>Quantum Probability and Related Topics</booktitle>
+            <author>L. Accardi and Yun-Gang Lu</author>
             <year>1993</year>
             <title>Wiener noise versus Wigner noise in quantum electrodynamics</title>
-            <author>L. Accardi and Yun-Gang Lu</author>
             <publisher>QP-PQ VIII, World Sci. Publ., River Edge, NJ</publisher>
+            <booktitle>Quantum Probability and Related Topics</booktitle>
             <note>1-18</note>
             <type>incollection</type>
         </bibentry>
@@ -212,10 +212,10 @@
             <volume>133</volume>
         </bibentry>
         <bibentry id="Applebaum:87" type="inproceedings">
-            <booktitle>Quantum Probability and Applications, III, Oberwolfach 1987</booktitle>
+            <year>1988</year>
             <title>Quantum stochastic parallel transport on non-commutative vector bundles</title>
             <author>D. Applebaum</author>
-            <year>1988</year>
+            <booktitle>Quantum Probability and Applications, III, Oberwolfach 1987</booktitle>
             <note>pp. 20-36</note>
             <publisher>Lecture Note Math. 1303 , Springer-Verlag, Berlin</publisher>
         </bibentry>
@@ -253,35 +253,35 @@
         </bibentry>
         <bibentry id="Ara/Mathieu:03" type="book">
             <year>2003</year>
+            <publisher>Springer-Verlag London, Ltd., London, UK</publisher>
             <title>Local Multipliers of C*-algebras</title>
             <author>P. Ara and M. Mathieu</author>
-            <publisher>Springer-Verlag London, Ltd., London, UK</publisher>
             <series>Springer Monographs in Mathematics</series>
         </bibentry>
         <bibentry id="Arambasic:04" type="misc">
+            <author>L. Aramba&#353;i&#263;</author>
             <year>2004</year>
             <title>Irreducible representations of Hilbert C*-modules</title>
             <howpublished>preprint, Univ. of Zagreb, Croatia, submitted to Proc. Royal Irish Acad. Ser. Math.
             </howpublished>
-            <author>L. Aramba&#353;i&#263;</author>
         </bibentry>
         <bibentry id="Arambasic:05" type="misc">
+            <author>L. Aramba&#353;i&#263;</author>
             <year>2005</year>
             <title>On frames for countably generated Hilbert C*-modules</title>
             <howpublished>preprint, Univ.&#160;of Zagreb, Zagreb, Croatia</howpublished>
-            <author>L. Aramba&#353;i&#263;</author>
         </bibentry>
         <bibentry id="Arambasic/Rajic:05" type="misc">
+            <author>L. Aramba&#353;i&#263; and R. Raji&#263;</author>
             <year>2005/2006</year>
             <title>On some norm equalities in pre-Hilbert C*-modules</title>
             <howpublished>preprint, Zagreb, Croatia, submitted to Linear Algebra Appl.</howpublished>
-            <author>L. Aramba&#353;i&#263; and R. Raji&#263;</author>
         </bibentry>
         <bibentry id="Arkhangel'skij:88" type="book">
             <year>1988</year>
+            <publisher>VINITI, Moscow</publisher>
             <title>General Topology - 2 russ.</title>
             <author>A. V. Arkhangel'skij</author>
-            <publisher>VINITI, Moscow</publisher>
             <series>Itogi nauki i tekhniki, Sovrem. probl. mat., fund. naprawl., v. 50</series>
         </bibentry>
         <bibentry id="Arveson:91" type="article">
@@ -359,15 +359,15 @@
             <volume>26</volume>
         </bibentry>
         <bibentry id="Bagchi:95" type="inproceedings">
-            <booktitle>Multivariable Operator Theory</booktitle>
+            <year>1995</year>
             <title>Homogeneous operators and systems of imprimitivity</title>
             <author>Bhaskar Bagchi</author>
-            <year>1995</year>
+            <booktitle>Multivariable Operator Theory</booktitle>
             <editor>R. E. Curto and R. G. Douglas and J. D. Pincus and N. Salinas</editor>
             <note>109-131</note>
+            <series>Contemp. Math. 185</series>
             <organization>Joint Summer Research Conference, Univ. Washington, Seattle, Washington, July 10-18, 1993
             </organization>
-            <series>Contemp. Math. 185</series>
         </bibentry>
         <bibentry id="Bagchi/Misra:95" type="article">
             <year>1995</year>
@@ -386,14 +386,14 @@
             <volume>66</volume>
         </bibentry>
         <bibentry id="Bakic:94" type="inproceedings">
-            <booktitle>Functional Analysis, IV</booktitle>
+            <year>1994</year>
             <title>Hilbert C*-modules over compact adjointable operators</title>
             <author>D. Baki&#263;</author>
-            <year>1994</year>
+            <booktitle>Functional Analysis, IV</booktitle>
             <editor>D. Butkovic and H. Kraljevic and G. Peskir</editor>
             <note>7-9</note>
-            <organization>Proc. Postgraduate School and Conf., Dubrovnik, Nov. 10-17, 1993</organization>
             <series>Aarhus Universitet, Matematisk Institut, Aarhus, Various Publ. Series 43, 278 pp.</series>
+            <organization>Proc. Postgraduate School and Conf., Dubrovnik, Nov. 10-17, 1993</organization>
         </bibentry>
         <bibentry id="Bakic/Guljas:01" type="article">
             <year>2001</year>
@@ -545,12 +545,12 @@
             <type>phdthesis</type>
         </bibentry>
         <bibentry id="Ben-Artzi/Gohberg:94" type="inproceedings">
+            <year>1994</year>
+            <title>Orthogonal polynomials over Hilbert modules</title>
+            <author>A. Ben-Artzi and I. Gohberg</author>
             <booktitle>Nonselfadjoint Operators and Related Topics. Workshop on Operator Theory and its Applications,
                 Beersheva, Israel, February 24-28, 1992
             </booktitle>
-            <title>Orthogonal polynomials over Hilbert modules</title>
-            <author>A. Ben-Artzi and I. Gohberg</author>
-            <year>1994</year>
             <editor>A. Feintuch et al.</editor>
             <note>96-126</note>
             <series>Basel, Birkh&#228;user-Verlag, Oper. Theory, Adv. Appl.</series>
@@ -590,16 +590,16 @@
         </bibentry>
         <bibentry id="Berberian:72" type="book">
             <year>1972</year>
+            <publisher>Berlin-Heidelberg-New York, Springer-Verlag</publisher>
             <title>Baer *-rings</title>
             <author>S. K. Berberian</author>
-            <publisher>Berlin-Heidelberg-New York, Springer-Verlag</publisher>
         </bibentry>
         <bibentry id="Bergmann/Conti:03" type="inproceedings">
-            <booktitle>Operator Algebras and Mathematical Physics: Conf. Proc., Constanta, Romania, July 2-7, 2001
-            </booktitle>
+            <year>2003</year>
             <title>On infinite tensor products of Hilbert C*-bimodules</title>
             <author>W. Bergmann and R. Conti</author>
-            <year>2003</year>
+            <booktitle>Operator Algebras and Mathematical Physics: Conf. Proc., Constanta, Romania, July 2-7, 2001
+            </booktitle>
             <editor>J.-M. Combes and J. Cuntz and G. A. Elliott and G. Nenciu and H. Siedentop and S. Stratila</editor>
             <note>23-34</note>
             <publisher>Theta Foundation, Bucharest</publisher>
@@ -662,9 +662,9 @@
         </bibentry>
         <bibentry id="Blackadar:86" type="book">
             <year>1986</year>
+            <publisher>Springer-Verlag, New York</publisher>
             <title>K-theory for Operator Algebras</title>
             <author>B. Blackadar</author>
-            <publisher>Springer-Verlag, New York</publisher>
         </bibentry>
         <bibentry id="Blanchard:93" type="phdthesis">
             <year>1993</year>
@@ -779,10 +779,10 @@
             <volume>136</volume>
         </bibentry>
         <bibentry id="Blecher:96/2" type="inproceedings">
-            <booktitle>Operator Algebras and Their Applications</booktitle>
+            <year>1996</year>
             <title>On selfdual Hilbert modules</title>
             <author>D. P. Blecher</author>
-            <year>1996</year>
+            <booktitle>Operator Algebras and Their Applications</booktitle>
             <editor>P. A. Fillmore and J. A. Mingo</editor>
             <note>65-80</note>
             <series>Fields Institute Communications</series>
@@ -797,17 +797,17 @@
             <volume>307</volume>
         </bibentry>
         <bibentry id="Blecher:97/2" type="inproceedings">
-            <booktitle>Operator Algebras and Applications</booktitle>
+            <year>1997</year>
             <title>Some general theory of operator algebras and their modules</title>
             <author>D. P. Blecher</author>
-            <year>1997</year>
+            <booktitle>Operator Algebras and Applications</booktitle>
             <editor>A. Katavolos</editor>
             <note>113-143</note>
+            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
+            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
             <organization>Proceedings of the Aegean Conference on Operator Algebras and Applications, Phytagorio, Samos,
                 Greece, Aug. 19-28, 1996
             </organization>
-            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
-            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
         </bibentry>
         <bibentry id="Blecher:97/3" type="article">
             <year>1997</year>
@@ -906,10 +906,10 @@
             <volume>2</volume>
         </bibentry>
         <bibentry id="Brackx/Delanghe/Sommen/VanAcker:93" type="inproceedings">
-            <booktitle>Generalized Functions and Their Applications Varanasi, 1991</booktitle>
+            <year>1993</year>
             <title>Reproducing kernels on the unit sphere</title>
             <author>F. Brackx and R. Delanghe and F. Sommen and N. Van&#160;Acker</author>
-            <year>1993</year>
+            <booktitle>Generalized Functions and Their Applications Varanasi, 1991</booktitle>
             <note>1-10</note>
             <organization>Plenum, New York</organization>
         </bibentry>
@@ -994,12 +994,12 @@
             <volume>3656</volume>
         </bibentry>
         <bibentry id="Brueckler:01/2" type="inproceedings">
+            <year>2001</year>
+            <title>On Blecher's characterization of Hilbert C*-modules</title>
+            <author>F. M. Br&#252;ckler</author>
             <booktitle>Functional Analysis VII, Proc. Postgraduate School and Conf., Inter-University Centre, Dubrovnik,
                 Croatia, 17-26 Sept., 2001
             </booktitle>
-            <title>On Blecher's characterization of Hilbert C*-modules</title>
-            <author>F. M. Br&#252;ckler</author>
-            <year>2001</year>
             <editor>D. Baki&#65533;c and P. Pand&#382;i&#65533;c and G. Peskir</editor>
             <note>97-103</note>
         </bibentry>
@@ -1058,11 +1058,11 @@
             <volume>6</volume>
         </bibentry>
         <bibentry id="Burghelea/Friedlander/Kappeler:99" type="inproceedings">
-            <booktitle>Tel Aviv Topology Conference: Rothenberg Festschrift 1998, Amer. Math. Soc., Providence, R. I.
-            </booktitle>
+            <year>1999</year>
             <title>Relative torsion for homotopy triangulations</title>
             <author>D. Burghelea and L. Friedlander and T. Kappeler</author>
-            <year>1999</year>
+            <booktitle>Tel Aviv Topology Conference: Rothenberg Festschrift 1998, Amer. Math. Soc., Providence, R. I.
+            </booktitle>
             <note>37-57</note>
             <series>Contemp. Math.</series>
             <volume>231</volume>
@@ -1179,20 +1179,20 @@
             <volume>129</volume>
         </bibentry>
         <bibentry id="Cabrera:91" type="inproceedings">
-            <booktitle>Analysis</booktitle>
+            <year>1991</year>
             <title>Hilbert modules on H*-algebras and applicationsspan.</title>
             <author>M. Cabrera&#160;Garc'&#305;a</author>
-            <year>1991</year>
+            <booktitle>Analysis</booktitle>
             <note>297-302</note>
             <organization>15th Port.-Span. Meeting Math., Evora/Port., 1990, v.&#160;II</organization>
         </bibentry>
         <bibentry id="Cabrera/Martinez/Rodriguez:92" type="inproceedings">
-            <booktitle>Nonassociative Algebraic Models</booktitle>
+            <year>1992</year>
             <title>Hilbert modules over H*-algebras in relation with Hilbert ternary rings</title>
             <author>M. Cabrera&#160;Garc'&#305;a and J. Mart'&#305;nez&#160;Moreno and A.
                 Rodr'&#305;guez&#160;Palacios
             </author>
-            <year>1992</year>
+            <booktitle>Nonassociative Algebraic Models</booktitle>
             <editor>S. Gonzales and Hyo&#160;Chul Myung</editor>
             <note>Proc. Workshop, Zaragoza, Spain, 1989, 33-44</note>
         </bibentry>
@@ -1267,10 +1267,10 @@
             <volume>128</volume>
         </bibentry>
         <bibentry id="Casazza/Lammers:03" type="inproceedings">
-            <booktitle>Advances in Gabor Analysis</booktitle>
+            <year>2003</year>
             <title>Bracket products for Weyl-Heisenberg frames</title>
             <author>P. G. Casazza and M. C. Lammers</author>
-            <year>2003</year>
+            <booktitle>Advances in Gabor Analysis</booktitle>
             <editor>H. G. Feichtinger and T. Strohmer</editor>
             <note>71-98</note>
             <publisher>Birkh&#228;user, Boston, Ma.</publisher>
@@ -1301,9 +1301,9 @@
         </bibentry>
         <bibentry id="Chen/Guo:03" type="book">
             <year>2003</year>
+            <publisher>Chapman &amp; Hall / CRC Press, Boca Raton, FL, USA</publisher>
             <title>Analytic Hilbert Modules ISBN 1-58488-399-5</title>
             <author>Xiaoman Chen and Kunyu Guo</author>
-            <publisher>Chapman &amp; Hall / CRC Press, Boca Raton, FL, USA</publisher>
         </bibentry>
         <bibentry id="Choi/Christensen:83" type="article">
             <year>1983</year>
@@ -1337,10 +1337,10 @@
             <type>phdthesis</type>
         </bibentry>
         <bibentry id="Cnops:92" type="inproceedings">
-            <booktitle>Clifford Algebras and Their Apllications in Mathematical Physics Montpellier, 1989</booktitle>
+            <year>1992</year>
             <title>A Gram-Schmidt method in Hilbert modules</title>
             <author>J. Cnops</author>
-            <year>1992</year>
+            <booktitle>Clifford Algebras and Their Apllications in Mathematical Physics Montpellier, 1989</booktitle>
             <note>193-203</note>
             <series>Fund. Theories Physics, Kluwer Acad. Publ., Dordrecht</series>
             <volume>47</volume>
@@ -1428,31 +1428,31 @@
         </bibentry>
         <bibentry id="Connes:90/2" type="book">
             <year>1990</year>
+            <publisher>InterEditions, Paris</publisher>
             <title>G&#233;om&#233;trie Non Commutative</title>
             <author>A. Connes</author>
-            <publisher>InterEditions, Paris</publisher>
         </bibentry>
         <bibentry id="Connes/Lott:92" type="inproceedings">
-            <booktitle>New symmetry principles in quantum field theory Carghese, 1991</booktitle>
+            <year>1992</year>
             <title>The metric aspects of commutative geometry</title>
             <author>A. Connes and J. Lott</author>
-            <year>1992</year>
+            <booktitle>New symmetry principles in quantum field theory Carghese, 1991</booktitle>
             <series>NATO Adv. Sci. Inst. Ser. B Phys.</series>
-            <volume>295</volume>
             <publisher>Plenum, New York</publisher>
+            <volume>295</volume>
         </bibentry>
         <bibentry id="Connes:94" type="book">
             <year>1994</year>
+            <publisher>Academic Press</publisher>
             <title>Noncommutative Geometry</title>
             <author>A. Connes</author>
-            <publisher>Academic Press</publisher>
         </bibentry>
         <bibentry id="Constantinescu:01" type="book">
             <year>2001</year>
-            <title>C*-algebras 5 volumes</title>
-            <author>C. Constantinescu</author>
             <publisher>North-Holland Publishing Co., Amsterdam, ISBN 0-444-50749-3/-50750-7/-50751-5/-50752-3/-50753-1
             </publisher>
+            <title>C*-algebras 5 volumes</title>
+            <author>C. Constantinescu</author>
             <series>North-Holland Mathematical Library v.58-62</series>
         </bibentry>
         <bibentry id="Crocker/Kumjian/Raeburn/Williams:97" type="article">
@@ -1528,18 +1528,18 @@
             <volume>23</volume>
         </bibentry>
         <bibentry id="Damir:94" type="incollection">
+            <author>B. Damir</author>
+            <year>1994</year>
+            <title>Hilbert C*-modules over compact adjointable operators</title>
+            <publisher>Aarhus University, Mat. Institut, Aarhus, Denmark</publisher>
             <booktitle>Functional Analysis IV, Proc. of the Postgraduate School and Conference, Inter-University Center
                 Dubrovnik, Croatia, Nov. 10-17, 1993
             </booktitle>
-            <year>1994</year>
-            <title>Hilbert C*-modules over compact adjointable operators</title>
-            <author>B. Damir</author>
-            <publisher>Aarhus University, Mat. Institut, Aarhus, Denmark</publisher>
             <editor>D. Butkovi&#263; et al.</editor>
             <note>7-9</note>
+            <type>incollection</type>
             <series>Var. Publ. Ser.</series>
             <volume>43</volume>
-            <type>incollection</type>
         </bibentry>
         <bibentry id="Daughtry/Lambert/Weinstock:97" type="article">
             <year>1997</year>
@@ -1558,11 +1558,11 @@
             <volume>190</volume>
         </bibentry>
         <bibentry id="Deaconu:00" type="incollection">
-            <booktitle>Operator-Theoretical Methods Timi&#351;oara, 1998</booktitle>
+            <author>V. Deaconu</author>
             <year>2000</year>
             <title>Continuous graphs and C*-algebras</title>
-            <author>V. Deaconu</author>
             <publisher>Theta Foundation, Bucharest</publisher>
+            <booktitle>Operator-Theoretical Methods Timi&#351;oara, 1998</booktitle>
             <note>137-149</note>
             <type>incollection</type>
         </bibentry>
@@ -1620,8 +1620,8 @@
             <author>R. Delanghe</author>
             <journal>Simon Stevin</journal>
             <note>201-209</note>
-            <volume>53</volume>
             <number>no.3</number>
+            <volume>53</volume>
         </bibentry>
         <bibentry id="Denizeau/Havet:94" type="article">
             <year>1994</year>
@@ -1632,10 +1632,10 @@
             <volume>32</volume>
         </bibentry>
         <bibentry id="Denizeau/Havet:95" type="inproceedings">
-            <booktitle>Topics in Operator Theory, Operator Algebras and Applications</booktitle>
+            <year>1995</year>
             <title>Correspondances d'indice fini II: Indice d'une correspondance</title>
             <author>Y. Denizeau and J.-F. Havet</author>
-            <year>1995</year>
+            <booktitle>Topics in Operator Theory, Operator Algebras and Applications</booktitle>
             <editor>A. Gheondea</editor>
             <note>49-79</note>
             <series>15th International Conference on Operator Theory, Timi&#351;oara, Romania, June 6-10, 1994,
@@ -1675,32 +1675,32 @@
             <volume>1</volume>
         </bibentry>
         <bibentry id="Douglas:86" type="inproceedings">
+            <year>1986</year>
+            <title>Hilbert modules over function algebras</title>
+            <author>R. G. Douglas</author>
             <booktitle>Advances in Invariant Subspaces and other Results of Operator Theory, 9th Int. Conf. Oper.
                 Theory, Timisoara and Herculane, Romania, 1984
             </booktitle>
-            <title>Hilbert modules over function algebras</title>
-            <author>R. G. Douglas</author>
-            <year>1986</year>
             <note>125-139</note>
             <series>Oper. Theory, Adv. Appl.</series>
             <volume>17</volume>
         </bibentry>
         <bibentry id="Douglas:88" type="inproceedings">
+            <year>1988</year>
+            <title>On Silov resolution of Hilbert modules</title>
+            <author>R. G. Douglas</author>
             <booktitle>Special Classes of Linear Operators and other Topics, 11. Int. Conf. Oper. Theory, Bucharest,
                 Romania, 1986
             </booktitle>
-            <title>On Silov resolution of Hilbert modules</title>
-            <author>R. G. Douglas</author>
-            <year>1988</year>
             <note>51-60</note>
             <series>Oper. Theory, Adv. Appl.</series>
             <volume>28</volume>
         </bibentry>
         <bibentry id="Douglas/Paulsen:89" type="book">
             <year>1989</year>
+            <publisher>Longman, New York</publisher>
             <title>Hilbert Modules over Function Algebras</title>
             <author>R. G. Douglas and V. I. Paulsen</author>
-            <publisher>Longman, New York</publisher>
             <series>Pitman Res. Notes Math. v.217</series>
         </bibentry>
         <bibentry id="Douglas/Paulsen/Yan:90" type="article">
@@ -1712,12 +1712,12 @@
             <volume>20</volume>
         </bibentry>
         <bibentry id="Douglas:90" type="inproceedings">
+            <year>1990</year>
+            <title>Invariants for Hilbert modules</title>
+            <author>R. G. Douglas</author>
             <booktitle>Operator Theory, Operator Algebras and Applications, Proc. Summer Res. Inst., Durham/NH, U.S.A.,
                 1988
             </booktitle>
-            <title>Invariants for Hilbert modules</title>
-            <author>R. G. Douglas</author>
-            <year>1990</year>
             <note>179-196</note>
             <series>Proc. Symp. Pure Math.</series>
             <volume>51, Pt.&#160;1</volume>
@@ -1755,22 +1755,22 @@
             <volume>117</volume>
         </bibentry>
         <bibentry id="Douglas:95" type="inproceedings">
-            <booktitle>Multivariable Operator Theory</booktitle>
+            <year>1995</year>
             <title>Models and resolutions for Hilbert modules</title>
             <author>R. G. Douglas</author>
-            <year>1995</year>
+            <booktitle>Multivariable Operator Theory</booktitle>
             <editor>R. E. Curto and R. G. Douglas and J. D. Pincus and N. Salinas</editor>
             <note>109-131</note>
+            <series>Contemp. Math. 185</series>
             <organization>Joint Summer Research Conference, Univ. Washington, Seattle, Washington, July 10-18, 1993
             </organization>
-            <series>Contemp. Math. 185</series>
         </bibentry>
         <bibentry id="Douglas/Misra/Varghese:01" type="inproceedings">
-            <booktitle>Systems, Approximation, Singular Integral Operators, and Related Topics Bordeaux, 2000
-            </booktitle>
+            <year>2001</year>
             <title>Some geometric invariants from resolutions of Hilbert modules</title>
             <author>R. G. Douglas and G. Misra and C. Varghese</author>
-            <year>2001</year>
+            <booktitle>Systems, Approximation, Singular Integral Operators, and Related Topics Bordeaux, 2000
+            </booktitle>
             <note>241-270</note>
             <series>Oper. Theory Adv. Appl. 129, Birkh&#228;user, Basel</series>
         </bibentry>
@@ -1813,21 +1813,21 @@
             <volume>22</volume>
         </bibentry>
         <bibentry id="Dupre/Fillmore:81" type="inproceedings">
+            <year>1981</year>
+            <title>Triviality theorems for Hilbert modules</title>
+            <author>M. J. Dupr&#233; and P. A. Fillmore</author>
             <booktitle>Topics in Modern Operator Theory, 5th International Conference on Operator Theory, Timi&#351;oara
                 and Herculane Romania, June 2-12, 1980
             </booktitle>
-            <title>Triviality theorems for Hilbert modules</title>
-            <author>M. J. Dupr&#233; and P. A. Fillmore</author>
-            <year>1981</year>
             <note>pp.71-79</note>
-            <address>Basel-Boston-Stuttgart</address>
             <publisher>Birkh&#228;user Verlag</publisher>
+            <address>Basel-Boston-Stuttgart</address>
         </bibentry>
         <bibentry id="Dupre/Gillette:83" type="book">
             <year>1983</year>
+            <publisher>Pitman, Boston - London - Melbourne</publisher>
             <title>Banach Bundles, Banach Modules and Automorphisms of C*-algebras</title>
             <author>M. J. Dupr&#233; and R. M. Gillette</author>
-            <publisher>Pitman, Boston - London - Melbourne</publisher>
             <series>Research Notes in Mathematics v. 92, Adv. Publ. Program</series>
         </bibentry>
         <bibentry id="Dykema/Shlyakhtenko:01" type="article">
@@ -2056,9 +2056,9 @@
         </bibentry>
         <bibentry id="Effros/Ruan:00" type="book">
             <year>2000</year>
+            <publisher>Oxford University Press, Oxford, England</publisher>
             <title>Operator Spaces in Quantized Functional Analysis and Operator Algebra Theory</title>
             <author>E. G. Effros and Zhong-Jin Ruan</author>
-            <publisher>Oxford University Press, Oxford, England</publisher>
         </bibentry>
         <bibentry id="Elliott:78" type="article">
             <year>1978</year>
@@ -2077,12 +2077,12 @@
             <volume>28</volume>
         </bibentry>
         <bibentry id="Elliott:84" type="inproceedings">
-            <booktitle>Operator Algebras and Group Representations, v. 1</booktitle>
+            <year>1984</year>
             <title>On the K-theory of the C*-algebra generated by a projective representation of a torsion free discrete
                 abelian group
             </title>
             <author>G. A. Elliott</author>
-            <year>1984</year>
+            <booktitle>Operator Algebras and Group Representations, v. 1</booktitle>
             <note>159-164</note>
             <publisher>Pitman, London</publisher>
         </bibentry>
@@ -2103,12 +2103,12 @@
             <volume>22</volume>
         </bibentry>
         <bibentry id="Ellis/Gohberg:01" type="inproceedings">
-            <booktitle>Operator Theory and Analysis, Amsterdam, 1997</booktitle>
+            <year>2001</year>
             <title>Extensions of matrix-valued inner products on modules and the inversion formula for block Toeplitz
                 matrices
             </title>
             <author>R. L. Ellis and I. Gohberg</author>
-            <year>2001</year>
+            <booktitle>Operator Theory and Analysis, Amsterdam, 1997</booktitle>
             <note>191-227</note>
             <series>Oper. Theory Adv. Appl. v.&#160;122</series>
             <publisher>Birkh&#228;user-Verlag, Basel</publisher>
@@ -2236,16 +2236,16 @@
         </bibentry>
         <bibentry id="Fell:77" type="book">
             <year>1977</year>
+            <publisher>Springer-Verlag, Berlin-Heidelberg-New York</publisher>
             <title>Induced Representations and Banach *-algebraic Bundles</title>
             <author>J. Fell</author>
-            <publisher>Springer-Verlag, Berlin-Heidelberg-New York</publisher>
             <series>Lecture Notes Math. v. 582</series>
         </bibentry>
         <bibentry id="Fell/Doran:88" type="book">
             <year>1988</year>
+            <publisher>Academic Press, Inc., Boston, Mass.</publisher>
             <title>Representation of *-algebras, Locally Compact Groups, and Banach *-algebraic Bundles, I+II</title>
             <author>J. M. G. Fell and R. S. Doran</author>
-            <publisher>Academic Press, Inc., Boston, Mass.</publisher>
             <series>Pure and Applied Mathematics, v. 125 and 126</series>
         </bibentry>
         <bibentry id="Ferguson:96" type="article">
@@ -2284,9 +2284,9 @@
         </bibentry>
         <bibentry id="Fillmore:96" type="book">
             <year>1996</year>
+            <publisher>Wiley, New York</publisher>
             <title>A users guide to operator algebras</title>
             <author>P. A. Fillmore</author>
-            <publisher>Wiley, New York</publisher>
             <series>Canad. Math. Soc. Monographs and Advanced Texts</series>
         </bibentry>
         <bibentry id="Fowler/Laca/Raeburn:99" type="article">
@@ -2353,11 +2353,11 @@
             <volume>108</volume>
         </bibentry>
         <bibentry id="Gekhtman:84" type="incollection">
-            <booktitle>Spectral Theory of Operators and Infinite Analysis, Collect. sci. works</booktitle>
+            <author>M. I. Gekhtman</author>
             <year>1984</year>
             <title>Hilbert modules and pseudo-Hilbert spaces, russian</title>
-            <author>M. I. Gekhtman</author>
             <publisher>Kiew, USSR</publisher>
+            <booktitle>Spectral Theory of Operators and Infinite Analysis, Collect. sci. works</booktitle>
             <note>57-65</note>
             <type>incollection</type>
         </bibentry>
@@ -2368,8 +2368,8 @@
             </title>
             <author>U. Gerecke and J. Lorenz</author>
             <school>Universit&#228;t Leipzig, Leipzig, F.R.G.</school>
-            <type>mastersthesis</type>
             <note>367 pp.</note>
+            <type>mastersthesis</type>
         </bibentry>
         <bibentry id="Germain:96" type="article">
             <year>1996</year>
@@ -2461,9 +2461,9 @@
         </bibentry>
         <bibentry id="Gracia-Bondia/Varilly/Figueroa:01" type="book">
             <year>2001</year>
+            <publisher>Birkh&#228;user, Boston, Ma.</publisher>
             <title>Elements of Noncommutative Geometry</title>
             <author>J. M. Gracia-Bond'&#305;a and J. C. V&#225;rilly and H. Figueroa</author>
-            <publisher>Birkh&#228;user, Boston, Ma.</publisher>
             <note>ISBN 0-8176-4124-6</note>
             <series>Birkh&#228;user Adv. Texts: Basler Lehrb&#252;cher</series>
         </bibentry>
@@ -2496,8 +2496,8 @@
             <title>Nichtkommutative Blochtheorie German</title>
             <author>M. J. Gruber</author>
             <school>Humboldt-Univ.&#160;zu Berlin, Berlin, Germany</school>
-            <type>phdthesis</type>
             <note>at mathematik.hu-berlin.de</note>
+            <type>phdthesis</type>
         </bibentry>
         <bibentry id="Gruber:00" type="article">
             <year>2000</year>
@@ -2611,22 +2611,22 @@
             <volume>105</volume>
         </bibentry>
         <bibentry id="Hamana:91" type="inproceedings">
+            <year>1991</year>
+            <title>Dynamical systems based on monotone complete C*-algebras</title>
+            <author>M. Hamana</author>
             <booktitle>Current Topics in Operator Algebras, Proc. of the Satellite Conference of ICM-90, Nara-ken New
                 Public Hall, Japan, 16.-18.8.90
             </booktitle>
-            <title>Dynamical systems based on monotone complete C*-algebras</title>
-            <author>M. Hamana</author>
-            <year>1991</year>
             <editor>H. Araki and H. Choda and Y. Nakagami and K. Sait&#244;</editor>
             <publisher>World Scientific, Singapore</publisher>
         </bibentry>
         <bibentry id="Hamana:91/2" type="inproceedings">
+            <year>1991</year>
+            <title>Dynamical systems based on monotone complete C*-algebras</title>
+            <author>M. Hamana</author>
             <booktitle>Current Topics in Operator Algebras Nara, 1990, p. 282-296, World Sci. Publishing, River Edge,
                 NJ
             </booktitle>
-            <title>Dynamical systems based on monotone complete C*-algebras</title>
-            <author>M. Hamana</author>
-            <year>1991</year>
         </bibentry>
         <bibentry id="Hamana:92" type="article">
             <year>1992</year>
@@ -2637,12 +2637,12 @@
             <volume>3</volume>
         </bibentry>
         <bibentry id="Hamana:92/2" type="inproceedings">
+            <year>1992</year>
+            <title>Injective envelopes of dynamical systems</title>
+            <author>M. Hamana</author>
             <booktitle>Operator Algebras and Operator Theory Craiova, 1989, p. 69-77, Pitman Res. notes Math. Ser., 271,
                 Longman Sci. Tech. Harlow
             </booktitle>
-            <title>Injective envelopes of dynamical systems</title>
-            <author>M. Hamana</author>
-            <year>1992</year>
         </bibentry>
         <bibentry id="Handelman:79" type="article">
             <year>1979</year>
@@ -2653,11 +2653,11 @@
             <volume>76</volume>
         </bibentry>
         <bibentry id="Handelman:79/2" type="incollection">
-            <booktitle>Adv. in Math., Suppl., Studies in Analysis no. 4</booktitle>
+            <author>D. Handelman</author>
             <year>1979</year>
             <title>Finite Rickart C*-algebras and their properties</title>
-            <author>D. Handelman</author>
             <publisher>Academic Press, Orlando, FL</publisher>
+            <booktitle>Adv. in Math., Suppl., Studies in Analysis no. 4</booktitle>
             <note>171-196</note>
             <type>incollection</type>
         </bibentry>
@@ -2746,8 +2746,8 @@
             <author>N. Higson</author>
             <journal>Adv. Math.</journal>
             <note>140pp.</note>
-            <volume>67</volume>
             <number>no. 1</number>
+            <volume>67</volume>
         </bibentry>
         <bibentry id="Higson:90" type="article">
             <year>1990</year>
@@ -2774,12 +2774,12 @@
             <volume>33</volume>
         </bibentry>
         <bibentry id="Hilsum:85" type="inproceedings">
+            <year>1985</year>
+            <title>Signature operator on Lipschitz manifolds and unbounded Kasparov bimodules</title>
+            <author>M. Hilsum</author>
             <booktitle>Lecture Notes Math. v. 1132, Operator Algebras and their Connections with Topology and Ergodic
                 Theory
             </booktitle>
-            <title>Signature operator on Lipschitz manifolds and unbounded Kasparov bimodules</title>
-            <author>M. Hilsum</author>
-            <year>1985</year>
             <editor>H. Araki and C. C. Moore and &#350;. Stratila and D. Voiculescu</editor>
             <note>pp. 254-288</note>
             <publisher>Springer-Verlag, Berlin</publisher>
@@ -2801,10 +2801,10 @@
             <volume>423</volume>
         </bibentry>
         <bibentry id="Hilsum:02" type="inproceedings">
-            <booktitle>Foliations: Geometry and Dynamics Warsaw, 2000</booktitle>
+            <year>2002</year>
             <title>Hilbert modules of foliated manifolds with boundary</title>
             <author>M. Hilsum</author>
-            <year>2002</year>
+            <booktitle>Foliations: Geometry and Dynamics Warsaw, 2000</booktitle>
             <note>315-332</note>
             <publisher>World Sci. Publishing, River Edge, NJ</publisher>
         </bibentry>
@@ -2888,11 +2888,11 @@
             <volume>132</volume>
         </bibentry>
         <bibentry id="Irmatov:88" type="inproceedings">
-            <booktitle>Selected Questions of Algebra, Geometry and Discrete Mathematics, Moscow, Russia, 40-43
-            </booktitle>
+            <year>1988</year>
             <title>On a topology in the space of Fredholm operators russ.</title>
             <author>A. A. Irmatov</author>
-            <year>1988</year>
+            <booktitle>Selected Questions of Algebra, Geometry and Discrete Mathematics, Moscow, Russia, 40-43
+            </booktitle>
         </bibentry>
         <bibentry id="Irmatov:89" type="article">
             <year>1989</year>
@@ -2909,14 +2909,14 @@
             <author>A. A. Irmatov</author>
             <journal>Uspekhi Mat. Nauk</journal>
             <note>173-174</note>
-            <volume>45</volume>
             <number>1</number>
+            <volume>45</volume>
         </bibentry>
         <bibentry id="Irmatov/Mishchenko:90" type="inproceedings">
-            <booktitle>Operator Algebras and Topology, Proc. of the OATE 2 Conf., Romania 1989</booktitle>
+            <year>1990</year>
             <title>Infinitesimal Fredholm structures on infinite-dimensional manifolds</title>
             <author>A. A. Irmatov and A. S. Mishchenko</author>
-            <year>1990</year>
+            <booktitle>Operator Algebras and Topology, Proc. of the OATE 2 Conf., Romania 1989</booktitle>
             <editor>W. B. Arveson and A. S. Mishchenko and M. Putinar and M. A. Rieffel and &#350;. Str&#259;til&#259;
             </editor>
             <note>45-81</note>
@@ -2933,9 +2933,9 @@
         </bibentry>
         <bibentry id="Istratescu:87" type="book">
             <year>1987</year>
+            <publisher>D. Reidel Publishing Company, Dordrecht - Boston - Lancaster - Tokyo</publisher>
             <title>Inner Product Structures, Theory and Applications</title>
             <author>V. I. Istr&#462;&#355;escu</author>
-            <publisher>D. Reidel Publishing Company, Dordrecht - Boston - Lancaster - Tokyo</publisher>
             <series>Mathematics and Its Applications v.25</series>
         </bibentry>
         <bibentry id="Itoh:80" type="article">
@@ -2964,9 +2964,9 @@
         </bibentry>
         <bibentry id="Jensen/Thomsen:91" type="book">
             <year>1991</year>
+            <publisher>Birkh&#228;user, Boston, Mass.</publisher>
             <title>Elements of KK-theory</title>
             <author>K. K. Jensen and K. Thomsen</author>
-            <publisher>Birkh&#228;user, Boston, Mass.</publisher>
             <series>Mathematics: Theory and Applications</series>
         </bibentry>
         <bibentry id="Jeong:93" type="article">
@@ -3228,9 +3228,9 @@
         </bibentry>
         <bibentry id="Kakihara:97" type="book">
             <year>1997</year>
+            <publisher>World Scientific Publ.&#160;Co., Inc., River Edge, NJ</publisher>
             <title>Multidimensional Second Order Stochastic Processes</title>
             <author>Y. Kakihara</author>
-            <publisher>World Scientific Publ.&#160;Co., Inc., River Edge, NJ</publisher>
             <series>Series on Multivariate Analysis, v.&#160;2</series>
         </bibentry>
         <bibentry id="Kaliszewski:94" type="phdthesis">
@@ -3445,20 +3445,20 @@
             <volume>145</volume>
         </bibentry>
         <bibentry id="Kasparov:95" type="inproceedings">
-            <booktitle>Novikov Conjectures, Index Theorems and Rigity</booktitle>
+            <year>1996</year>
             <title>K-theory, group C*-algebras, and higher signatures Conspectus - 1982</title>
             <author>G. G. Kasparov</author>
-            <year>1996</year>
+            <booktitle>Novikov Conjectures, Index Theorems and Rigity</booktitle>
             <editor>S. C. Ferry and A. Ranicki and J. Rosenberg</editor>
             <note>101-146</note>
             <series>London Math. Soc. Lecture Note Series 226</series>
             <volume>1</volume>
         </bibentry>
         <bibentry id="Katayama/Takehana:97" type="inproceedings">
-            <booktitle>Research in Bimodules and Quantum groups in Operator Algebras Japanese, Kyoto, 1997</booktitle>
+            <year>1997</year>
             <title>On automorphisms of generalized Cuntz algebras</title>
             <author>Y. Katayama and H. Takehana</author>
-            <year>1997</year>
+            <booktitle>Research in Bimodules and Quantum groups in Operator Algebras Japanese, Kyoto, 1997</booktitle>
             <note>81-93</note>
             <series>Surikaisekikenkyusho Kokyuroku</series>
             <volume>No.&#160;1003</volume>
@@ -3480,12 +3480,12 @@
             <volume>335</volume>
         </bibentry>
         <bibentry id="Katsura:03/2" type="inproceedings">
+            <year>2003</year>
+            <title>A construction of C*-algebras from C*-correspondences</title>
+            <author>T. Katsura</author>
             <booktitle>Advances in Quantum Dynamics South Hadley, MA, 2002, Amer. Math. Soc., Providence, R.I., Contemp.
                 Math. 335
             </booktitle>
-            <title>A construction of C*-algebras from C*-correspondences</title>
-            <author>T. Katsura</author>
-            <year>2003</year>
             <note>173-182</note>
         </bibentry>
         <bibentry id="Katsura:04/2" type="article">
@@ -3515,12 +3515,12 @@
             <volume>48</volume>
         </bibentry>
         <bibentry id="Khimshiashvili:92" type="inproceedings">
+            <year>1992</year>
+            <title>On homotopic structure of invertible singular operators</title>
+            <author>G. N. Khimshiashvili</author>
             <booktitle>Generalized Homologies and Homotopies. Collection of works in homology theory, 5. Tbilisi:
                 Metsniereba ISBN 5-520-00649-0
             </booktitle>
-            <title>On homotopic structure of invertible singular operators</title>
-            <author>G. N. Khimshiashvili</author>
-            <year>1992</year>
             <editor>G. S. Chogoshvili</editor>
             <note>78-91</note>
             <series>Tr. Tbilis. Mat. Inst. A. M. Razmadze</series>
@@ -3656,8 +3656,8 @@
             <title>Einige Grundz&#252;ge der Theorie der Hilbertmoduln</title>
             <author>A. Kokschal</author>
             <school>Univ. Leipzig</school>
-            <type>mastersthesis</type>
             <note>379 pp.</note>
+            <type>mastersthesis</type>
         </bibentry>
         <bibentry id="Kraus:03" type="article">
             <year>2003</year>
@@ -3756,10 +3756,10 @@
         </bibentry>
         <bibentry id="Kusraev:96" type="book">
             <year>1996</year>
-            <title>Boolean-valued analysis of involutive Banach algebras</title>
-            <author>A. G. Kusraev</author>
             <publisher>Severo-Osetinski&#301;; Gosudarstvenny&#301;; Universitet imeni K. L. Khetagurova, Vladikavkaz
             </publisher>
+            <title>Boolean-valued analysis of involutive Banach algebras</title>
+            <author>A. G. Kusraev</author>
         </bibentry>
         <bibentry id="Kustermans/vanDaele:97" type="article">
             <year>1997</year>
@@ -3845,16 +3845,16 @@
         </bibentry>
         <bibentry id="Lance:95" type="book">
             <year>1995</year>
+            <publisher>Cambridge University Press, Cambridge, England</publisher>
             <title>Hilbert C*-modules - a toolkit for operator algebraists</title>
             <author>E. C. Lance</author>
-            <publisher>Cambridge University Press, Cambridge, England</publisher>
             <series>London Mathematical Society Lecture Note Series 210</series>
         </bibentry>
         <bibentry id="Landi:97" type="book">
             <year>1997</year>
+            <publisher>Springer-Verlag, Berlin</publisher>
             <title>An introduction to noncommutative spaces and their geometry</title>
             <author>G. Landi</author>
-            <publisher>Springer-Verlag, Berlin</publisher>
         </bibentry>
         <bibentry id="Landsman:95" type="article">
             <year>1995</year>
@@ -3865,10 +3865,10 @@
             <volume>15 / 17</volume>
         </bibentry>
         <bibentry id="Landsman:98/0" type="inproceedings">
-            <booktitle>Quantization, Coherent States and Poisson Structures</booktitle>
+            <year>1998</year>
             <title>The quantization of constraint systems: from symplectic reduction to Rieffel induction</title>
             <author>N. P. Landsman</author>
-            <year>1998</year>
+            <booktitle>Quantization, Coherent States and Poisson Structures</booktitle>
             <editor>A. Strasburger and S. T. Ali and J.-P. Antoine and J.-P. Gazeau and A. Odzijewski</editor>
             <note>79-95</note>
             <organization>Proc. XIV. Workshop on Geometric Methods in Physics, Bia&#322;owie&#380;a, Poland, 1995,
@@ -3877,9 +3877,9 @@
         </bibentry>
         <bibentry id="Landsman:98/2" type="book">
             <year>1998</year>
+            <publisher>Springer-Verlag, New York</publisher>
             <title>Mathematical Topics between Classical and Quantum Mechanics</title>
             <author>N. P. Landsman</author>
-            <publisher>Springer-Verlag, New York</publisher>
             <series>Springer Monographs in Mathematics</series>
         </bibentry>
         <bibentry id="Landsman:00/3" type="article">
@@ -3891,10 +3891,10 @@
             <volume>54</volume>
         </bibentry>
         <bibentry id="Landsman:01/1" type="inproceedings">
-            <booktitle>Mathematical Physics in Mathematics and Physics Siena, 2000</booktitle>
+            <year>2001</year>
             <title>Bicategories of operator algebras and Poisson manifolds</title>
             <author>N. P. Landsman</author>
-            <year>2001</year>
+            <booktitle>Mathematical Physics in Mathematics and Physics Siena, 2000</booktitle>
             <note>271-286</note>
             <series>Fields Inst. Commun.</series>
             <volume>30</volume>
@@ -3920,8 +3920,8 @@
             <title>Aufbau einer Szeg&#246;-Theorie f&#252;r rationale Matrixfunktionen</title>
             <author>A. Lasarow</author>
             <school>Universit&#228;t Leipzig, Leipzig, Germany</school>
-            <type>phdthesis</type>
             <note>284 pp.</note>
+            <type>phdthesis</type>
         </bibentry>
         <bibentry id="Laurie/Power:97" type="article">
             <year>1997</year>
@@ -4024,8 +4024,8 @@
             <author>Huaxin Lin</author>
             <journal>Science in China Series A</journal>
             <note>2-13</note>
-            <volume>34</volume>
             <number>4</number>
+            <volume>34</volume>
         </bibentry>
         <bibentry id="Lin:92" type="article">
             <year>1992</year>
@@ -4052,10 +4052,10 @@
             <volume>14</volume>
         </bibentry>
         <bibentry id="Lin:94" type="inproceedings">
-            <booktitle>Algebraic Methods in Operator Theory</booktitle>
+            <year>1994</year>
             <title>The generalized Weyl - von Neumann theorem and C*-algebra extensions</title>
             <author>Huaxin Lin</author>
-            <year>1994</year>
+            <booktitle>Algebraic Methods in Operator Theory</booktitle>
             <editor>R. Curto and P. E. T. J&#248;rgensen</editor>
             <publisher>Birkh&#228;user, Boston - Basel - Berlin</publisher>
         </bibentry>
@@ -4144,9 +4144,9 @@
         </bibentry>
         <bibentry id="Luke/Mishchenko:98" type="book">
             <year>1998</year>
+            <publisher>Kluwer Academic Publ., Dordrecht, Netherlands</publisher>
             <title>Vector Bundles and Their Applications</title>
             <author>G. Luke and A. S. Mishchenko</author>
-            <publisher>Kluwer Academic Publ., Dordrecht, Netherlands</publisher>
         </bibentry>
         <bibentry id="Macho_Stadler/O'uchi:99" type="article">
             <year>1999</year>
@@ -4197,12 +4197,12 @@
             <volume>23</volume>
         </bibentry>
         <bibentry id="Magajna:97/3" type="inproceedings">
+            <year>1997</year>
+            <title>Hilbert modules and tensor products of operator spaces</title>
+            <author>B. Magajna</author>
             <booktitle>Linear Operators. Proceedings of the semester organized at the Stefan Banach International
                 Mathematical Center, Warsaw, Poland, Febr. 7 - May 15, 1994
             </booktitle>
-            <title>Hilbert modules and tensor products of operator spaces</title>
-            <author>B. Magajna</author>
-            <year>1997</year>
             <editor>J. Janas et al.</editor>
             <note>227-246</note>
             <publisher>Polish Academy of Sciences, Inst. of Mathematics, Banach Center Publ. 38</publisher>
@@ -4257,9 +4257,9 @@
         </bibentry>
         <bibentry id="Mallios:98" type="book">
             <year>1998</year>
+            <publisher>Kluwer Academic Publ., Dordrecht, Netherlands</publisher>
             <title>Geometry of Vector Sheaves, I and II</title>
             <author>A. Mallios</author>
-            <publisher>Kluwer Academic Publ., Dordrecht, Netherlands</publisher>
             <note>I, sect. IV.9</note>
         </bibentry>
         <bibentry id="Mansfield:91" type="article">
@@ -4277,8 +4277,8 @@
             <author>V. M. Manuilov</author>
             <journal>Uspekhi Mat. Nauk</journal>
             <note>159-160 / Russ. Math. Surv. 491994, no.&#160;2, 166-167</note>
-            <volume>49</volume>
             <number>2</number>
+            <volume>49</volume>
         </bibentry>
         <bibentry id="Manuilov:94/2" type="article">
             <year>1995</year>
@@ -4362,10 +4362,10 @@
             <volume>no. 5</volume>
         </bibentry>
         <bibentry id="Masani:59" type="inproceedings">
-            <booktitle>Probability and Statistics - The Harald Cram&#233;r Volume</booktitle>
+            <year>1959</year>
             <title>Cram&#233;rs theorem on monotone matrix-valued functions and the Wold decomposition</title>
             <author>P. R. Masani</author>
-            <year>1959</year>
+            <booktitle>Probability and Statistics - The Harald Cram&#233;r Volume</booktitle>
             <editor>U.&#160;Grenande</editor>
             <note>175-189</note>
             <publisher>Almquist &amp; Wiksell, Stockholm</publisher>
@@ -4388,10 +4388,10 @@
             <volume>107</volume>
         </bibentry>
         <bibentry id="Masani:66" type="inproceedings">
-            <booktitle>Multivariate Analysis, Proc. Int. Symp., Dayton, Ohio, June 1965</booktitle>
+            <year>1966</year>
             <title>Recent trends in multivariate prediction theory</title>
             <author>P. R. Masani</author>
-            <year>1966</year>
+            <booktitle>Multivariate Analysis, Proc. Int. Symp., Dayton, Ohio, June 1965</booktitle>
             <editor>P.&#160;R.&#160;Krishnaiah</editor>
             <note>351-382</note>
             <publisher>Academic Press, New York</publisher>
@@ -4444,8 +4444,8 @@
             </title>
             <author>M. I. Merklen&#160;Olivera</author>
             <school>Universidade de S&#227;o Paulo, Inst. Mat. Estat., Brasil</school>
-            <type>phdthesis</type>
             <note>math.OA/0309464 at www.arxiv.org</note>
+            <type>phdthesis</type>
         </bibentry>
         <bibentry id="Meyer:00/2" type="article">
             <year>2000</year>
@@ -4542,8 +4542,8 @@
             <author>A. S. Mishchenko</author>
             <journal>Uspekhi Mat. Nauk</journal>
             <note>67-79 / Russ. Math. Surv. 341979, no. 6, 77-91</note>
-            <volume>34</volume>
             <number>6</number>
+            <volume>34</volume>
         </bibentry>
         <bibentry id="Mishchenko:79/3" type="article">
             <year>1979</year>
@@ -4579,9 +4579,9 @@
         </bibentry>
         <bibentry id="Mishchenko:84/2" type="book">
             <year>1984</year>
+            <publisher>Nauka, Moscow, USSR</publisher>
             <title>Vector Bundles and their Applications russ.</title>
             <author>A. S. Mishchenko</author>
-            <publisher>Nauka, Moscow, USSR</publisher>
         </bibentry>
         <bibentry id="Mishchenko/Filippov:89" type="article">
             <year>1989</year>
@@ -4693,9 +4693,9 @@
         </bibentry>
         <bibentry id="Moore/Schochet:88" type="book">
             <year>1988</year>
+            <publisher>Springer-Verlag, New York</publisher>
             <title>Global Analysis and Foliated Spaces</title>
             <author>C. C. Moore and C. Schochet</author>
-            <publisher>Springer-Verlag, New York</publisher>
             <series>Math. Sciences Research Institut Publication, no. 9</series>
         </bibentry>
         <bibentry id="Mori:88" type="article">
@@ -4723,10 +4723,10 @@
             <volume>24</volume>
         </bibentry>
         <bibentry id="Moslehian:03" type="inproceedings">
-            <booktitle>Proceedings of the First Workshop on C*-algebras Mashhad, Iran, 2001</booktitle>
+            <year>2003</year>
             <title>On Hilbert C*-modules</title>
             <author>M. S. Moslehian</author>
-            <year>2003</year>
+            <booktitle>Proceedings of the First Workshop on C*-algebras Mashhad, Iran, 2001</booktitle>
             <note>29-38</note>
             <publisher>Ferdowsi University of Mashhad, Mashhad, Iran</publisher>
         </bibentry>
@@ -4762,17 +4762,17 @@
             <volume>559</volume>
         </bibentry>
         <bibentry id="Muhly:97" type="inproceedings">
-            <booktitle>Operator Algebras and Applications</booktitle>
+            <year>1997</year>
             <title>A finite dimensional introduction to operator algebra</title>
             <author>P. S. Muhly</author>
-            <year>1997</year>
+            <booktitle>Operator Algebras and Applications</booktitle>
             <editor>A. Katavolos</editor>
             <note>313-354</note>
+            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
+            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
             <organization>Proceedings of the Aegean Conference on Operator Algebras and Applications, Phytagorio, Samos,
                 Greece, Aug. 19-28, 1996
             </organization>
-            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
-            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
         </bibentry>
         <bibentry id="Muhly/Solel:98/1" type="article">
             <year>1998</year>
@@ -5230,35 +5230,35 @@
             <volume>40</volume>
         </bibentry>
         <bibentry id="Paseka:99" type="inproceedings">
-            <booktitle>Proceedings of the Eight Conference on Category Theory and Computer Science</booktitle>
+            <year>1999</year>
             <title>Hilbert Q-modules and nuclear ideals</title>
             <author>J. Paseka</author>
-            <year>1999</year>
+            <booktitle>Proceedings of the Eight Conference on Category Theory and Computer Science</booktitle>
             <note>319-338</note>
             <publisher>Electronic Notes in Computer Science 24</publisher>
         </bibentry>
         <bibentry id="Paseka:99/2" type="inproceedings">
-            <booktitle>Contributions to General Algebra, 12 Vienna, 1999</booktitle>
+            <year>2000</year>
             <title>Hermitian kernels, Hilbert Q-modules and Ando dilation</title>
             <author>J. Paseka</author>
-            <year>2000</year>
+            <booktitle>Contributions to General Algebra, 12 Vienna, 1999</booktitle>
             <note>317-335</note>
             <publisher>Heyn-Verlag, Klagenfurt</publisher>
         </bibentry>
         <bibentry id="Paseka:01/1" type="inproceedings">
-            <booktitle>Contributions to General Algebra, v.&#160;13 Velk&#233; Karlovice, 1999 / Dresden, 2000
-            </booktitle>
+            <year>2001</year>
             <title>Interior tensor product of Hilbert modules</title>
             <author>J. Paseka</author>
-            <year>2001</year>
+            <booktitle>Contributions to General Algebra, v.&#160;13 Velk&#233; Karlovice, 1999 / Dresden, 2000
+            </booktitle>
             <note>253-263</note>
             <publisher>Heyn-Verlag, Klagenfurt</publisher>
         </bibentry>
         <bibentry id="Paseka:02" type="inproceedings">
-            <booktitle>Proc. Ninth Prague Topological Symp. Prague, 2001</booktitle>
+            <year>2002</year>
             <title>Morita equivalence in the context of Hilbert modules</title>
             <author>J. Paseka</author>
-            <year>2002</year>
+            <booktitle>Proc. Ninth Prague Topological Symp. Prague, 2001</booktitle>
             <note>223-251</note>
         </bibentry>
         <bibentry id="Pask/Raeburn:01" type="article">
@@ -5271,9 +5271,9 @@
         </bibentry>
         <bibentry id="Paulsen:86" type="book">
             <year>1986</year>
+            <publisher>Pitman Research Notes in Math., Longman, London</publisher>
             <title>Completely Bounded Maps and Dilations</title>
             <author>V. I. Paulsen</author>
-            <publisher>Pitman Research Notes in Math., Longman, London</publisher>
         </bibentry>
         <bibentry id="Paulsen/Smith:87" type="article">
             <year>1987</year>
@@ -5300,17 +5300,17 @@
             <volume>109</volume>
         </bibentry>
         <bibentry id="Paulsen:97" type="inproceedings">
-            <booktitle>Operator Algebras and Applications</booktitle>
+            <year>1997</year>
             <title>Relative Yoneda cohomology for operator spaces</title>
             <author>V. I. Paulsen</author>
-            <year>1997</year>
+            <booktitle>Operator Algebras and Applications</booktitle>
             <editor>A. Katavolos</editor>
             <note>358-393</note>
+            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
+            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
             <organization>Proceedings of the Aegean Conference on Operator Algebras and Applications, Phytagorio, Samos,
                 Greece, Aug. 19-28, 1996
             </organization>
-            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
-            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
         </bibentry>
         <bibentry id="Paulsen:97/2" type="article">
             <year>1997</year>
@@ -5394,9 +5394,9 @@
         </bibentry>
         <bibentry id="Phillips:89" type="book">
             <year>1989</year>
+            <publisher>Longman, London - New York</publisher>
             <title>Equivariant K-theory for Proper Actions</title>
             <author>N. C. Phillips</author>
-            <publisher>Longman, London - New York</publisher>
             <series>Pitman Res. Notes Math., v. 178</series>
         </bibentry>
         <bibentry id="Phillips/Weaver:98" type="article">
@@ -5424,16 +5424,16 @@
             <volume>332</volume>
         </bibentry>
         <bibentry id="Pinzari:97" type="inproceedings">
-            <booktitle>Operator Algebras and Quantum Field Theory</booktitle>
+            <year>1997</year>
             <title>The ideal structure of Cuntz-Krieger-Pimsner algebras and Cuntz-Krieger algebras over infinite
                 matrices
             </title>
             <author>C. Pinzari</author>
-            <year>1997</year>
+            <booktitle>Operator Algebras and Quantum Field Theory</booktitle>
             <editor>S. Doplicher and R. Longo and J. E. Roberts and L. Zsido</editor>
             <note>136-150</note>
-            <organization>Accademia Nazionale dei Lincei, Rome, July 1-6, 1996</organization>
             <publisher>International Press</publisher>
+            <organization>Accademia Nazionale dei Lincei, Rome, July 1-6, 1996</organization>
         </bibentry>
         <bibentry id="Pisier:90" type="article">
             <year>1990</year>
@@ -5444,11 +5444,11 @@
             <volume>39</volume>
         </bibentry>
         <bibentry id="Pisier:94" type="inproceedings">
-            <booktitle>Espaces de Banach classiques et quantiques</booktitle>
+            <year>1994</year>
             <title>Espaces de Banach quantiques: une introduction &#224; la th&#233;orie des espaces d'operateurs
             </title>
             <author>G. Pisier</author>
-            <year>1994</year>
+            <booktitle>Espaces de Banach classiques et quantiques</booktitle>
             <organization>SMF Journ. Annu., 1994, Soc. Math. France, 59 pp.</organization>
         </bibentry>
         <bibentry id="Pisier:95/2" type="article">
@@ -5505,10 +5505,10 @@
             <volume>19</volume>
         </bibentry>
         <bibentry id="Pimsner:97" type="inproceedings">
-            <booktitle>Free Probability Theory Waterloo, ON, 1995</booktitle>
+            <year>1997</year>
             <title>A class of C*-algebras generalizing both Cuntz-Krieger algebras and crossed products by Z</title>
             <author>M. V. Pimsner</author>
-            <year>1997</year>
+            <booktitle>Free Probability Theory Waterloo, ON, 1995</booktitle>
             <editor>D.-V. Voiculescu</editor>
             <note>189-212</note>
             <series>Fields Institute Communications</series>
@@ -5810,8 +5810,8 @@
             <author>M. A. Rieffel</author>
             <journal>Proc. Symp. Pure Math. Amer. Math. Soc.</journal>
             <note>285-298</note>
-            <volume>38</volume>
             <number>1</number>
+            <volume>38</volume>
         </bibentry>
         <bibentry id="Rieffel:82/2" type="article">
             <year>1982</year>
@@ -5819,8 +5819,8 @@
             <author>M. A. Rieffel</author>
             <journal>Proc. Symp. Pure Math. Amer. Math. Soc.</journal>
             <note>299-310</note>
-            <volume>38</volume>
             <number>1</number>
+            <volume>38</volume>
         </bibentry>
         <bibentry id="Rieffel:83/1" type="article">
             <year>1983</year>
@@ -5887,15 +5887,15 @@
             <volume>31</volume>
         </bibentry>
         <bibentry id="Rieffel:91" type="inbook">
-            <year>1991</year>
-            <title>Proper Actions of Groups on C*-algebras</title>
-            <pages>141-182</pages>
             <author>M. A. Rieffel</author>
+            <year>1991</year>
+            <pages>141-182</pages>
+            <title>Proper Actions of Groups on C*-algebras</title>
             <publisher>Mappings of Operator Algebras, ed.: H. Araki, R. V. Kadison, Birkh&#228;user-Verlag, Boston-
                 Basel - Berlin
             </publisher>
-            <series>PM v. 84</series>
             <type>inbook</type>
+            <series>PM v. 84</series>
         </bibentry>
         <bibentry id="Rieffel/Schwarz:99" type="article">
             <year>1999</year>
@@ -6060,15 +6060,15 @@
             <volume>40</volume>
         </bibentry>
         <bibentry id="Saito/Wright:91" type="inbook">
-            <year>1991</year>
-            <title>Normal AW*-algebras</title>
-            <pages>305-307</pages>
             <author>K. Sait&#244; and J. D. M. Wright</author>
+            <year>1991</year>
+            <pages>305-307</pages>
+            <title>Normal AW*-algebras</title>
             <publisher>Mappings in Operator Algebras, ed.: H. Araki, R. V. Kadison, Birkh&#228;user-Verlag, Boston -
                 Basel - Berlin
             </publisher>
-            <series>Progr. Math. v. 84</series>
             <type>inbook</type>
+            <series>Progr. Math. v. 84</series>
         </bibentry>
         <bibentry id="Saito/Wright:91/2" type="article">
             <year>1991</year>
@@ -6143,10 +6143,10 @@
             <volume>8</volume>
         </bibentry>
         <bibentry id="Salinas:88" type="inproceedings">
-            <booktitle>Topics in Operator Theory</booktitle>
+            <year>1988</year>
             <title>Products of kernel functions and module tensor products</title>
             <author>N. Salinas</author>
-            <year>1988</year>
+            <booktitle>Topics in Operator Theory</booktitle>
             <editor>Birkh&#228;user, Basel-Boston, MA</editor>
             <note>219-241</note>
             <series>Oper. Theory: Adv. Appl.</series>
@@ -6217,10 +6217,10 @@
             <volume>270</volume>
         </bibentry>
         <bibentry id="Saworotnow:83" type="inproceedings">
-            <booktitle>Prediction Theory and Harmonic Analysis, The Pesi Masani volume</booktitle>
+            <year>1983</year>
             <title>Generalized positive definite functions and stationary processes</title>
             <author>P. P. Saworotnow</author>
-            <year>1983</year>
+            <booktitle>Prediction Theory and Harmonic Analysis, The Pesi Masani volume</booktitle>
             <editor>V. Mandrekar and H. Salehi</editor>
             <note>329-344</note>
             <publisher>North-Holland Publishing Comp., Amsterdam</publisher>
@@ -6242,10 +6242,10 @@
             <volume>2646</volume>
         </bibentry>
         <bibentry id="Saworotnow:97" type="inproceedings">
-            <booktitle>Inner Product Spaces and Applications</booktitle>
+            <year>1997</year>
             <title>Hilbert Algebras and Hilbert modules</title>
             <author>P. P. Saworotnow</author>
-            <year>1997</year>
+            <booktitle>Inner Product Spaces and Applications</booktitle>
             <note>241-260</note>
             <series>Pitman Res. Notes Math. Ser., 376</series>
             <publisher>Longman, Harlow</publisher>
@@ -6268,9 +6268,9 @@
         </bibentry>
         <bibentry id="Schroeder:93" type="book">
             <year>1993</year>
+            <publisher>Longman Scientific &amp; Technical, Harlow, England</publisher>
             <title>K-theory for Real C*-algebras and Applications</title>
             <author>H. Schr&#246;der</author>
-            <publisher>Longman Scientific &amp; Technical, Harlow, England</publisher>
             <series>Pitman Res. Notes in Math. Sci.</series>
             <volume>290</volume>
         </bibentry>
@@ -6287,8 +6287,8 @@
             <title>Interplay between noncommutative topology and operators on C*-algebras</title>
             <author>J. Schweizer</author>
             <school>Eberhard-Karls-Universit&#228;t T&#252;bingen, Mathematische Fakult&#228;t</school>
-            <type>phdthesis</type>
             <note>104 pp.</note>
+            <type>phdthesis</type>
         </bibentry>
         <bibentry id="Schweizer:99" type="article">
             <year>1999</year>
@@ -6299,12 +6299,12 @@
             <volume>127</volume>
         </bibentry>
         <bibentry id="Schweizer:00" type="inproceedings">
+            <year>2000</year>
+            <title>Crossed products by C*-correspondences and Cuntz-Pimsner algebras</title>
+            <author>J. Schweizer</author>
             <booktitle>C*-Algebras: Proceedings of the SFB-Workshop on C*-Algebras, M&#252;nster, Germany, March 8-12,
                 1999
             </booktitle>
-            <title>Crossed products by C*-correspondences and Cuntz-Pimsner algebras</title>
-            <author>J. Schweizer</author>
-            <year>2000</year>
             <editor>J. Cuntz and S. Echterhoff</editor>
             <note>203-226</note>
             <publisher>Springer, Berlin - Heidelberg</publisher>
@@ -6357,18 +6357,18 @@
             <volume>no. 1</volume>
         </bibentry>
         <bibentry id="Sharipov/Zhuraev:86" type="inproceedings">
-            <booktitle>Problems in Mathematical Analysis and its Applications</booktitle>
+            <year>1986</year>
             <title>On the index of a Fredholm operator in a Hilbert C*-module russ.</title>
             <author>F. Sharipov and Yu. I. Zhuraev</author>
-            <year>1986</year>
+            <booktitle>Problems in Mathematical Analysis and its Applications</booktitle>
             <note>pp. 37-41</note>
             <publisher>Gos. Univ. Samarkand, USSR</publisher>
         </bibentry>
         <bibentry id="Sharipov/Zhuraev:88" type="inproceedings">
-            <booktitle>Problems in Multidimensional Differential Geometry and its Applications</booktitle>
+            <year>1988</year>
             <title>Index of elliptic operators over a C*-algebra russ.</title>
             <author>F. Sharipov and Yu. I. Zhuraev</author>
-            <year>1988</year>
+            <booktitle>Problems in Multidimensional Differential Geometry and its Applications</booktitle>
             <note>pp. 47-52</note>
             <publisher>Gos. Univ. Samarkand, USSR</publisher>
         </bibentry>
@@ -6462,10 +6462,10 @@
             <volume>9</volume>
         </bibentry>
         <bibentry id="Skandalis:94" type="inproceedings">
-            <booktitle>Proc. Int. Congress of Mathematicians, Kyoto</booktitle>
+            <year>1994</year>
             <title>Operator algebras and duality</title>
             <author>G. Skandalis</author>
-            <year>1994</year>
+            <booktitle>Proc. Int. Congress of Mathematicians, Kyoto</booktitle>
         </bibentry>
         <bibentry id="Skeide:98" type="article">
             <year>1998</year>
@@ -6508,22 +6508,22 @@
             <volume>71</volume>
         </bibentry>
         <bibentry id="Skeide:03/2" type="inproceedings">
+            <year>2003</year>
+            <title>A note on Bose Z-independent random variables fulfilling q-commutative relations</title>
+            <author>M. Skeide</author>
             <booktitle>Quantum Probability and Infinite Dimensional Analysis Burg, 2001, QP-PQ: Quantum Probability
                 White Noise Anal. 15
             </booktitle>
-            <title>A note on Bose Z-independent random variables fulfilling q-commutative relations</title>
-            <author>M. Skeide</author>
-            <year>2003</year>
             <note>205-214</note>
             <publisher>World Sci. Publishing, River Edge, NJ, USA</publisher>
         </bibentry>
         <bibentry id="Skeide:03/3" type="inproceedings">
+            <year>2003</year>
+            <title>Dilation theory and continuous tensor product systems of Hilbert modules</title>
+            <author>M. Skeide</author>
             <booktitle>Quantum Probability and Infinite Dimensional Analysis Burg, 2001, QP-PQ: Quantum Probability
                 White Noise Anal. 15
             </booktitle>
-            <title>Dilation theory and continuous tensor product systems of Hilbert modules</title>
-            <author>M. Skeide</author>
-            <year>2003</year>
             <note>215-242</note>
             <publisher>World Sci. Publishing, River Edge, NJ, USA</publisher>
         </bibentry>
@@ -6568,17 +6568,17 @@
             <volume>24</volume>
         </bibentry>
         <bibentry id="Solel:97" type="inproceedings">
-            <booktitle>Operator Algebras and Applications</booktitle>
+            <year>1997</year>
             <title>Operator algebras over C*-correspondences</title>
             <author>B. Solel</author>
-            <year>1997</year>
+            <booktitle>Operator Algebras and Applications</booktitle>
             <editor>A. Katavolos</editor>
             <note>429-448</note>
+            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
+            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
             <organization>Proceedings of the Aegean Conference on Operator Algebras and Applications, Phytagorio, Samos,
                 Greece, Aug. 19-28, 1996
             </organization>
-            <series>NATO Advanced Study Institutes Series C: Mathematical and Physical Sciences</series>
-            <publisher>Kluwer Academic Publishers, Dordrecht</publisher>
         </bibentry>
         <bibentry id="Solel:01" type="article">
             <year>2001</year>
@@ -6590,11 +6590,11 @@
         </bibentry>
         <bibentry id="Solovyov/Troitsky:96" type="book">
             <year>1996</year>
-            <title>C*-algebras and Elliptic Operators in Differential Topology Russian/English</title>
-            <author>Yu. P. Solovyov and E. V. Tro&#305;&#779;tsky</author>
             <publisher>Faktorial, Moscow, ISBN 5-88688-009-7, 352 p.&#160;/ revised: Transl. Math. Monographs 192, ISBN
                 0-8218-1399-4, Amer. Math. Soc., Providence, R.I., 2001
             </publisher>
+            <title>C*-algebras and Elliptic Operators in Differential Topology Russian/English</title>
+            <author>Yu. P. Solovyov and E. V. Tro&#305;&#779;tsky</author>
         </bibentry>
         <bibentry id="Speicher:98" type="article">
             <year>1998</year>
@@ -6671,10 +6671,10 @@
             <volume>230</volume>
         </bibentry>
         <bibentry id="Swan:87" type="inproceedings">
-            <booktitle>Algebraic Topology and Algebraic K-theory</booktitle>
+            <year>1987</year>
             <title>Vector bundles, projective modules and the K-theory of spheres</title>
             <author>R. G. Swan</author>
-            <year>1987</year>
+            <booktitle>Algebraic Topology and Algebraic K-theory</booktitle>
             <note>Ann. of Math. Stud. v.113, pp. 432-522</note>
             <publisher>Princeton Univ. Press, Princeton, NJ</publisher>
         </bibentry>
@@ -6773,16 +6773,16 @@
         </bibentry>
         <bibentry id="Thomsen:88" type="book">
             <year>1988</year>
+            <publisher>Aarhus Universitet, Matematisk Institut, Aarhus</publisher>
             <title>Hilbert C*-modules, KK-theory and C*-extensions</title>
             <author>K. Thomsen</author>
-            <publisher>Aarhus Universitet, Matematisk Institut, Aarhus</publisher>
             <series>Various Publications Series v.38</series>
         </bibentry>
         <bibentry id="Tomiyama:87" type="book">
             <year>1987</year>
+            <publisher>World Scientific, Singapore</publisher>
             <title>Invitation to C*-algebras and Topological Dynamics</title>
             <author>J. Tomiyama</author>
-            <publisher>World Scientific, Singapore</publisher>
         </bibentry>
         <bibentry id="Trofimov:86" type="article">
             <year>1986</year>
@@ -6795,14 +6795,14 @@
             <volume>no.5</volume>
         </bibentry>
         <bibentry id="Trofimov:87/1" type="inproceedings">
-            <booktitle>Geometry and the Theory of Singularities in Nonlinear Equations</booktitle>
+            <year>1987</year>
             <title>Reflexivity of Hilbert modules over splittable extensions of the algebra of compact operators russ.
             </title>
             <author>V. A. Trofimov</author>
-            <year>1987</year>
+            <booktitle>Geometry and the Theory of Singularities in Nonlinear Equations</booktitle>
             <note>pp.164-170</note>
-            <organization>Voronesh. Gos. Univ.</organization>
             <address>Voronesh USSR</address>
+            <organization>Voronesh. Gos. Univ.</organization>
         </bibentry>
         <bibentry id="Trofimov:87/2" type="article">
             <year>1987</year>
@@ -6813,10 +6813,10 @@
             <volume>42</volume>
         </bibentry>
         <bibentry id="Trofimov:87/3" type="inproceedings">
-            <booktitle>Bakinskaya mezhdunarodnaya topologi&#265;eskaya konferenciya, proceedings, part 2</booktitle>
+            <year>1987</year>
             <title>Self-dual and reflexive Hilbert modules over C*-algebras russ.</title>
             <author>V. A. Trofimov</author>
-            <year>1987</year>
+            <booktitle>Bakinskaya mezhdunarodnaya topologi&#265;eskaya konferenciya, proceedings, part 2</booktitle>
             <note>p. 296</note>
             <address>Baku USSR</address>
         </bibentry>
@@ -6825,8 +6825,8 @@
             <title>The structure of Hilbert modules over topological spaces and over operator algebras russ.</title>
             <author>V. A. Trofimov</author>
             <school>Moscow State University &#8221;M. V. Lomonosov&#8221;</school>
-            <type>phdthesis</type>
             <address>Moscow USSR</address>
+            <type>phdthesis</type>
         </bibentry>
         <bibentry id="Troitsky:85/1" type="article">
             <year>1985</year>
@@ -6869,10 +6869,10 @@
             <volume>50</volume>
         </bibentry>
         <bibentry id="Troitsky:86/3" type="inproceedings">
-            <booktitle>Geometry, Differential Equations and Mechanics</booktitle>
+            <year>1986</year>
             <title>Homotopic triviality of the general linear group of a Hilbert module russ.</title>
             <author>E. V. Tro&#305;&#779;tsky</author>
-            <year>1986</year>
+            <booktitle>Geometry, Differential Equations and Mechanics</booktitle>
             <editor>V. V. Kozlov and A. T. Fomenko</editor>
             <note>pp. 128-134</note>
             <address>Moscow State Univ., Mekh.-Mat. Fakulty, Moscow</address>
@@ -6931,24 +6931,24 @@
             <author>E. V. Tro&#305;&#779;tsky</author>
             <journal>Funktsional. Anal. i Prilozh.</journal>
             <note>88-92 / Funct. Anal. Appl. 281994, no.&#160;3, 220-223.</note>
-            <volume>28</volume>
             <number>3</number>
+            <volume>28</volume>
         </bibentry>
         <bibentry id="Troitsky:95/2" type="inproceedings">
-            <booktitle>Novikov Conjectures, Index Theorems and Rigity</booktitle>
+            <year>1996</year>
             <title>Orthogonal complements and endomorphisms of Hilbert modules and C*-elliptical complexes</title>
             <author>E. V. Tro&#305;&#779;tsky</author>
-            <year>1996</year>
+            <booktitle>Novikov Conjectures, Index Theorems and Rigity</booktitle>
             <editor>S. C. Ferry and A. Ranicki and J. Rosenberg</editor>
             <note>309-331</note>
             <series>London Math. Soc. Lecture Note Series 226</series>
             <volume>2</volume>
         </bibentry>
         <bibentry id="Troitsky:98" type="inproceedings">
-            <booktitle>Tensor and Vector Analysis</booktitle>
+            <year>1998</year>
             <title>Compact group actions on Hilbert modules and C*-elliptic complexes</title>
             <author>E. V. Tro&#305;&#779;tsky</author>
-            <year>1998</year>
+            <booktitle>Tensor and Vector Analysis</booktitle>
             <editor>A. T. Fomenko and O. V. Manturov and V. V. Trofimov</editor>
             <note>251-281</note>
             <publisher>Gordon and Breach Sci.&#160;Publ., Amsterdam</publisher>
@@ -7054,10 +7054,10 @@
             <volume>17</volume>
         </bibentry>
         <bibentry id="Wahl:06" type="misc">
+            <author>Ch. Wahl</author>
             <year>2006</year>
             <title>On the noncommutative spectral flow</title>
             <howpublished>preprint math.OA/0602110 at www.arxiv.org</howpublished>
-            <author>Ch. Wahl</author>
         </bibentry>
         <bibentry id="Walters:94" type="article">
             <year>1994</year>
@@ -7085,9 +7085,9 @@
         </bibentry>
         <bibentry id="Wang:89" type="book">
             <year>1989</year>
+            <publisher>Longman Scientific, Harlow</publisher>
             <title>The C*-algebras of a Class of Solvable Lie Groups</title>
             <author>X. Wang</author>
-            <publisher>Longman Scientific, Harlow</publisher>
             <series>Pitman Res. Notes Math. v.199</series>
         </bibentry>
         <bibentry id="Watatani:90" type="article">
@@ -7123,16 +7123,16 @@
         </bibentry>
         <bibentry id="Weaver:01/2" type="book">
             <year>2001</year>
+            <publisher>Chapman &amp; Hall / CRC, Boca Raton, FL, USA</publisher>
             <title>Mathematical Quantization</title>
             <author>N. Weaver</author>
-            <publisher>Chapman &amp; Hall / CRC, Boca Raton, FL, USA</publisher>
             <series>Studies in Advanced Mathematics</series>
         </bibentry>
         <bibentry id="Wegge-Olsen:93" type="book">
             <year>1993</year>
+            <publisher>Oxford University Press, Oxford</publisher>
             <title>K-theory and C*-algebras - a friendly approach</title>
             <author>N. E. Wegge-Olsen</author>
-            <publisher>Oxford University Press, Oxford</publisher>
         </bibentry>
         <bibentry id="Weidner:87" type="phdthesis">
             <year>1987</year>
@@ -7200,12 +7200,12 @@
             <volume>40</volume>
         </bibentry>
         <bibentry id="Wittstock:84" type="inproceedings">
+            <year>1984</year>
+            <title>Extensions of completely bounded C*-module homomorphisms</title>
+            <author>G. Wittstock</author>
             <booktitle>Operator Algebras and Group Representations, II, Monographs and Studies in Math. v.18, Proc. Int.
                 Conf. NeptunRom., 1980
             </booktitle>
-            <title>Extensions of completely bounded C*-module homomorphisms</title>
-            <author>G. Wittstock</author>
-            <year>1984</year>
             <note>pp. ?</note>
             <publisher>Pitman Adv. Publishing Progr., Boston</publisher>
         </bibentry>
@@ -7313,13 +7313,13 @@
             <volume>22</volume>
         </bibentry>
         <bibentry id="Xu:91" type="inproceedings">
-            <booktitle>Symplectic Geometry, Groupoids and Integrable Systems Berkeley, CA, 1989</booktitle>
+            <year>1991</year>
             <title>Morita equivalent symplectic groupoids</title>
             <author>P. Xu</author>
-            <year>1991</year>
+            <booktitle>Symplectic Geometry, Groupoids and Integrable Systems Berkeley, CA, 1989</booktitle>
             <note>Math. Sci. Res. Inst. Publ. v. 20</note>
-            <address>New York</address>
             <publisher>Springer-Verlag</publisher>
+            <address>New York</address>
         </bibentry>
         <bibentry id="Xu:92" type="article">
             <year>1992</year>
@@ -7613,8 +7613,8 @@
             <title>Erste Aspekte zur Vorhersagetheorie station&#228;rer Folgen in Hilbertmoduln</title>
             <author>O. Zuchanke</author>
             <school>Univ. Leipzig, Leipzig, F.R.G.</school>
-            <type>mastersthesis</type>
             <note>300 pp.</note>
+            <type>mastersthesis</type>
         </bibentry>
     </bibentries>
 </bibliography>

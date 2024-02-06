@@ -157,7 +157,7 @@
                         </span>
                     </xsl:if>
                     <xsl:if test="year">
-                        <span>,<xsl:value-of select="year"/>.
+                        <span>, <xsl:value-of select="year"/>.
                         </span>
                     </xsl:if>
                     <xsl:if test="note">

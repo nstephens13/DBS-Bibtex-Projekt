@@ -66,7 +66,7 @@ def main():
     # Create the root element
     bibliography = et.Element("bibliography")
     title = et.SubElement(bibliography, "bibtitle")
-    title.text = "DBS Projekt BIB orginal"
+    title.text = 'DBS ' + bibtex_file.replace("_", " ").replace(".txt", "")
     author = et.SubElement(bibliography, "author")
     author.text = "Nived Stephen and Lukas Ruminski"
     bib_entries_element = et.SubElement(bibliography, "bibentries")
