@@ -1,16 +1,9 @@
 import bibtexparser
-import os
 from sourcecode.model.bibEntry import BibEntry
 from sourcecode.model.bibEntryTypes import BibEntryTypes
 
-# Get the current directory of the script
-current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the relative path to the 'Projekt_BIB_original.txt' file
-bibtex_file_path = os.path.join(current_dir, '..', 'data', 'Projekt_BIB_min.txt')
-
-
-def get_all_entries():
+def get_all_entries(bibtex_file_path):
     with open(bibtex_file_path, 'r') as bibtex_file:
         bibtex_str = bibtex_file.read()
 
@@ -39,8 +32,8 @@ def pass_bib_entry_to_model(new_bib_entry):
     return bib_entry
 
 
-def get_bib_entries():
-    bib_entries_from_file = get_all_entries()
+def get_bib_entries(bibtex_file_path):
+    bib_entries_from_file = get_all_entries(bibtex_file_path)
     bib_entries = []
     for bib_entry in bib_entries_from_file:
         bib_entries.append(pass_bib_entry_to_model(bib_entry))

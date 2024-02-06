@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as et
 from sourcecode.generator.bibtexParseEntries import get_bib_entries
 from sourcecode.parseXml import parse_xml
@@ -28,9 +29,40 @@ def write_with_xslt(tree, filename, xslt_path):
         tree.write(f, encoding='utf-8', xml_declaration=False)
 
 
+# write a function that asks the user if they want min, max or original and returns the path to the file
+def get_file_path():
+    print("Please enter the type of BIB file you want to generate XML from:")
+    print("1. Min")
+    print("2. Max")
+    print("3. Original")
+    choice = input("Enter the number of your choice: ")
+    if choice == "1":
+        return "Projekt_BIB_min.txt"
+    elif choice == "2":
+        return "Projekt_BIB_max.txt"
+    elif choice == "3":
+        return "Projekt_BIB_original.txt"
+    else:
+        print("Invalid choice. Please try again.")
+        return get_file_path()
+
+
+# write a function that takes in a file path name and generates a file name for the XML file
+def get_xml_file_path(file_path):
+    return file_path.replace(".txt", ".xml")
+
+
 def main():
-    print("Generating XML file...")
-    bib_entries = get_bib_entries()
+    # Get the current directory of the script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Construct the relative path to the 'Projekt_BIB_original.txt' file
+    bibtex_file = get_file_path()
+    bibtex_file_path = os.path.join(current_dir, 'data', bibtex_file)
+    filepath = '../files/' + get_xml_file_path(bibtex_file)
+    print("Generating ", filepath, " from ", bibtex_file)
+    print("Reading BIB file:", bibtex_file_path)
+    bib_entries = get_bib_entries(bibtex_file_path)
+
     # Create the root element
     bibliography = et.Element("bibliography")
     title = et.SubElement(bibliography, "bibtitle")
@@ -62,10 +94,10 @@ def main():
 
     # Create the XML document
     tree = et.ElementTree(bibliography)
-    write_with_xslt(tree, "../files/bibEntries.xml", "../files/bibEntries.xsl")
-    unescape_html_entities("../files/bibEntries.xml")
-    parse_xml()
-    tqdm.write("XML file generated successfully at ../files/bibEntries.xml.")
+    write_with_xslt(tree, filepath, "../files/bibEntries.xsl")
+    unescape_html_entities(filepath)
+    parse_xml(filepath)
+    print("XML file generated successfully at ", filepath)
 
 
 if __name__ == "__main__":

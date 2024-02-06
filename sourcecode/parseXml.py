@@ -14,6 +14,9 @@ def replace_ampersand(filename):
         content = file.read()
     content = re.sub('&amp;#', '&#', content)
     content = re.sub('ä', '&#228;', content)
+    content = re.sub(r'\\H &#305;', '&#305;&#779;', content)
+    content = re.sub(r'\\u &#305', '&#301;', content)
+    content = re.sub(r'\\c', '&#65533;c', content)
     with open(filename, 'w') as file:
         file.write(content)
 
@@ -62,7 +65,7 @@ def replace_non_ascii_with_html_entities(filename):
     write_with_xslt(tree, filename, "../files/bibEntries.xsl")
 
 
-def parse_xml():
-    replace_non_ascii_with_html_entities("../files/bibEntriesOriginal.xml")
-    replace_ampersand("../files/bibEntriesOriginal.xml")
+def parse_xml(filename):
+    replace_non_ascii_with_html_entities(filename)
+    replace_ampersand(filename)
     print("Non-ASCII characters replaced successfully.")

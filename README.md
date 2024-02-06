@@ -53,7 +53,7 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 
 ### Abzugeben sind folgende Dateien: Mögliches Medium:
 
-1. [ ] **Ihr Datenschema für BIBTeX-Bibliotheken allgemeiner Art, so dass XML-Unkundige den Aufbau der Daten verstehen.**
+1. [ ] **Ihr Datenschema für BIBTeX-Bibliotheken allgemeiner Art, sodass XML-Unkundige den Aufbau der Daten verstehen.**
    - Papier, PPT, Excel, Word
 
 2. [ ] **Entwurf der XML-Struktur ohne Daten für BIBTeX-Bibliotheken allgemeiner Art**
