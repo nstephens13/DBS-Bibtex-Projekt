@@ -1,0 +1,60 @@
+Diese Datei beschreibt die Struktur eines XML-Dokuments für eine Bibliographie. Die Struktur umfasst die folgenden Elemente:
+
+- 'bibliography': Das Wurzelelement des XML-Dokuments.
+- 'bibtitle': Ein erforderliches Element, das den Titel der Bibliographie repräsentiert.
+- 'author': Ein erforderliches Element, das den Autor der Bibliographie repräsentiert.
+- 'bibentries': Ein Container-Element für mehrere 'bibentry'-Elemente.
+- 'bibentry': Ein Element, das einen einzelnen Eintrag in der Bibliographie repräsentiert. Es kann die folgenden Attribute und Unterelemente haben:
+    - 'id': Ein erforderliches Attribut, das die ID des Eintrags repräsentiert.
+    - 'type': Ein erforderliches Attribut, das den Typ des Eintrags repräsentiert.
+    - 'author', 'address', 'booktitle', 'editor', 'journal', 'note', 'pages', 'publisher', 'school', 'series', 'title', 'type', 'year', 'howpublished', 'number', 'organization', 'volume': Optionale Elemente, die verschiedene Eigenschaften des Eintrags repräsentieren.
+
+Bitte beachten Sie, dass das 'bibentry'-Element mehrere optionale Elemente haben kann, um eine flexible Struktur für jeden Eintrag zu ermöglichen.
+
+bibliography
+|
++-- bibtitle (required)
+|
++-- author (required)
+|
++-- bibentries
+    |
+    +-- bibentry (1 or more)
+        |
+        +-- id (attribute, required)
+        |
+        +-- type (attribute, required)
+        |
+        +-- author (optional)
+        |
+        +-- address (optional)
+        |
+        +-- booktitle (optional)
+        |
+        +-- editor (optional)
+        |
+        +-- journal (optional)
+        |
+        +-- note (optional)
+        |
+        +-- pages (optional)
+        |
+        +-- publisher (optional)
+        |
+        +-- school (optional)
+        |
+        +-- series (optional)
+        |
+        +-- title (optional)
+        |
+        +-- type (optional)
+        |
+        +-- year (optional)
+        |
+        +-- howpublished (optional)
+        |
+        +-- number (optional)
+        |
+        +-- organization (optional)
+        |
+        +-- volume (optional)
