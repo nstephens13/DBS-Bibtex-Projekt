@@ -29,7 +29,6 @@ def write_with_xslt(tree, filename, xslt_path):
         tree.write(f, encoding='utf-8', xml_declaration=False)
 
 
-# write a function that asks the user if they want min, max or original and returns the path to the file
 def get_file_path():
     print("Please enter the type of BIB file you want to generate XML from:")
     print("1. Min")
@@ -47,7 +46,6 @@ def get_file_path():
         return get_file_path()
 
 
-# write a function that takes in a file path name and generates a file name for the XML file
 def get_xml_file_path(file_path):
     return file_path.replace(".txt", ".xml")
 
