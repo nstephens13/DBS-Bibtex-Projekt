@@ -69,7 +69,11 @@
     <xsl:template match="bibentry">
         <div style="width:100%; margin-top: 5px;">
             <div style="display: grid; grid-template-columns: 20rem auto;">
-                <div>[
+                <div>
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="@type"/>
+                    </xsl:attribute>
+                    [
                     <span>
                         <xsl:value-of select="@id"/>
                     </span>

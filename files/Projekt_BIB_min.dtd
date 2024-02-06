@@ -17,7 +17,7 @@
 <!ATTLIST bibentry
     xmlns CDATA #FIXED ''
     id CDATA #REQUIRED
-    type  #REQUIRED>
+    type CDATA #REQUIRED>
 
 <!ELEMENT booktitle (#PCDATA)>
 <!ATTLIST booktitle
