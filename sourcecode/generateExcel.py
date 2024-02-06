@@ -29,8 +29,8 @@ def generate_excel():
         os.makedirs(directory)
 
     # Write the DataFrame to an Excel file
-    df.to_excel("../files/bibEntries.xlsx", index=False)
-    print("Excel file 'bibEntries.xlsx' generated successfully.")
+    df.to_excel("../files/bibEntriesOriginal.xlsx", index=False)
+    print("Excel file 'bibEntriesOriginal.xlsx' generated successfully.")
 
 
 if __name__ == "__main__":

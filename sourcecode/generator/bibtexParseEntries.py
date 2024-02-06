@@ -7,7 +7,7 @@ from sourcecode.model.bibEntryTypes import BibEntryTypes
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the relative path to the 'Projekt_BIB_original.txt' file
-bibtex_file_path = os.path.join(current_dir, '..', 'data', 'Projekt_BIB_original.txt')
+bibtex_file_path = os.path.join(current_dir, '..', 'data', 'Projekt_BIB_min.txt')
 
 
 def get_all_entries():

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bibliography SYSTEM "bibEntries.dtd">
+<?xml-stylesheet type="text/xsl" href="../files/bibEntries.xsl"?>
 <bibliography xmlns:ns0="http://www.w3.org/1998/Math/MathML">
     <bibtitle>DBS Projekt BIB orginal</bibtitle>
     <author>Nived Stephen and Lukas Ruminski</author>
@@ -5052,7 +5052,7 @@
             <howpublished>preprint math-ph/9807030, xxx.lanl.gov / http://remote.science.uva.nl/\~
                 <ns0:math display="inline">
                     <ns0:mrow>
-                        <ns0:mspace width="0.167em"/>
+                        <ns0:mspace width="0.167em" />
                     </ns0:mrow>
                 </ns0:math>
                 npl/ck.html
@@ -6213,7 +6213,7 @@
                         <ns0:mi>l</ns0:mi>
                         <ns0:mi>d</ns0:mi>
                         <ns0:mi>e</ns0:mi>
-                        <ns0:mspace width="0.167em"/>
+                        <ns0:mspace width="0.167em" />
                     </ns0:mrow>
                 </ns0:math>
                 mitch/research.html

@@ -12,7 +12,7 @@ def replace_chars(s):
 
 
 # Parse the XML file
-tree = ET.parse('../files/bibEntries.xml')
+tree = ET.parse('../files/bibEntriesOriginal.xml')
 
 # Get the root element
 root = tree.getroot()
@@ -24,4 +24,4 @@ for element in root.iter():
         print(child.text)
 
 # Write the modified XML back to the file
-tree.write('../files/bibEntries.xml', encoding='utf-8', xml_declaration=True)
+tree.write('../files/bibEntriesOriginal.xml', encoding='utf-8', xml_declaration=True)

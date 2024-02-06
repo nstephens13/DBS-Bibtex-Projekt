@@ -63,6 +63,6 @@ def replace_non_ascii_with_html_entities(filename):
 
 
 def parse_xml():
-    replace_non_ascii_with_html_entities("../files/bibEntries.xml")
-    replace_ampersand("../files/bibEntries.xml")
+    replace_non_ascii_with_html_entities("../files/bibEntriesOriginal.xml")
+    replace_ampersand("../files/bibEntriesOriginal.xml")
     print("Non-ASCII characters replaced successfully.")

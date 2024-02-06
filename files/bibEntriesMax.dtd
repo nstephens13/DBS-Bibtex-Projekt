@@ -1,0 +1,26 @@
+<!DOCTYPE bibliography [
+        <!ELEMENT bibliography (bibtitle|author|bibentries)*>
+        <!ELEMENT bibtitle (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT bibentries (bibentry)*>
+        <!ELEMENT bibentry (author|school|year|title|type|booktitle|publisher|editor|note|journal|volume|series|howpublished|organization|number|address|pages)*>
+        <!ATTLIST bibentry
+                id CDATA #REQUIRED
+                type CDATA #REQUIRED>
+        <!ELEMENT school (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT booktitle (#PCDATA)>
+        <!ELEMENT publisher (#PCDATA)>
+        <!ELEMENT editor (#PCDATA)>
+        <!ELEMENT note (#PCDATA)>
+        <!ELEMENT journal (#PCDATA)>
+        <!ELEMENT volume (#PCDATA)>
+        <!ELEMENT series (#PCDATA)>
+        <!ELEMENT howpublished (#PCDATA)>
+        <!ELEMENT organization (#PCDATA)>
+        <!ELEMENT number (#PCDATA)>
+        <!ELEMENT address (#PCDATA)>
+        <!ELEMENT pages (#PCDATA)>
+        ]>
