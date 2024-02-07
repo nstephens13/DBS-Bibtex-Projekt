@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../files/bibEntries.xsl"?>
 <!DOCTYPE bibliography SYSTEM "bibEntriesMax.dtd">
-<bibliography xmlns:ns0="http://www.w3.org/1998/Math/MathML">
+<bibliography>
     <bibtitle>DBS Projekt BIB Max</bibtitle>
     <author>Nived Stephen and Lukas Ruminski</author>
     <bibentries>
