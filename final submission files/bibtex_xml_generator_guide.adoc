@@ -72,5 +72,5 @@
 7. Validierung der XML Datei mit der DTD Datei:
     Für die Überprüfung bitte [bibEntriesMax.xml] benutzen.
 
-8. Erstellung einer XSD Datei:
+8. Validierung der XML Datei mit einer XSD Datei:
     Für die Überprüfung bitte [bibEntriesMax2.xml] benutzen.
