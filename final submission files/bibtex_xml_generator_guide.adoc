@@ -68,3 +68,9 @@
 6. Fehlerbehandlung: Ausnahmefälle, wie Zeichenketten, die nicht in MathML konvertiert werden können oder Zeichenketten, 
     die nicht erkannte LaTeX-Befehle enthalten, werden separat behandelt. Dadurch wird sichergestellt, 
     dass unser Programm eine Vielzahl von Eingabedaten ohne Absturz verarbeiten kann.
+
+7. Validierung der XML Datei mit der DTD Datei:
+    Für die Überprüfung bitte [bibEntriesMax.xml] benutzen.
+
+8. Erstellung einer XSD Datei:
+    Für die Überprüfung bitte [bibEntriesMax2.xml] benutzen.

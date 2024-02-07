@@ -1,195 +1,43 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/bibliography"
-           xmlns="http://example.com/bibliography" elementFormDefault="qualified">
-    <xs:import namespace="http://www.w3.org/1998/Math/MathML"
-               schemaLocation="http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd"/>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mat="http://www.w3.org/1998/Math/MathML">
+    <xs:element name="bibliography" type="bibliographyType"/>
 
-    <xs:element name="bibliography">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element ref="bibtitle"/>
-                    <xs:element ref="author"/>
-                    <xs:element ref="bibentries"/>
-                </xs:choice>
-            </xs:sequence>
-            <xs:attribute name="ns0" type="xs:string" use="required"/>
-        </xs:complexType>
-    </xs:element>
+    <xs:complexType name="bibliographyType" mixed="true">
+        <xs:sequence>
+            <xs:element name="bibtitle" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="bibentries" type="bibentriesType"/>
+        </xs:sequence>
+    </xs:complexType>
 
-    <xs:element name="bibtitle" type="xs:string"/>
-    <xs:element name="author" type="xs:string"/>
+    <xs:complexType name="bibentriesType">
+        <xs:sequence>
+            <xs:element name="bibentry" type="bibentryType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
 
-    <xs:element name="bibentries">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="bibentry" minOccurs="0" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                <xs:element ref="title"/>
-                                <xs:element name="year" type="xs:string"/>
-                                <xs:element ref="author"/>
-                                <xs:element name="school" type="xs:string"/>
-                                <xs:element name="type" type="xs:string"/>
-                                <xs:element name="booktitle" type="xs:string"/>
-                                <xs:element name="note" type="xs:string"/>
-                                <xs:element name="editor" type="xs:string"/>
-                                <xs:element name="publisher" type="xs:string"/>
-                                <xs:element ref="journal"/>
-                                <xs:element name="volume" type="xs:string"/>
-                                <xs:element ref="howpublished"/>
-                                <xs:element name="series" type="xs:string"/>
-                                <xs:element name="organization" type="xs:string"/>
-                                <xs:element name="entry_number" type="xs:string"/>
-                                <xs:element name="entry_address" type="xs:string"/>
-                                <xs:element name="page_numbers" type="xs:string"/>
-                            </xs:choice>
-                        </xs:sequence>
-                        <xs:attribute name="id" type="xs:string" use="required"/>
-                        <xs:attribute name="type" type="xs:string" use="required"/>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+    <xs:complexType name="bibentryType">
+        <xs:sequence>
+            <xs:element name="author" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="year" type="xs:string" minOccurs="0"/>
+            <xs:element name="journal">
+                <xs:complexType mixed="true">
+                    <xs:sequence>
+                        <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1998/Math/MathML"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="title">
+                <xs:complexType mixed="true">
+                    <xs:sequence>
+                        <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1998/Math/MathML"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="note" type="xs:string" minOccurs="0"/>
+            <xs:element name="volume" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="optional"/>
+        <xs:attribute name="type" type="xs:string" use="optional"/>
+    </xs:complexType>
 
-    <xs:element name="title">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="math" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="year" type="xs:string"/>
-    <xs:element name="school" type="xs:string"/>
-    <xs:element name="type" type="xs:string"/>
-    <xs:element name="booktitle" type="xs:string"/>
-    <xs:element name="note" type="xs:string"/>
-    <xs:element name="editor" type="xs:string"/>
-    <xs:element name="publisher" type="xs:string"/>
-
-    <xs:element name="journal">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="math" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="volume" type="xs:string"/>
-
-    <xs:element name="howpublished">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="math" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="series" type="xs:string"/>
-    <xs:element name="organization" type="xs:string"/>
-    <xs:element name="entry_number" type="xs:string"/>
-    <xs:element name="entry_address" type="xs:string"/>
-    <xs:element name="page_numbers" type="xs:string"/>
-
-    <xs:element name="math">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="mrow" minOccurs="0" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                <xs:element ref="msup"/>
-                                <xs:element ref="mi"/>
-                                <xs:element ref="mo"/>
-                                <xs:element ref="msub"/>
-                                <xs:element ref="mn"/>
-                                <xs:element ref="mspace"/>
-                                <xs:element ref="msubsup"/>
-                            </xs:choice>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-            <xs:attribute name="display" type="xs:string" use="required"/>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="mrow">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element ref="msup"/>
-                    <xs:element ref="mi"/>
-                    <xs:element ref="mo"/>
-                    <xs:element ref="msub"/>
-                    <xs:element ref="mn"/>
-                    <xs:element ref="mspace"/>
-                    <xs:element ref="msubsup"/>
-                </xs:choice>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="msup">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element ref="mi"/>
-                    <xs:element ref="mn"/>
-                    <xs:element ref="mo"/>
-                </xs:choice>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="mi" type="xs:string">
-        <xs:complexType>
-            <xs:attribute name="mathvariant" type="xs:string"/>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="mn" type="xs:string"/>
-
-    <xs:element name="mo" type="xs:string"/>
-
-    <xs:element name="msub">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element ref="mi"/>
-                    <xs:element ref="mn"/>
-                    <xs:element ref="mo"/>
-                </xs:choice>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="number" type="xs:string"/>
-
-    <xs:element name="address" type="xs:string"/>
-
-    <xs:element name="mspace">
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="width" type="xs:string" use="required"/>
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="pages" type="xs:string"/>
-
-    <xs:element name="msubsup">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element ref="mi"/>
-                    <xs:element ref="mo"/>
-                </xs:choice>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
 </xs:schema>

@@ -28,7 +28,7 @@
       <xs:element type="bibentryType" name="bibentry" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="bibliographyType">
+  <xs:complexType name="bibliographyType" mixed="true">
     <xs:sequence>
       <xs:element type="xs:string" name="bibtitle"/>
       <xs:element type="xs:string" name="author"/>
