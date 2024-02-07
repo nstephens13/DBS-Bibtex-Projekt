@@ -1,4 +1,3 @@
-<!DOCTYPE bibliography [
         <!ELEMENT bibliography (bibtitle|author|bibentries)*>
         <!ELEMENT bibtitle (#PCDATA)>
         <!ELEMENT author (#PCDATA)>
@@ -22,4 +21,3 @@
         <!ELEMENT editor (#PCDATA)>
         <!ELEMENT number (#PCDATA)>
         <!ELEMENT address (#PCDATA)>
-        ]>

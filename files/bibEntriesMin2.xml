@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../files/bibEntries.xsl"?>
-<!DOCTYPE bibliography SYSTEM "bibEntriesMin.dtd">
-<bibliography xmlns:ns0="http://www.w3.org/1998/Math/MathML">
+<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="bibEntriesMin.xsd">
     <bibtitle>DBS Projekt BIB Min</bibtitle>
     <author>Nived Stephen and Lukas Ruminski</author>
     <bibentries>
