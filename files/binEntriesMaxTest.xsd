@@ -1,0 +1,38 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bibliography" type="bibliographyType"/>
+  <xs:complexType name="bibentryType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:string" name="author"/>
+      <xs:element type="xs:string" name="school"/>
+      <xs:element type="xs:string" name="year"/>
+      <xs:element type="xs:string" name="journal"/>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="type"/>
+      <xs:element type="xs:string" name="booktitle"/>
+      <xs:element type="xs:string" name="publisher"/>
+      <xs:element type="xs:string" name="editor"/>
+      <xs:element type="xs:string" name="volume"/>
+      <xs:element type="xs:string" name="note"/>
+      <xs:element type="xs:string" name="series"/>
+      <xs:element type="xs:string" name="howpublished"/>
+      <xs:element type="xs:string" name="organization"/>
+      <xs:element type="xs:string" name="number"/>
+      <xs:element type="xs:string" name="address"/>
+      <xs:element type="xs:string" name="pages"/>
+    </xs:choice>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="type" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="bibentriesType">
+    <xs:sequence>
+      <xs:element type="bibentryType" name="bibentry" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bibliographyType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="bibtitle"/>
+      <xs:element type="xs:string" name="author"/>
+      <xs:element type="bibentriesType" name="bibentries"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
