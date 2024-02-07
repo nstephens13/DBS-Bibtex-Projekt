@@ -1,14 +1,20 @@
 1. Extraktion von BIBTEX-Entitäten:
-   Wir haben die BIBTEX-Entitäten aus Textdateien mithilfe einer Python-Bibliothek namens xml.etree.ElementTree extrahiert. Diese Bibliothek bietet Tools zum Parsen und Erstellen von XML-Daten.
+   Wir haben die BIBTEX-Entitäten aus Textdateien mithilfe einer Python-Bibliothek namens xml.etree.ElementTree extrahiert. 
+   Diese Bibliothek bietet Tools zum Parsen und Erstellen von XML-Daten.
 
 2. Erstellung des Datenmodells:
-   Wir haben ein Datenmodell erstellt, um die extrahierten BIBTEX-Entitäten zu speichern. Dieses Modell hilft uns dabei, die Daten strukturiert zu organisieren und erleichtert die Verarbeitung.
+   Wir haben ein Datenmodell erstellt, um die extrahierten BIBTEX-Entitäten zu speichern. 
+   Dieses Modell hilft uns dabei, die Daten strukturiert zu organisieren und erleichtert die Verarbeitung.
 
 3. Zeichenkettenanalyse:
-   Jede Zeichenkette wird auf spezielle Zeichen aus LaTeX analysiert. LaTeX ist ein Satzsystem, das zur Erstellung von Dokumenten verwendet wird. Die speziellen Zeichen sind Befehle, die LaTeX verwendet, um Text zu formatieren, z. B. fett oder unterstrichen.
+   Jede Zeichenkette wird auf spezielle Zeichen aus LaTeX analysiert. 
+   LaTeX ist ein Satzsystem, das zur Erstellung von Dokumenten verwendet wird. 
+   Die speziellen Zeichen sind Befehle, die LaTeX verwendet, um Text zu formatieren, z. B. fett oder unterstrichen.
 
 4. Python-Code für die Zeichenkettenanalyse:
-   Der Python-Code für diesen Prozess überprüft, ob der Text eine Zeichenkette ist und ob sie nicht leer ist. Anschließend werden LaTeX-Befehle entfernt und LaTeX-Zeichen decodiert. Es werden auch bestimmte Zeichen wie Klammern und geschweifte Klammern entfernt.
+   Der Python-Code für diesen Prozess überprüft, ob der Text eine Zeichenkette ist und ob sie nicht leer ist. 
+   Anschließend werden LaTeX-Befehle entfernt und LaTeX-Zeichen decodiert. 
+   Es werden auch bestimmte Zeichen wie Klammern und geschweifte Klammern entfernt.
 
    Hier ist der Python-Code aus der Datei stringParser.py:
 
@@ -38,10 +44,15 @@
     cleaned_text = re.sub(r'[{}]', '', str(cleaned_text))
     cleaned_text = codecs.escape_decode(cleaned_text)[0].decode('utf-8')
 
-5. Filterung und Konvertierung: Wenn die Zeichenketten mathematische Formeln enthalten, filtern wir diese aus und konvertieren sie in MathML (Mathematical Markup Language). MathML ist eine Sprache zur Beschreibung mathematischer Notation und zur Erfassung sowohl ihrer Struktur als auch ihres Inhalts.
-    MathML, oder Mathematical Markup Language, ist ein XML-basierter Standard zur Beschreibung mathematischer Notation und zur Erfassung sowohl ihrer Struktur als auch ihres Inhalts. Es ermöglicht die Bereitstellung, den Empfang und die Verarbeitung mathematischer und wissenschaftlicher Inhalte im Web, ähnlich wie HTML dies für Text getan hat.
+5. Filterung und Konvertierung: Wenn die Zeichenketten mathematische Formeln enthalten, filtern wir diese aus 
+    und konvertieren sie in MathML (Mathematical Markup Language). MathML ist eine Sprache zur Beschreibung mathematischer Notation und 
+    zur Erfassung sowohl ihrer Struktur als auch ihres Inhalts.
+    MathML, oder Mathematical Markup Language, ist ein XML-basierter Standard zur Beschreibung mathematischer Notation und 
+    zur Erfassung sowohl ihrer Struktur als auch ihres Inhalts. Es ermöglicht die Bereitstellung, den Empfang 
+    und die Verarbeitung mathematischer und wissenschaftlicher Inhalte im Web, ähnlich wie HTML dies für Text getan hat.
 
-    Die Python-Funktion `latex_to_mathml` im bereitgestellten Code-Snippet wird verwendet, um LaTeX-Formeln in einer Textzeichenkette in MathML zu konvertieren. Hier ist eine schrittweise Erklärung:
+    Die Python-Funktion `latex_to_mathml` im bereitgestellten Code-Snippet wird verwendet, 
+    um LaTeX-Formeln in einer Textzeichenkette in MathML zu konvertieren. Hier ist eine schrittweise Erklärung:
 
     . Die Funktion definiert zunächst ein reguläres Ausdrucksmuster für LaTeX-Formeln, die normalerweise in Dollarzeichen ($) eingeschlossen sind.
     . Sie verwendet dieses Muster, um alle LaTeX-Formeln im Eingabetext zu finden.
@@ -54,4 +65,6 @@
 
     Diese Funktion ist nützlich, um LaTeX-Formeln in ein Format zu konvertieren, das leicht im Web angezeigt und verarbeitet werden kann.
 
-6. Fehlerbehandlung: Ausnahmefälle, wie Zeichenketten, die nicht in MathML konvertiert werden können oder Zeichenketten, die nicht erkannte LaTeX-Befehle enthalten, werden separat behandelt. Dadurch wird sichergestellt, dass unser Programm eine Vielzahl von Eingabedaten ohne Absturz verarbeiten kann.
+6. Fehlerbehandlung: Ausnahmefälle, wie Zeichenketten, die nicht in MathML konvertiert werden können oder Zeichenketten, 
+    die nicht erkannte LaTeX-Befehle enthalten, werden separat behandelt. Dadurch wird sichergestellt, 
+    dass unser Programm eine Vielzahl von Eingabedaten ohne Absturz verarbeiten kann.
