@@ -62,18 +62,18 @@ flexibel XSL-Dateien und XML-Dokumente (!) in der Realität gestaltet werden mü
 3. [ ] **Ihr XML-Strom der konkreten BIBTEX-Bibliothek, die gegeben ist. Charakterisierung der von Ihnen ausgeschlossenen Datensätze mit Begründung. (10% Maximum.)**
    - XML-Datei, ASCII, Word, Excel
 
-4. [ ] **DTD für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema**
+4. [x] **DTD für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema**
    - Die DTD ist validierbar mit einer Kopie des XML-Datenstroms zu verknüpfen.
    - XML-Datei, DTD-Datei
 
-5. [ ] **XSD für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema.**
+5. [x] **XSD für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema.**
    - Die XSD ist im Design "Venetian Blind" zu schreiben und validierbar mit einer Kopie des XML-Datenstroms zu verknüpfen.
    - XML-Datei, XSD-Datei
 
 6. [ ] **CSS oder XSLT für die gegebene BIBTeX-Bibliothek, optional - für das gesamte XML-Schema.**
    - XML-Datei, evtl. CSS-, XSL-Datei
 
-7. [ ] **Dokumentation zu benötigten Veränderungen einer Standard-PC-Umgebung, um das Arbeitsergebnis testen zu können**
+7. [x] **Dokumentation zu benötigten Veränderungen einer Standard-PC-Umgebung, um das Arbeitsergebnis testen zu können**
 
 ## Fehlerbehebung
 
