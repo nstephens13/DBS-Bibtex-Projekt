@@ -74,3 +74,9 @@
 
 8. Validierung der XML Datei mit einer XSD Datei:
     Für die Überprüfung bitte [bibEntriesMax2.xml] benutzen.
+
+9. Fehlerbehebung beim Validieren:
+    Je nach Programmierumgebung, muss man eventuell die Datein miteinander verlinken. Dies sollte in der Regel einfach gehen.
+    Bei IntelliJ zum Beispiel, den roten Dateinamen [bibEntriesMax.dtd] in der XML anklicken.
+    -> More Actions
+    -> Pfad verlinken
