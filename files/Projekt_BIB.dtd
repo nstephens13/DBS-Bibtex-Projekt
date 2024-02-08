@@ -1,7 +1,8 @@
 <?xml encoding="UTF-8"?>
 <!ELEMENT bibliography (bibtitle,author,bibentries)>
 <!ATTLIST bibliography
-    xmlns CDATA #FIXED ''>
+    xmlns CDATA #FIXED ''
+    xmlns:ns0 CDATA #FIXED 'http://www.w3.org/1998/Math/MathML'>
 
 <!ELEMENT bibtitle (#PCDATA)>
 <!ATTLIST bibtitle
@@ -29,7 +30,7 @@
 <!ATTLIST editor
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT journal (#PCDATA | ns0:math)>
+<!ELEMENT journal (#PCDATA | ns0:math)*>
 <!ATTLIST journal
     xmlns CDATA #FIXED ''>
 
@@ -65,7 +66,7 @@
 <!ATTLIST year
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT howpublished (#PCDATA | ns0:math)>
+<!ELEMENT howpublished (#PCDATA | ns0:math)*>
 <!ATTLIST howpublished
     xmlns CDATA #FIXED ''>
 
@@ -85,6 +86,32 @@
 <!ATTLIST author
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT ns0:math (#PCDATA)>
-<!ATTLIST math
+<!ELEMENT ns0:math (ns0:mrow)*>
+<!ATTLIST ns0:math
+    xmlns CDATA #FIXED ''
+    display CDATA #IMPLIED>
+
+<!ELEMENT ns0:mrow (ns0:mi | ns0:msub | ns0:mo | ns0:msup | ns0:msubsup | ns0:mspace | ns0:mn)*>
+
+<!ELEMENT ns0:mi (#PCDATA)>
+<!ATTLIST ns0:mi
+    xmlns CDATA #FIXED ''
+    mathvariant CDATA #IMPLIED>
+
+<!ELEMENT ns0:msub (ns0:mi, (ns0:mn | ns0:mo | ns0:mi))>
+<!ELEMENT ns0:msup ((ns0:mi | ns0:mn), (ns0:mn | ns0:mo | ns0:mi))>
+
+<!ELEMENT ns0:mn (#PCDATA)>
+<!ATTLIST ns0:mn
     xmlns CDATA #FIXED ''>
+
+<!ELEMENT ns0:mo (#PCDATA)>
+<!ATTLIST ns0:mo
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ns0:msubsup (ns0:mi, (ns0:mn | ns0:mo | ns0:mi), (ns0:mn | ns0:mo | ns0:mi))>
+
+<!ELEMENT ns0:mspace EMPTY>
+<!ATTLIST ns0:mspace
+    xmlns CDATA #FIXED ''
+    width CDATA #IMPLIED>

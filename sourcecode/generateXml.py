@@ -92,7 +92,7 @@ def main():
 
     # Create the XML document
     tree = et.ElementTree(bibliography)
-    write_with_xslt(tree, filepath, bibtex_file, "../files/Project_BIB.xsl")
+    write_with_xslt(tree, filepath, bibtex_file, "../files/Projekt_BIB.xsl")
     unescape_html_entities(filepath)
     parse_xml(filepath)
     print("XML file generated successfully at ", filepath)
