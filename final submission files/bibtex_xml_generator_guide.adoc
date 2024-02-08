@@ -70,7 +70,13 @@
     dass unser Programm eine Vielzahl von Eingabedaten ohne Absturz verarbeiten kann.
 
 7. Validierung der XML Datei mit der DTD Datei:
-    Für die Überprüfung bitte [bibEntriesMax.xml] benutzen.
+
+        xmllint --dtdvalid .\Projekt_BIB.dtd --noout .\Projekt_BIB_min.xml
+        xmllint --dtdvalid .\Projekt_BIB.dtd --noout .\Projekt_BIB_max.xml
+        xmllint --dtdvalid .\Projekt_BIB.dtd --noout .\Projekt_BIB_original.xml
 
 8. Validierung der XML Datei mit einer XSD Datei:
-    Für die Überprüfung bitte [bibEntriesMax2.xml] benutzen.
+
+        xmllint --schema .\Projekt_BIB.xsd --noout .\Projekt_BIB_min.xml
+        xmllint --schema .\Projekt_BIB.xsd --noout .\Projekt_BIB_max.xml
+        xmllint --schema .\Projekt_BIB.xsd --noout .\Projekt_BIB_original.xml
