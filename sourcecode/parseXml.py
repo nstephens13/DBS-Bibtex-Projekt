@@ -4,9 +4,9 @@ import xml.etree.ElementTree as ET
 
 def write_with_xslt(tree, filename, xslt_path):
     with open(filename, 'wb') as f:
-        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(b'<?xml version="1.0" encoding="ISO-8859-1"?>\n')
         f.write(b'<?xml-stylesheet type="text/xsl" href="' + xslt_path.encode('utf-8') + b'"?>\n')
-        f.write(b'<!DOCTYPE bibliography SYSTEM "Projekt_BIB.dtd">\n')
+        # f.write(b'<!DOCTYPE bibliography SYSTEM "Projekt_BIB.dtd">\n')
         tree.write(f, encoding='utf-8', xml_declaration=False)
 
 
