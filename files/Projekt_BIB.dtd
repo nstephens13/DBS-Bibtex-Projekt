@@ -1,5 +1,4 @@
 <?xml encoding="UTF-8"?>
-
 <!ELEMENT bibliography (bibtitle,author,bibentries)>
 <!ATTLIST bibliography
     xmlns CDATA #FIXED ''>
@@ -12,12 +11,15 @@
 <!ATTLIST bibentries
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT bibentry ((author|booktitle|editor|journal|publisher|school|series|title|volume|year)+,type?,howpublished?,
-                    note?,organization?,(address|number)?)>
+<!ELEMENT bibentry ((author|address|booktitle|editor|journal|note|pages|publisher|school|series|title|type|year|howpublished|number|organization|volume)+)>
 <!ATTLIST bibentry
     xmlns CDATA #FIXED ''
     id CDATA #REQUIRED
-    type CDATA #REQUIRED>
+    type  CDATA #REQUIRED>
+
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address
+    xmlns CDATA #FIXED ''>
 
 <!ELEMENT booktitle (#PCDATA)>
 <!ATTLIST booktitle
@@ -27,8 +29,16 @@
 <!ATTLIST editor
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT journal (#PCDATA)>
+<!ELEMENT journal (#PCDATA | ns0:math)>
 <!ATTLIST journal
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST note
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pages (#PCDATA)>
+<!ATTLIST pages
     xmlns CDATA #FIXED ''>
 
 <!ELEMENT publisher (#PCDATA)>
@@ -43,42 +53,38 @@
 <!ATTLIST series
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT title (#PCDATA)>
+<!ELEMENT title (#PCDATA | ns0:math)*>
 <!ATTLIST title
-    xmlns CDATA #FIXED ''>
-
-<!ELEMENT volume (#PCDATA)>
-<!ATTLIST volume
-    xmlns CDATA #FIXED ''>
-
-<!ELEMENT year (#PCDATA)>
-<!ATTLIST year
     xmlns CDATA #FIXED ''>
 
 <!ELEMENT type (#PCDATA)>
 <!ATTLIST type
     xmlns CDATA #FIXED ''>
 
-<!ELEMENT howpublished (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT howpublished (#PCDATA | ns0:math)>
 <!ATTLIST howpublished
-    xmlns CDATA #FIXED ''>
-
-<!ELEMENT note (#PCDATA)>
-<!ATTLIST note
-    xmlns CDATA #FIXED ''>
-
-<!ELEMENT organization (#PCDATA)>
-<!ATTLIST organization
-    xmlns CDATA #FIXED ''>
-
-<!ELEMENT address (#PCDATA)>
-<!ATTLIST address
     xmlns CDATA #FIXED ''>
 
 <!ELEMENT number (#PCDATA)>
 <!ATTLIST number
     xmlns CDATA #FIXED ''>
 
+<!ELEMENT organization (#PCDATA)>
+<!ATTLIST organization
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT volume (#PCDATA)>
+<!ATTLIST volume
+    xmlns CDATA #FIXED ''>
+
 <!ELEMENT author (#PCDATA)>
 <!ATTLIST author
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ns0:math (#PCDATA)>
+<!ATTLIST math
     xmlns CDATA #FIXED ''>

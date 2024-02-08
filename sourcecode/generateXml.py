@@ -22,10 +22,11 @@ def unescape_html_entities(filename):
         f.write(unescaped_content)
 
 
-def write_with_xslt(tree, filename, xslt_path):
+def write_with_xslt(tree, filename, bibtex_file, xslt_path):
     with open(filename, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write(b'<?xml-stylesheet type="text/xsl" href="' + xslt_path.encode('utf-8') + b'"?>\n')
+        f.write(b'<!DOCTYPE bibliography SYSTEM "Projekt_BIB.dtd">\n')
         tree.write(f, encoding='utf-8', xml_declaration=False)
 
 
@@ -92,7 +93,7 @@ def main():
 
     # Create the XML document
     tree = et.ElementTree(bibliography)
-    write_with_xslt(tree, filepath, "../files/Project_BIB.xsl")
+    write_with_xslt(tree, filepath, bibtex_file, "../files/Project_BIB.xsl")
     unescape_html_entities(filepath)
     parse_xml(filepath)
     print("XML file generated successfully at ", filepath)

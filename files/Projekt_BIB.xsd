@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="bibliography" type="bibliographyType"/>
+    <xs:complexType name="bibliographyType">
+        <xs:sequence>
+            <xs:element name="bibtitle" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="bibentries" type="bibentriesType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="bibentriesType">
+        <xs:sequence>
+            <xs:element name="bibentry" type="bibentryType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="bibentryType">
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="author" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="booktitle" type="xs:string"/>
+                <xs:element name="editor" type="xs:string"/>
+                <xs:element name="journal" type="xs:string"/>
+                <xs:element name="note" type="xs:string"/>
+                <xs:element name="pages" type="xs:string"/>
+                <xs:element name="publisher" type="xs:string"/>
+                <xs:element name="school" type="xs:string"/>
+                <xs:element name="series" type="xs:string"/>
+                <xs:element name="title" type="titleType"/>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="year" type="xs:string"/>
+                <xs:element name="howpublished" type="howpublishedType"/>
+                <xs:element name="number" type="xs:string"/>
+                <xs:element name="organization" type="xs:string"/>
+                <xs:element name="volume" type="xs:string"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="titleType" mixed="true">
+        <xs:sequence>
+            <xs:element name="math" type="mathType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="howpublishedType" mixed="true">
+        <xs:sequence>
+            <xs:element name="math" type="mathType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="mathType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="xmlns" type="xs:string" fixed=""/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>
