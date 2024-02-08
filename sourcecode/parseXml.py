@@ -4,8 +4,9 @@ import xml.etree.ElementTree as ET
 
 def write_with_xslt(tree, filename, xslt_path):
     with open(filename, 'wb') as f:
-        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write(b'<?xml-stylesheet type="text/xsl" href="' + xslt_path.encode('utf-8') + b'"?>\n')
+        f.write(b'<?xml version="1.0" encoding="ISO-8859-1"?>\n')
+        f.write(b'<?xml-stylesheet type="text/xsl" href="' + xslt_path.replace('../files/', '').encode('utf-8') + b'"?>\n')
+        # f.write(b'<!DOCTYPE bibliography SYSTEM "Projekt_BIB.dtd">\n')
         tree.write(f, encoding='utf-8', xml_declaration=False)
 
 
@@ -62,7 +63,7 @@ def replace_non_ascii_with_html_entities(filename):
     replace_chars(root)
 
     # Write the modified XML back to the file using the custom writer
-    write_with_xslt(tree, filename, "../files/Project_BIB.xsl")
+    write_with_xslt(tree, filename, "../files/Projekt_BIB.xsl")
 
 
 def parse_xml(filename):
